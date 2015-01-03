@@ -72,7 +72,7 @@
 @extra-large-container-width: 1280px;
 
 //Gutters
-@gutter: 10px;
+@gutter: 20px;
 @gutter-top: (@gutter * 2);
 @gutter-bottom:  (@gutter * 2);
 @gutter-left: (@gutter * 4);
@@ -165,11 +165,11 @@
 @font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 
 //Generic Font Families
-@thin-font-family: @font-family-sans-serif;
-@regular-font-family: @font-family-sans-serif;
-@medium-font-family: @font-family-sans-serif;
-@semibold-font-family: @font-family-sans-serif;
-@bold-font-family: @font-family-sans-serif;
+@thin-font-family: @avenir-book, @font-family-sans-serif;
+@regular-font-family: @avenir-book, @font-family-sans-serif;
+@medium-font-family: @avenir-roman, @font-family-sans-serif;
+@semibold-font-family: @avenir-black, @font-family-sans-serif;
+@bold-font-family: @avenir-black, @font-family-sans-serif;
 
 //Font Weights
 @headings-font-weight: normal;
@@ -198,8 +198,8 @@
 @line-height: 1.5;
 
 //Links
-@link-color: @primary;
-@link-hover-color: @dark;
+@link-color: @dark;
+@link-hover-color: @primary;
 @link-visited-color: darken(@link-color, 10%);
 
 //Horizontal Rule
@@ -214,7 +214,7 @@
 
 //Headings
 @headings: h1, h2, h3, h4, h5, h6;
-@headings-margin: 0px 0px 20px 0px;
+@headings-margin: 20px 0px;
 @headings-font-family: @bold-font-family;
 @headings-color: @dark;
 @headings-line-height: 1.1;
@@ -224,9 +224,9 @@
 @headings-small-color: @grey;
 
 //Heading Font Sizes
-@h1-font-size: 3.2;
-@h2-font-size: 2.4;
-@h3-font-size: 1.6;
+@h1-font-size: 2.2;
+@h2-font-size: 1.7;
+@h3-font-size: 1.5;
 @h4-font-size: 1.4;
 @h5-font-size: 1.2;
 @h6-font-size: 1;
@@ -237,7 +237,7 @@
  */
 
 //Paragraph
-@paragraph-font-family: @regular-font-family;
+@paragraph-font-family: @medium-font-family;
 @paragraph-font-size: @font-size-medium;
 @paragraph-color: @grey;
 
@@ -247,8 +247,8 @@
 @lead-color: @grey;
 
 //Strong
-@strong-font-family: @bold-font-family;
-@strong-font-weight: @bold-font-weight;
+@strong-font-family: @medium-font-family;
+@strong-font-weight: @medium-font-weight;
 
 //Emphasis
 @em-font-style: italic;
@@ -514,7 +514,7 @@
  * Buttons
  */
 
-@button-padding-vertical: 8px;
+@button-padding-vertical: 12px;
 @button-padding-horizontal: 15px;
 @button-height: 40px;
 @button-font-family: @semibold-font-family;

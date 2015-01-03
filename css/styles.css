@@ -1,3 +1,147 @@
+.avatar {
+  background: #030303;
+  height: 1em;
+  font-size: 2px;
+  width: 1em;
+  box-shadow: 1em -17em 0 #30251e, 2em -17em 0 #30251e, 3em -17em 0 #30251e, 4em -17em 0 #30251e, 0em -16em 0 #30251e, 1em -16em 0 #30251e, 2em -16em 0 #30251e, 3em -16em 0 #30251e, 4em -16em 0 #30251e, 5em -16em 0 #30251e, 0em -15em 0 #30251e, 1em -15em 0 #30251e, 2em -15em 0 #eac19d, 3em -15em 0 #eac19d, 4em -15em 0 #e2ac86, 5em -15em 0 #d7a987, -1em -14em 0 #30251e, 0em -14em 0 #30251e, 1em -14em 0 #eac19d, 2em -14em 0 #eac19d, 3em -14em 0 #030303, 4em -14em 0 #e2ac86, 5em -14em 0 #030303, -1em -13em 0 #30251e, 0em -13em 0 #30251e, 1em -13em 0 #eac19d, 2em -13em 0 #eac19d, 3em -13em 0 #e2ac86, 4em -13em 0 #e2ac86, 5em -13em 0 #d7a987, -1em -12em 0 #30251e, 0em -12em 0 #eac19d, 1em -12em 0 #eac19d, 2em -12em 0 #eac19d, 3em -12em 0 #e2ac86, 4em -12em 0 #e2ac86, 5em -12em 0 #d7a987, -4em -11em 0 #ea212d, -3em -11em 0 #ea212d, -2em -11em 0 #ea212d, -1em -11em 0 #ea212d, 0em -11em 0 #eac19d, 1em -11em 0 #eac19d, 2em -11em 0 #e2ac86, 3em -11em 0 #e2ac86, 4em -11em 0 #d7a987, 5em -11em 0 #d7a987, -5em -10em 0 #ea212d, -4em -10em 0 #ea212d, -3em -10em 0 #ea212d, -2em -10em 0 #ea212d, -1em -10em 0 #ea212d, 0em -10em 0 #ea212d, 1em -10em 0 #eac19d, 2em -10em 0 #e2ac86, 3em -10em 0 #e2ac86, 4em -10em 0 #e2ac86, -4em -9em 0 #ea212d, -3em -9em 0 #a31a28, -2em -9em 0 #a31a28, -1em -9em 0 #a31a28, 0em -9em 0 #ea212d, 1em -9em 0 #e2ac86, 2em -9em 0 #e2ac86, 3em -9em 0 #ea212d, 4em -9em 0 #a31a28, -5em -8em 0 #c21a24, -4em -8em 0 #ea212d, -3em -8em 0 #ea212d, -2em -8em 0 #ea212d, -1em -8em 0 #ea212d, 0em -8em 0 #a31a28, 1em -8em 0 #ffffff, 2em -8em 0 #eac19d, 3em -8em 0 #a31a28, 4em -8em 0 #ea212d, -6em -7em 0 #c21a24, -5em -7em 0 #ea212d, -4em -7em 0 #ea212d, -3em -7em 0 #ea212d, -2em -7em 0 #ea212d, -1em -7em 0 #ea212d, 0em -7em 0 #ea212d, 1em -7em 0 #ffffff, 2em -7em 0 #ffffff, 3em -7em 0 #ea212d, 4em -7em 0 #ea212d, 5em -7em 0 #ea212d, -6em -6em 0 #c21a24, -5em -6em 0 #ea212d, -4em -6em 0 #a31a28, -3em -6em 0 #ea212d, -2em -6em 0 #ea212d, -1em -6em 0 #ea212d, 0em -6em 0 #ea212d, 1em -6em 0 #ffffff, 2em -6em 0 #ffffff, 3em -6em 0 #ea212d, 4em -6em 0 #a31a28, 5em -6em 0 #ea212d, 6em -6em 0 #c21a24, -6em -5em 0 #c21a24, -5em -5em 0 #ea212d, -4em -5em 0 #a31a28, -3em -5em 0 #ea212d, -2em -5em 0 #ea212d, -1em -5em 0 #ea212d, 0em -5em 0 #ea212d, 1em -5em 0 #ffffff, 2em -5em 0 #ffffff, 3em -5em 0 #ea212d, 4em -5em 0 #a31a28, 5em -5em 0 #ea212d, 6em -5em 0 #ea212d, -6em -4em 0 #c21a24, -5em -4em 0 #ea212d, -4em -4em 0 #a31a28, -3em -4em 0 #ea212d, -2em -4em 0 #ea212d, -1em -4em 0 #ea212d, 0em -4em 0 #ea212d, 1em -4em 0 #ffffff, 2em -4em 0 #ffffff, 3em -4em 0 #ea212d, 4em -4em 0 #a31a28, 5em -4em 0 #ea212d, 6em -4em 0 #ea212d, 7em -4em 0 #c21a24, -6em -3em 0 #ea212d, -5em -3em 0 #ea212d, -4em -3em 0 #a31a28, -3em -3em 0 #ea212d, -2em -3em 0 #ea212d, -1em -3em 0 #ea212d, 0em -3em 0 #ea212d, 1em -3em 0 #ffffff, 2em -3em 0 #ffffff, 3em -3em 0 #ea212d, 4em -3em 0 #a31a28, 5em -3em 0 #ea212d, 6em -3em 0 #ea212d, 7em -3em 0 #c21a24, -6em -2em 0 #ea212d, -5em -2em 0 #ea212d, -4em -2em 0 #a31a28, -3em -2em 0 #ea212d, -2em -2em 0 #ea212d, -1em -2em 0 #ea212d, 0em -2em 0 #ea212d, 1em -2em 0 #ea212d, 2em -2em 0 #ffffff, 3em -2em 0 #ea212d, 4em -2em 0 #ea212d, 5em -2em 0 #a31a28, 6em -2em 0 #ea212d, 7em -2em 0 #c21a24, -6em -1em 0 #ea212d, -5em -1em 0 #ea212d, -4em -1em 0 #a31a28, -3em -1em 0 #ea212d, -2em -1em 0 #ea212d, -1em -1em 0 #ea212d, 0em -1em 0 #ea212d, 1em -1em 0 #ea212d, 2em -1em 0 #ea212d, 3em -1em 0 #ea212d, 4em -1em 0 #ea212d, 5em -1em 0 #a31a28, 6em -1em 0 #ea212d, 7em -1em 0 #c21a24, -6em 0 0 #ea212d, -5em 0 0 #ea212d, -4em 0 0 #a31a28, -3em 0 0 #030303, -2em 0 0 #030303, -1em 0 0 #030303, 1em 0 0 #a7a9ac, 2em 0 0 #030303, 3em 0 0 #030303, 4em 0 0 #030303, 5em 0 0 #a31a28, 6em 0 0 #ea212d, -6em 1em 0 #e2ac86, -5em 1em 0 #eac19d, -4em 1em 0 #293b8f, -3em 1em 0 #293b8f, -2em 1em 0 #293b8f, -1em 1em 0 #293b8f, 0em 1em 0 #293b8f, 1em 1em 0 #293b8f, 2em 1em 0 #293b8f, 3em 1em 0 #293b8f, 4em 1em 0 #293b8f, 5em 1em 0 #eac19d, 6em 1em 0 #e2ac86, -6em 2em 0 #e2ac86, -5em 2em 0 #eac19d, -4em 2em 0 #293b8f, -3em 2em 0 #293b8f, -2em 2em 0 #293b8f, -1em 2em 0 #293b8f, 0em 2em 0 #293b8f, 1em 2em 0 #293b8f, 2em 2em 0 #293b8f, 3em 2em 0 #293b8f, 4em 2em 0 #293b8f, 5em 2em 0 #eac19d, 6em 2em 0 #e2ac86;
+}
+.avatar:after {
+  z-index: 1;
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 1em;
+  height: 1em;
+  content: '';
+  background: #030303;
+  -webkit-animation: blink 3s steps(1) infinite;
+  animation: blink 3s steps(1) infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    box-shadow: 3em -14em 0 #030303, 5em -14em 0 #030303;
+  }
+  5% {
+    box-shadow: 3em -14em 0 #eac19d, 5em -14em 0 #d7a987;
+  }
+  10% {
+    box-shadow: 3em -14em 0 #030303, 5em -14em 0 #030303;
+  }
+}
+/**
+ * @license
+ * MyFonts Webfont Build ID 2866084, 2014-08-20T03:09:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 55 Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
+ * 
+ * Webfont: Avenir 45 Book by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * 
+ * Webfont: Avenir 95 Black by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2866084
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+/* Fonts */
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url('../fonts/webfonts/2BBBA4_0_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_0_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_0_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('../fonts/webfonts/2BBBA4_1_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_1_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_1_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url('../fonts/webfonts/2BBBA4_2_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_2_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_2_0.ttf') format('truetype');
+}
+/**
+ * @license
+ * MyFonts Webfont Build ID 2866084, 2014-08-20T03:09:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 55 Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
+ * 
+ * Webfont: Avenir 45 Book by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * 
+ * Webfont: Avenir 95 Black by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2866084
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+/* Fonts */
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url('../fonts/webfonts/2BBBA4_0_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_0_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_0_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('../fonts/webfonts/2BBBA4_1_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_1_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_1_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url('../fonts/webfonts/2BBBA4_2_0.eot');
+  src: url('../fonts/webfonts/2BBBA4_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/2BBBA4_2_0.woff') format('woff'), url('../fonts/webfonts/2BBBA4_2_0.ttf') format('truetype');
+}
+.avatar {
+  background: #030303;
+  height: 1em;
+  font-size: 2px;
+  width: 1em;
+  box-shadow: 1em -17em 0 #30251e, 2em -17em 0 #30251e, 3em -17em 0 #30251e, 4em -17em 0 #30251e, 0em -16em 0 #30251e, 1em -16em 0 #30251e, 2em -16em 0 #30251e, 3em -16em 0 #30251e, 4em -16em 0 #30251e, 5em -16em 0 #30251e, 0em -15em 0 #30251e, 1em -15em 0 #30251e, 2em -15em 0 #eac19d, 3em -15em 0 #eac19d, 4em -15em 0 #e2ac86, 5em -15em 0 #d7a987, -1em -14em 0 #30251e, 0em -14em 0 #30251e, 1em -14em 0 #eac19d, 2em -14em 0 #eac19d, 3em -14em 0 #030303, 4em -14em 0 #e2ac86, 5em -14em 0 #030303, -1em -13em 0 #30251e, 0em -13em 0 #30251e, 1em -13em 0 #eac19d, 2em -13em 0 #eac19d, 3em -13em 0 #e2ac86, 4em -13em 0 #e2ac86, 5em -13em 0 #d7a987, -1em -12em 0 #30251e, 0em -12em 0 #eac19d, 1em -12em 0 #eac19d, 2em -12em 0 #eac19d, 3em -12em 0 #e2ac86, 4em -12em 0 #e2ac86, 5em -12em 0 #d7a987, -4em -11em 0 #ea212d, -3em -11em 0 #ea212d, -2em -11em 0 #ea212d, -1em -11em 0 #ea212d, 0em -11em 0 #eac19d, 1em -11em 0 #eac19d, 2em -11em 0 #e2ac86, 3em -11em 0 #e2ac86, 4em -11em 0 #d7a987, 5em -11em 0 #d7a987, -5em -10em 0 #ea212d, -4em -10em 0 #ea212d, -3em -10em 0 #ea212d, -2em -10em 0 #ea212d, -1em -10em 0 #ea212d, 0em -10em 0 #ea212d, 1em -10em 0 #eac19d, 2em -10em 0 #e2ac86, 3em -10em 0 #e2ac86, 4em -10em 0 #e2ac86, -4em -9em 0 #ea212d, -3em -9em 0 #a31a28, -2em -9em 0 #a31a28, -1em -9em 0 #a31a28, 0em -9em 0 #ea212d, 1em -9em 0 #e2ac86, 2em -9em 0 #e2ac86, 3em -9em 0 #ea212d, 4em -9em 0 #a31a28, -5em -8em 0 #c21a24, -4em -8em 0 #ea212d, -3em -8em 0 #ea212d, -2em -8em 0 #ea212d, -1em -8em 0 #ea212d, 0em -8em 0 #a31a28, 1em -8em 0 #ffffff, 2em -8em 0 #eac19d, 3em -8em 0 #a31a28, 4em -8em 0 #ea212d, -6em -7em 0 #c21a24, -5em -7em 0 #ea212d, -4em -7em 0 #ea212d, -3em -7em 0 #ea212d, -2em -7em 0 #ea212d, -1em -7em 0 #ea212d, 0em -7em 0 #ea212d, 1em -7em 0 #ffffff, 2em -7em 0 #ffffff, 3em -7em 0 #ea212d, 4em -7em 0 #ea212d, 5em -7em 0 #ea212d, -6em -6em 0 #c21a24, -5em -6em 0 #ea212d, -4em -6em 0 #a31a28, -3em -6em 0 #ea212d, -2em -6em 0 #ea212d, -1em -6em 0 #ea212d, 0em -6em 0 #ea212d, 1em -6em 0 #ffffff, 2em -6em 0 #ffffff, 3em -6em 0 #ea212d, 4em -6em 0 #a31a28, 5em -6em 0 #ea212d, 6em -6em 0 #c21a24, -6em -5em 0 #c21a24, -5em -5em 0 #ea212d, -4em -5em 0 #a31a28, -3em -5em 0 #ea212d, -2em -5em 0 #ea212d, -1em -5em 0 #ea212d, 0em -5em 0 #ea212d, 1em -5em 0 #ffffff, 2em -5em 0 #ffffff, 3em -5em 0 #ea212d, 4em -5em 0 #a31a28, 5em -5em 0 #ea212d, 6em -5em 0 #ea212d, -6em -4em 0 #c21a24, -5em -4em 0 #ea212d, -4em -4em 0 #a31a28, -3em -4em 0 #ea212d, -2em -4em 0 #ea212d, -1em -4em 0 #ea212d, 0em -4em 0 #ea212d, 1em -4em 0 #ffffff, 2em -4em 0 #ffffff, 3em -4em 0 #ea212d, 4em -4em 0 #a31a28, 5em -4em 0 #ea212d, 6em -4em 0 #ea212d, 7em -4em 0 #c21a24, -6em -3em 0 #ea212d, -5em -3em 0 #ea212d, -4em -3em 0 #a31a28, -3em -3em 0 #ea212d, -2em -3em 0 #ea212d, -1em -3em 0 #ea212d, 0em -3em 0 #ea212d, 1em -3em 0 #ffffff, 2em -3em 0 #ffffff, 3em -3em 0 #ea212d, 4em -3em 0 #a31a28, 5em -3em 0 #ea212d, 6em -3em 0 #ea212d, 7em -3em 0 #c21a24, -6em -2em 0 #ea212d, -5em -2em 0 #ea212d, -4em -2em 0 #a31a28, -3em -2em 0 #ea212d, -2em -2em 0 #ea212d, -1em -2em 0 #ea212d, 0em -2em 0 #ea212d, 1em -2em 0 #ea212d, 2em -2em 0 #ffffff, 3em -2em 0 #ea212d, 4em -2em 0 #ea212d, 5em -2em 0 #a31a28, 6em -2em 0 #ea212d, 7em -2em 0 #c21a24, -6em -1em 0 #ea212d, -5em -1em 0 #ea212d, -4em -1em 0 #a31a28, -3em -1em 0 #ea212d, -2em -1em 0 #ea212d, -1em -1em 0 #ea212d, 0em -1em 0 #ea212d, 1em -1em 0 #ea212d, 2em -1em 0 #ea212d, 3em -1em 0 #ea212d, 4em -1em 0 #ea212d, 5em -1em 0 #a31a28, 6em -1em 0 #ea212d, 7em -1em 0 #c21a24, -6em 0 0 #ea212d, -5em 0 0 #ea212d, -4em 0 0 #a31a28, -3em 0 0 #030303, -2em 0 0 #030303, -1em 0 0 #030303, 1em 0 0 #a7a9ac, 2em 0 0 #030303, 3em 0 0 #030303, 4em 0 0 #030303, 5em 0 0 #a31a28, 6em 0 0 #ea212d, -6em 1em 0 #e2ac86, -5em 1em 0 #eac19d, -4em 1em 0 #293b8f, -3em 1em 0 #293b8f, -2em 1em 0 #293b8f, -1em 1em 0 #293b8f, 0em 1em 0 #293b8f, 1em 1em 0 #293b8f, 2em 1em 0 #293b8f, 3em 1em 0 #293b8f, 4em 1em 0 #293b8f, 5em 1em 0 #eac19d, 6em 1em 0 #e2ac86, -6em 2em 0 #e2ac86, -5em 2em 0 #eac19d, -4em 2em 0 #293b8f, -3em 2em 0 #293b8f, -2em 2em 0 #293b8f, -1em 2em 0 #293b8f, 0em 2em 0 #293b8f, 1em 2em 0 #293b8f, 2em 2em 0 #293b8f, 3em 2em 0 #293b8f, 4em 2em 0 #293b8f, 5em 2em 0 #eac19d, 6em 2em 0 #e2ac86;
+}
+.avatar:after {
+  z-index: 1;
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 1em;
+  height: 1em;
+  content: '';
+  background: #030303;
+  -webkit-animation: blink 3s steps(1) infinite;
+  animation: blink 3s steps(1) infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    box-shadow: 3em -14em 0 #030303, 5em -14em 0 #030303;
+  }
+  5% {
+    box-shadow: 3em -14em 0 #eac19d, 5em -14em 0 #d7a987;
+  }
+  10% {
+    box-shadow: 3em -14em 0 #030303, 5em -14em 0 #030303;
+  }
+}
 /*!
  * Turret v2.0 (http://turret.bigfish.tv)
  * Copyright 2014 Bigfish
@@ -557,7 +701,7 @@ html {
 }
 body {
   color: #485364;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 img {
   vertical-align: bottom;
@@ -634,8 +778,8 @@ img.responsive {
   left: 0;
 }
 .top-left.gutter {
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
 }
 .top-right {
   position: absolute !important;
@@ -643,8 +787,8 @@ img.responsive {
   right: 0;
 }
 .top-right.gutter {
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 }
 .bottom-left {
   position: absolute !important;
@@ -652,8 +796,8 @@ img.responsive {
   left: 0;
 }
 .bottom-left.gutter {
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 20px;
 }
 .bottom-right {
   position: absolute !important;
@@ -661,8 +805,8 @@ img.responsive {
   right: 0;
 }
 .bottom-right.gutter {
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
 }
 /*
  * Text
@@ -1072,9 +1216,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px;
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Black', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #485364;
   line-height: 1.1;
@@ -1089,16 +1233,16 @@ h6 small {
   font-size: 0.6em;
 }
 h1 {
-  font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 h2 {
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 17px;
+  font-size: 1.7rem;
 }
 h3 {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 15px;
+  font-size: 1.5rem;
 }
 h4 {
   font-size: 14px;
@@ -1113,7 +1257,7 @@ h6 {
   font-size: 1rem;
 }
 p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -1121,23 +1265,23 @@ p {
 }
 .lead {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-size: 2.2rem;
   color: #6b7681;
 }
 a {
   text-decoration: none;
-  color: #4bb3d6;
+  color: #485364;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 a:hover,
 a:focus {
-  color: #485364;
+  color: #4bb3d6;
 }
 a:visited {
-  color: #237b98;
+  color: #333a46;
 }
 blockquote {
   margin: 35px 0px;
@@ -1145,7 +1289,7 @@ blockquote {
 }
 blockquote p {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-size: 2.2rem;
   font-style: normal;
@@ -1155,7 +1299,7 @@ blockquote p {
 blockquote cite {
   display: block;
   margin: 10px 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   font-style: normal;
@@ -1176,11 +1320,11 @@ hr {
   margin: 35px auto;
   border: 0;
   height: 1px;
-  background: rgba(75, 179, 214, 0.35);
+  background: #4bb3d6;
 }
 strong {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-family: 'AvenirLTStd-Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 em {
   font-style: italic;
@@ -1198,7 +1342,7 @@ ul li,
 ol li,
 .list li {
   margin: 10px 0px 10px 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -1231,7 +1375,7 @@ ul li ul {
 }
 dl dt,
 dl dd {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
 }
@@ -1253,22 +1397,22 @@ dl dd {
 }
 @media (max-width: 767px) {
   .container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 768px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 1024px;
   }
 }
@@ -1286,24 +1430,24 @@ dl dd {
  * Row
  */
 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 @media (max-width: 767px) {
   .row {
-    margin-left: -5px;
-    margin-right: -5px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 }
 .row:after {
   display: table;
   clear: both;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
   content: '';
 }
 .row.gutter {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .row.no-gutter {
   margin-left: 0;
@@ -1316,16 +1460,16 @@ dl dd {
   padding: 0;
 }
 .gutter-top {
-  margin-top: 20px !important;
+  margin-top: 40px !important;
 }
 .gutter-bottom {
-  margin-bottom: 20px !important;
+  margin-bottom: 40px !important;
 }
 .gutter-left {
-  padding-left: 40px !important;
+  padding-left: 80px !important;
 }
 .gutter-right {
-  padding-right: 50px !important;
+  padding-right: 100px !important;
 }
 @media (min-width: 1280px) {
   .no-gutter-extra-large {
@@ -1333,16 +1477,16 @@ dl dd {
     padding-right: 0;
   }
   .gutter-top-extra-large {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
   .gutter-bottom-extra-large {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
   .gutter-left-extra-large {
-    padding-left: 40px !important;
+    padding-left: 80px !important;
   }
   .gutter-right-extra-large {
-    padding-right: 50px !important;
+    padding-right: 100px !important;
   }
 }
 @media (min-width: 1025px) and (max-width: 1279px) {
@@ -1351,16 +1495,16 @@ dl dd {
     padding-right: 0;
   }
   .gutter-top-large {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
   .gutter-bottom-large {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
   .gutter-left-large {
-    padding-left: 40px !important;
+    padding-left: 80px !important;
   }
   .gutter-right-large {
-    padding-right: 50px !important;
+    padding-right: 100px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1369,16 +1513,16 @@ dl dd {
     padding-right: 0;
   }
   .gutter-top-medium {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
   .gutter-bottom-medium {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
   .gutter-left-medium {
-    padding-left: 40px !important;
+    padding-left: 80px !important;
   }
   .gutter-right-medium {
-    padding-right: 50px !important;
+    padding-right: 100px !important;
   }
 }
 @media (max-width: 767px) {
@@ -1387,16 +1531,16 @@ dl dd {
     padding-right: 0;
   }
   .gutter-top-small {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
   .gutter-bottom-small {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
   .gutter-left-small {
-    padding-left: 40px !important;
+    padding-left: 80px !important;
   }
   .gutter-right-small {
-    padding-right: 50px !important;
+    padding-right: 100px !important;
   }
 }
 @media (max-width:  1024px) {
@@ -1404,16 +1548,16 @@ dl dd {
     padding: 0;
   }
   .gutter-top-mobile {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
   .gutter-bottom-mobile {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
   .gutter-left-mobile {
-    padding-left: 40px !important;
+    padding-left: 80px !important;
   }
   .gutter-right-mobile {
-    padding-right: 50px !important;
+    padding-right: 100px !important;
   }
 }
 /*
@@ -1423,8 +1567,8 @@ dl dd {
   float: left;
   position: relative;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 [class*='column-'].no-gutter {
   padding-left: 0;
@@ -4793,7 +4937,7 @@ form textarea {
 form label {
   display: block;
   margin: 15px 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
   color: #485364;
@@ -4913,7 +5057,7 @@ form fieldset legend {
 .control-label {
   display: block;
   margin: 0px 0px 0px 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: 1.2rem;
   color: #485364;
@@ -5026,7 +5170,7 @@ textarea {
   height: 40px;
   margin: 0;
   padding: 8px 12px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5046,7 +5190,7 @@ textarea {
 }
 input:not([type="range"]):not([type="file"]):-moz-placeholder,
 textarea:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5061,7 +5205,7 @@ textarea:focus:-moz-placeholder {
 }
 input:not([type="range"]):not([type="file"])::-moz-placeholder,
 textarea::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5076,7 +5220,7 @@ textarea:focus::-moz-placeholder {
 }
 input:not([type="range"]):not([type="file"]):-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5091,7 +5235,7 @@ textarea:focus:-ms-input-placeholder {
 }
 input:not([type="range"]):not([type="file"])::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5113,8 +5257,8 @@ textarea:disabled {
 }
 input:not([type="range"]):not([type="file"]):focus,
 textarea:focus {
-  border: 1px solid #b6bbc7;
-  background: #fafafa;
+  border: 1px solid #dbdee4;
+  background: #ffffff;
 }
 input:not([type="range"]):not([type="file"]):focus.inverse,
 textarea:focus.inverse {
@@ -5152,7 +5296,7 @@ input:not([type="range"]):not([type="file"]).input-small {
   padding: 10px;
 }
 input:not([type="range"]):not([type="file"]).input-small:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
   color: #6b7681;
@@ -5165,7 +5309,7 @@ input:not([type="range"]):not([type="file"]).input-small:focus:-moz-placeholder 
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-small::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
   color: #6b7681;
@@ -5178,7 +5322,7 @@ input:not([type="range"]):not([type="file"]).input-small:focus::-moz-placeholder
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-small:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
   color: #6b7681;
@@ -5191,7 +5335,7 @@ input:not([type="range"]):not([type="file"]).input-small:focus:-ms-input-placeho
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-small::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
   font-size: 0.9rem;
   color: #6b7681;
@@ -5210,7 +5354,7 @@ input:not([type="range"]):not([type="file"]).input-medium {
   padding: 8px 12px;
 }
 input:not([type="range"]):not([type="file"]).input-medium:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5223,7 +5367,7 @@ input:not([type="range"]):not([type="file"]).input-medium:focus:-moz-placeholder
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-medium::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5236,7 +5380,7 @@ input:not([type="range"]):not([type="file"]).input-medium:focus::-moz-placeholde
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-medium:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5249,7 +5393,7 @@ input:not([type="range"]):not([type="file"]).input-medium:focus:-ms-input-placeh
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-medium::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #6b7681;
@@ -5268,7 +5412,7 @@ input:not([type="range"]):not([type="file"]).input-large {
   padding: 10px 20px;
 }
 input:not([type="range"]):not([type="file"]).input-large:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
@@ -5281,7 +5425,7 @@ input:not([type="range"]):not([type="file"]).input-large:focus:-moz-placeholder 
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-large::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
@@ -5294,7 +5438,7 @@ input:not([type="range"]):not([type="file"]).input-large:focus::-moz-placeholder
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-large:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
@@ -5307,7 +5451,7 @@ input:not([type="range"]):not([type="file"]).input-large:focus:-ms-input-placeho
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-large::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: #6b7681;
@@ -5326,7 +5470,7 @@ input:not([type="range"]):not([type="file"]).input-extra-large {
   padding: 10px 25px;
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
@@ -5339,7 +5483,7 @@ input:not([type="range"]):not([type="file"]).input-extra-large:focus:-moz-placeh
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-extra-large::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
@@ -5352,7 +5496,7 @@ input:not([type="range"]):not([type="file"]).input-extra-large:focus::-moz-place
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-extra-large:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
@@ -5365,7 +5509,7 @@ input:not([type="range"]):not([type="file"]).input-extra-large:focus:-ms-input-p
   color: rgba(107, 118, 129, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-extra-large::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   color: #6b7681;
@@ -5383,7 +5527,7 @@ input:not([type="range"]):not([type="file"]).input-inverse {
   background-color: #485364;
 }
 input:not([type="range"]):not([type="file"]).input-inverse:-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -5396,7 +5540,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus:-moz-placeholde
   color: rgba(255, 255, 255, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-inverse::-moz-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -5409,7 +5553,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-moz-placehold
   color: rgba(255, 255, 255, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-inverse:-ms-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -5422,7 +5566,7 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus:-ms-input-place
   color: rgba(255, 255, 255, 0.25);
 }
 input:not([type="range"]):not([type="file"]).input-inverse::-webkit-input-placeholder {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -5444,11 +5588,11 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 .select select {
   display: block;
   margin: 0;
-  padding: 12px 35px 12px 15px;
+  padding: 0px 35px 0px 15px;
   width: 100%;
   height: 40px;
   line-height: 1;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Book', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: #485364;
@@ -5602,9 +5746,9 @@ input:not([type="range"]):not([type="file"]).input-inverse:focus::-webkit-input-
 button,
 .button {
   display: inline-block;
-  padding: 8px 15px;
+  padding: 12px 15px;
   height: 40px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Black', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   font-size: 1.4rem;
@@ -5637,7 +5781,7 @@ button:disabled,
  * Button Sizes
  */
 .button-small {
-  padding: 10px 15px;
+  padding: 3px 8px;
   height: 30px;
   font-size: 10px;
   font-size: 1rem;
@@ -5667,7 +5811,7 @@ button:disabled,
   background: #333a46;
 }
 .button-text {
-  padding: 8px 15px;
+  padding: 12px 15px;
   color: #485364;
   background: transparent !important;
 }
@@ -5728,7 +5872,7 @@ button:disabled,
 /* Figure */
 figure {
   margin: 0;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #4bb3d6;
 }
 figure figcaption {
@@ -5818,20 +5962,20 @@ table caption {
 }
 table thead tr th {
   padding: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirLTStd-Black', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   color: #485364;
   text-align: left;
   text-transform: none;
 }
 table tbody tr td {
   padding: 10px;
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   color: #485364;
-  line-height: 1.2;
+  line-height: 1.5;
   vertical-align: middle;
 }
 table.table-bordered {
@@ -5860,7 +6004,7 @@ table.table-block {
     left: -9999px;
   }
   table.table-responsive tr {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: solid #fafbfb;
     border-width: 0px 0px 1px 0px;
   }
@@ -5870,12 +6014,12 @@ table.table-block {
     position: relative;
   }
   table.table-responsive td:first-child {
-    padding-top: 10px;
+    padding-top: 20px;
   }
   table.table-responsive td:before {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     width: 100%;
     white-space: nowrap;
     color: #4bb3d6;
@@ -5908,15 +6052,88 @@ table.table-block {
     content: attr(data-label);
   }
 }
-.article-tile-footer {
-  padding: 20px;
-  background: #ffffff;
+body {
+  padding-top: 80px;
+  background: #fafbfb;
 }
-.article-tile-footer h3 {
-  margin-bottom: 0;
+.header {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.header-title {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.header-title .avatar {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+}
+.navigation ul {
+  margin: 0;
+}
+.navigation ul li {
+  display: inline-block;
+  margin: 0;
+}
+.navigation ul li a {
+  display: block;
+  position: relative;
+  padding: 15px 10px;
+  font-family: 'AvenirLTStd-Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navigation ul li a:after {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 10px;
+  height: 2px;
+  content: '';
+  background: #4bb3d6;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navigation ul li a:hover:after,
+.navigation ul li a:focus:after {
+  left: 10px;
+  right: 10px;
+}
+.navigation ul li a.active:after {
+  left: 10px;
+  right: 10px;
+}
+.article-tile {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.article-tile-footer {
+  padding: 25px 20px;
+  background: #ffffff;
 }
 .article-tile-footer hr {
   margin: 20px 0px;
-  width: 50px;
-  height: 4px;
+  width: 35px;
+  height: 3px;
+}
+.article-tile-footer p {
+  margin: 0;
+}
+.article-tile-title {
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
