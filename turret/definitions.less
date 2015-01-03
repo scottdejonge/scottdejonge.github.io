@@ -200,12 +200,12 @@
 //Links
 @link-color: @primary;
 @link-hover-color: @dark;
-@link-visited-color: darken(@primary, 20%);
+@link-visited-color: darken(@link-color, 10%);
 
 //Horizontal Rule
 @hr-margin: 35px auto;
 @hr-height: 1px;
-@hr-background: fade(@primary, 35%);
+@hr-background: @primary;
 
 
 /*
@@ -393,14 +393,14 @@
 @input-font-size: 1.4;
 @input-line-height: @line-height;
 @input-background: @white;
-@input-border: 1px solid #E1E3E8;
+@input-border: 1px solid @light-grey;
 @input-border-radius: @border-radius;
 @input-search-border-radius: 20px;
 @input-button-small-padding: 10px 15px;
 
 //Focus
-@input-focus-border: 1px solid darken(#E1E3E8, 15%);
-@input-focus-background: darken(@input-background, 2%);
+@input-focus-border: 1px solid darken(@light-grey, 2%);
+@input-focus-background: @input-background;
 
 //Input Small
 @input-small-height: 30px;
@@ -479,7 +479,7 @@
  */
 
 @select-margin: @input-margin;
-@select-padding: 12px 35px 12px 15px;
+@select-padding: 0px 35px 0px 15px;
 @select-height: @input-height;
 @select-font-family: @input-font-family;
 @select-font-size: @input-font-size;
@@ -530,8 +530,8 @@
 @button-hover-background: darken(@button-background, 10%);
 
 //Button Sizes
-@button-small-padding-vertical: 10px;
-@button-small-padding-horizontal: 15px;
+@button-small-padding-vertical: 3px;
+@button-small-padding-horizontal: 8px;
 @button-small-height: 30px;
 @button-small-font-size: 1;
 
@@ -636,7 +636,7 @@
 
 //Table Caption
 @tables-caption-margin: 5px 10px;
-@tables-caption-font-size: 1.4;
+@tables-caption-font-size: @paragraph-font-size;
 @tables-caption-font-weight: @bold-font-weight;
 @tables-caption-color: @body-color;
 @tables-caption-text-align: left;
@@ -645,7 +645,7 @@
 @tables-head-padding: 10px;
 @tables-head-font-family: @bold-font-family;
 @tables-head-font-weight: @bold-font-weight;
-@tables-head-font-size: 1.2;
+@tables-head-font-size: @paragraph-font-size;
 @tables-head-text-align: left;
 @tables-head-text-transform: none;
 @tables-head-color: @dark;
@@ -653,9 +653,9 @@
 
 //Table Body
 @tables-cell-padding: 10px;
-@tables-cell-font-size: 1.2;
+@tables-cell-font-size: @paragraph-font-size;
 @tables-cell-color: @body-color;
-@tables-cell-line-height: 1.2;
+@tables-cell-line-height: @line-height;
 @tables-cell-vertical-align: middle;
 
 //Table Reponsive
