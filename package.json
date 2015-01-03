@@ -1,0 +1,21 @@
+{
+	"name": "scottdejonge",
+	"version": "0.0.1",
+	"description": "Scott de Jonge",
+	"dependencies": {
+		"browserify": "latest",
+		"less": "latest"
+	},
+	"devDependencies": {
+		"watchify": "latest",
+		"catw": "latest"
+	},
+	"scripts": {
+		"watch-css": "catw -c 'lessc -' 'styles/*.less' -o css/styles.css -v",
+		"watch-js": "watchify scripts/*.js -o js/scripts.js -dv",
+		"watch": "npm run watch-css & npm run watch-js",
+		"build-css": "catw -c 'lessc -' 'styles/*.less' > css/styles.css",
+		"build-js": "browserify scripts/*.js > scripts/scripts.js",
+		"build": "npm run build-css && npm run build-js"
+	}
+}

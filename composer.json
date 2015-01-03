@@ -1,0 +1,21 @@
+{
+	"name": "bigfish-2014",
+	"require": {
+		"cakephp/cakephp": "2.5.*",
+		"bigfishtv/tank": "2.*"
+	},
+	"repositories": [
+		{
+			"url": "git@code.bigfish.tv:tank.git",
+			"type": "git"
+		}
+	],
+	"config": {
+		"vendor-dir": "Vendor/"
+	},
+	"extra": {
+		"installer-paths": {
+			"app/Plugin/Tank": ["bigfishtv/tank"]
+		}
+	}
+}
