@@ -1,4 +1,4 @@
-!app/tmp
+app/tmp
 !app/tmp/cache/models/empty
 !app/tmp/cache/persistent/empty
 !app/tmp/cache/views/empty
@@ -10,7 +10,7 @@ app/Config/config.php
 
 /Vendor
 app/webroot/dist/
-!app/webroot/files
+app/webroot/files
 !app/webroot/files/files/empty
 !app/webroot/files/images/empty
 !app/webroot/files/uploads/empty
