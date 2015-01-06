@@ -53,6 +53,7 @@ class Page extends AppModel {
 	public function getTemplatesList() {
 		return array(
 			'' => 'Default',
+			'parent' => 'Parent Page',
 		);
 	}
 
