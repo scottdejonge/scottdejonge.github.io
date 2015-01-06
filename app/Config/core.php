@@ -4,9 +4,18 @@
  *
  * Use it to configure core behavior of Cake.
  *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  * @link          http://cakephp.org CakePHP(tm) Project
  * @package       app.Config
  * @since         CakePHP(tm) v 0.2.9
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
 /**
@@ -39,8 +48,10 @@
  *
  * @see ErrorHandler for more information on error handling and configuration.
  */
+	App::uses('TankErrorHandler', 'Tank.Lib');
+ 
 	Configure::write('Error', array(
-		'handler' => 'ErrorHandler::handleError',
+		'handler' => 'TankErrorHandler::handleError',
 		'level' => E_ALL & ~E_DEPRECATED,
 		'trace' => true
 	));
@@ -66,7 +77,7 @@
  * @see ErrorHandler for more information on exception handling and configuration.
  */
 	Configure::write('Exception', array(
-		'handler' => 'ErrorHandler::handleException',
+		'handler' => 'TankErrorHandler::handleException',
 		'renderer' => 'ExceptionRenderer',
 		'log' => true
 	));
@@ -212,11 +223,13 @@
 
 /**
  * A random string used in security hashing methods.
- */	Configure::write('Security.salt', 'b12085c134f78655046a39752ce76bcf96069cea');
+ */
+	Configure::write('Security.salt', 'p8723ofRTwhnq284fi9j89343ergbNxa424h3j28');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
- */	Configure::write('Security.cipherSeed', '653931386233373166663863333464');
+ */
+	Configure::write('Security.cipherSeed', '98723563408097610398434509234');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -259,6 +272,15 @@
 	//date_default_timezone_set('UTC');
 
 /**
+ * `Config.timezone` is available in which you can set users' timezone string.
+ * If a method of CakeTime class is called with $timezone parameter as null and `Config.timezone` is set,
+ * then the value of `Config.timezone` will be used. This feature allows you to set users' timezone just
+ * once instead of passing it each time in function calls.
+ */
+	//Configure::write('Config.timezone', 'Europe/Paris');
+
+/**
+ *
  * Cache Engine Configuration
  * Default settings provided below
  *
@@ -295,18 +317,20 @@
  *		'password' => 'password', //plaintext password (xcache.admin.pass)
  *	));
  *
- * Memcache (http://www.danga.com/memcached/)
+ * Memcached (http://www.danga.com/memcached/)
+ *
+ * Uses the memcached extension. See http://php.net/memcached
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'Memcache', //[required]
+ *		'engine' => 'Memcached', //[required]
  *		'duration' => 3600, //[optional]
  *		'probability' => 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  * 		'servers' => array(
  * 			'127.0.0.1:11211' // localhost, default port 11211
  * 		), //[optional]
- * 		'persistent' => true, // [optional] set this to false for non-persistent connections
- * 		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
+ * 		'persistent' => 'my_connection', // [optional] The name of the persistent connection.
+ * 		'compress' => false, // [optional] compress data in Memcached (slower, but uses less memory)
  *	));
  *
  *  Wincache (http://php.net/wincache)
@@ -338,7 +362,7 @@ if (Configure::read('debug') > 0) {
 }
 
 // Prefix each application on the same server with a different string, to avoid Memcache and APC conflicts.
-$prefix = 'app_';
+$prefix = crc32(APP);
 
 /**
  * Configure the cache used for general framework caching. Path information,
@@ -349,7 +373,8 @@ Cache::config('_cake_core_', array(
 	'prefix' => $prefix . 'cake_core_',
 	'path' => CACHE . 'persistent' . DS,
 	'serialize' => ($engine === 'File'),
-	'duration' => $duration
+	'duration' => $duration,
+	'mask' => 0666,
 ));
 
 /**
@@ -361,5 +386,6 @@ Cache::config('_cake_model_', array(
 	'prefix' => $prefix . 'cake_model_',
 	'path' => CACHE . 'models' . DS,
 	'serialize' => ($engine === 'File'),
-	'duration' => $duration
+	'duration' => $duration,
+	'mask' => 0666,
 ));
