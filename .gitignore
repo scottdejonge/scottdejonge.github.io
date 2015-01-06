@@ -19,7 +19,11 @@ app/webroot/files
 !app/webroot/files/uploads/empty
 !app/webroot/files/documents/empty
 
-app/webroot/generated
+!app/webroot/generated
+!app/webroot/generated/styles
+!app/webroot/generated/scripts
+!app/webroot/generated/images/empty
+!app/webroot/generated/images/_cropped
 !app/webroot/generated/images/_cropped/empty
 
 npm-debug.log

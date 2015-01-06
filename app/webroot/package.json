@@ -11,11 +11,11 @@
 		"catw": "latest"
 	},
 	"scripts": {
-		"watch-css": "catw -c 'lessc -' 'styles/*.less' -o css/styles.css -v",
-		"watch-js": "watchify scripts/*.js -o js/scripts.js -dv",
+		"watch-css": "catw -c 'lessc -' 'styles/*.less' -o generated/styles/styles.css -v",
+		"watch-js": "watchify scripts/*.js -o generated/scripts/scripts.js -dv",
 		"watch": "npm run watch-css & npm run watch-js",
-		"build-css": "catw -c 'lessc -' 'styles/*.less' > css/styles.css",
-		"build-js": "browserify scripts/*.js > scripts/scripts.js",
+		"build-css": "catw -c 'lessc -' 'styles/*.less' > generated/styles/styles.css",
+		"build-js": "browserify scripts/*.js > generated/scripts/scripts.js",
 		"build": "npm run build-css && npm run build-js"
 	}
 }
