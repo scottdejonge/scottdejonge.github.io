@@ -1,67 +1,119 @@
 <?php
-/**
- * Static content controller.
- *
- * This file will render views from views/pages/
- *
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.Controller
- * @since         CakePHP(tm) v 0.2.9
- */
 
 App::uses('AppController', 'Controller');
 
-/**
- * Static content controller
- *
- * Override this controller by placing a copy in controllers directory of an application
- *
- * @package       app.Controller
- * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
- */
 class PagesController extends AppController {
 
-/**
- * This controller does not use a model
- *
- * @var array
- */
-	public $uses = array();
-
-/**
- * Displays a view
- *
- * @return void
- * @throws NotFoundException When the view file could not be found
- *   or MissingViewException in debug mode.
- */
 	public function display() {
-		$path = func_get_args();
 
-		$count = count($path);
-		if (!$count) {
-			return $this->redirect('/');
+		if (!func_num_args()) {
+			$this->redirect('/');
 		}
-		$page = $subpage = $title_for_layout = null;
+		$args = func_get_args();
+		if (!count($args)) {
+			$this->redirect('/');
+		}
+		if (!end($args)) {
+			array_pop($args);
+		}
+		$path = join('/', $args);
 
-		if (!empty($path[0])) {
-			$page = $path[0];
-		}
-		if (!empty($path[1])) {
-			$subpage = $path[1];
-		}
-		if (!empty($path[$count - 1])) {
-			$title_for_layout = Inflector::humanize($path[$count - 1]);
-		}
-		$this->set(compact('page', 'subpage', 'title_for_layout'));
+		// find page
+		$page = $this->Page->find('first', array(
+			'conditions' => array('OR' => array('Page.path' => $path, 'Page.url' => '/' . $path)),
+			'contain' => array(
+				'Image',
+				'ParentPage',
+			)
+		));
 
-		try {
-			$this->render(implode('/', $path));
-		} catch (MissingViewException $e) {
-			if (Configure::read('debug')) {
-				throw $e;
-			}
+		if (!$page) {
 			throw new NotFoundException();
+		} elseif ($page['Page']['viewable'] == 0) {
+			// page found, but not viewable
+			// search for viewable child
+			$page = $this->Page->find('first', array(
+				'fields' => array('path'),
+				'conditions' => array(
+					'lft >=' => $page['Page']['lft'],
+					'rght <=' => $page['Page']['rght'],
+					'viewable' => 1,
+				),
+				'recursive' => -1
+			));
+
+			// no viewable child exists
+			if (!$page) {
+				throw new NotFoundException();
+			}
+
+			// redirect to viewable child
+			if (!empty($page['Page']['url'])) {
+				$this->redirect($page['Page']['url']);
+			}
+			$this->redirect('/' . $page['Page']['path']);
+
 		}
+
+		$this->pageTitle = $page['Page']['title'];
+
+		// Use parent page images if none exist at this level
+		/*
+		if (empty($page['Image']) && empty($page['Page']['disable_hero_images'])) {
+			$page['Image'] = $this->Page->getHeroImages($page['Page']['parent_id']);
+		} else if (!empty($page['Page']['disable_hero_images'])) {
+			// remove images from array if hero images are disabled on this page
+			$page['Image'] = array();
+		}
+		*/
+
+		/*
+		$children = $this->Page->find('threaded', array(
+			'conditions' => array(
+				'Page.lft >' => $page['Page']['lft'],
+				'Page.rght <' => $page['Page']['rght'],
+				'Page.visible' => 1,
+			),
+			'contain' => array(),
+		));
+		*/
+
+		// Set template to be 'default' if not defined
+		$page['Page']['template'] = $page['Page']['template'] ?: 'default';
+
+		$this->set(compact('page', 'children'));
+
+		// Load extra content by template
+		$method = 'template_' . $page['Page']['template'];
+		if (method_exists($this, $method)) $this->{$method}($page);
+
+		$this->set('title_for_layout', $page['Page']['title']);
+
+		$this->render($page['Page']['template']);
+
 	}
+
+
+/**
+ * Extra content for bespoke templates
+ */
+
+/*
+	private function template_default($page) {
+
+	}
+
+	private function template_home($page) {
+
+	}
+*/
+
+/**
+ * Admin Methods
+ */
+
+	protected function adminPopulateAssociated() {
+		parent::adminPopulateAssociated();
+	}
+
 }

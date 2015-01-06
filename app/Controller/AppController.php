@@ -1,25 +1,29 @@
 <?php
-/**
- * Application level Controller
- *
- * This file is application-wide controller file. You can put all
- * application-wide controller-related methods here.
- *
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.Controller
- * @since         CakePHP(tm) v 0.2.9
- */
 
-App::uses('Controller', 'Controller');
+App::uses('TankController', 'Tank.Controller');
 
-/**
- * Application Controller
- *
- * Add your application-wide methods in the class below, your controllers
- * will inherit them.
- *
- * @package		app.Controller
- * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
- */
-class AppController extends Controller {
+class AppController extends TankController {
+
+	public $helpers = array(
+		//'AssetCompress.AssetCompress',
+		'Html' => array('className' => 'Tank.MagicHtml'),
+		'Form' => array('className' => 'Tank.MagicForm'),
+		'Tank.MagicImage',
+		'Tank.MagicMenu',
+		'Tank.MagicFilter',
+		'Text',
+	);
+
+	public function beforeRender() {
+		if (empty($this->params['admin'])) {
+			$this->populateMagicMenu();
+		}
+		parent::beforeRender();
+	}
+	
+	protected function populateMagicMenu() {
+		$siteNavigation = ClassRegistry::init('Page')->getNavigation();
+		Configure::write('MagicMenu.nav', $siteNavigation);
+	}
+	
 }
