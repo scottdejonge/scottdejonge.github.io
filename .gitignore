@@ -11,15 +11,13 @@ app/tmp
 !app/tmp/sessions/empty
 !app/tmp/tests/empty
 
-app/webroot/dist/
-
 app/webroot/files
 !app/webroot/files/files/empty
 !app/webroot/files/images/empty
 !app/webroot/files/uploads/empty
 !app/webroot/files/documents/empty
 
-!app/webroot/generated
+app/webroot/generated
 !app/webroot/generated/styles
 !app/webroot/generated/scripts
 !app/webroot/generated/images/empty
