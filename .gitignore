@@ -1,3 +1,8 @@
+app/Config/database.php
+app/Config/config.php
+
+/Vendor
+
 app/tmp
 !app/tmp/cache/models/empty
 !app/tmp/cache/persistent/empty
@@ -5,11 +10,9 @@ app/tmp
 !app/tmp/logs/empty
 !app/tmp/sessions/empty
 !app/tmp/tests/empty
-app/Config/database.php
-app/Config/config.php
 
-/Vendor
 app/webroot/dist/
+
 app/webroot/files
 !app/webroot/files/files/empty
 !app/webroot/files/images/empty
