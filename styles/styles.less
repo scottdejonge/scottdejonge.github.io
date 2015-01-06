@@ -14,8 +14,8 @@ body {
 }
 
 body {
-	padding-top: 80px;
-	background: @light;
+	padding-top: 50px;
+	//background: @light;
 }
 
 //Header
@@ -27,7 +27,7 @@ body {
 	right: 0;
 	height: 50px;
 	background: @white;
-	box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
+	//box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
 }
 
 .header-title {
@@ -45,6 +45,7 @@ body {
 
 //Navigation
 .navigation {
+	background: @primary;
 	
 	ul {
 		margin: 0;
@@ -56,14 +57,17 @@ body {
 			a {
 				display: block;
 				position: relative;
-				padding: 15px 10px;
-				.medium-font();
+				padding: 15px;
+				.bold-font();
 				.font-size(1.2);
+				color: @white;
 				line-height: 20px;
 				letter-spacing: 1px;
 				text-transform: uppercase;
+				.transition(all @transition-fast ease-in-out);
 				
-				&:after {
+				/*
+&:after {
 					position: absolute;
 					left: 50%;
 					right: 50%;
@@ -73,27 +77,59 @@ body {
 					background: @primary;
 					.transition(all @transition-fast ease-in-out);
 				}
+*/
 				
 				&:hover,
 				&:focus {
+					background: darken(@primary, 5%);
 					
-					&:after {
+					/*
+&:after {
 						left: 10px;
 						right: 10px;
 					}
+*/
 				}
 				
 				&.active {
+					background: @dark;
 					
-					&:after {
+					/*
+&:after {
 						left: 10px;
 						right: 10px;
 					}
+*/
 				}
 			}
 		}
 	}
 }
+
+
+//Social Links
+.social-links {
+	background: @dark;
+	
+	ul {
+		
+		li {
+			
+			a {
+				padding: 15px;
+				font-size: 20px;
+				color: @white;
+				
+				/*
+&:after {
+					display: none;	
+				}
+*/
+			}
+		}
+	}
+}
+
 
 .divider {
 	margin: 20px 0px;
@@ -104,7 +140,7 @@ body {
 //Articles
 .article,
 .article-tile {
-	box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+	//box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
 }
 
 .article-title,
@@ -126,23 +162,6 @@ body {
 
 .article-tile-excerpt {
 	margin: 0;
-}
-
-//Social Links
-.social-links {
-	
-	ul {
-		margin: 0;
-		
-		li {
-			display: inline-block;
-			margin: 0;
-			
-			a {
-				line-height: 20px;
-			}
-		}
-	}
 }
 
 //Footer
