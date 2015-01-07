@@ -11,7 +11,7 @@
  Target Server Version : 50619
  File Encoding         : utf-8
 
- Date: 01/06/2015 17:27:15 PM
+ Date: 01/07/2015 17:27:13 PM
 */
 
 SET NAMES utf8;
@@ -78,7 +78,7 @@ CREATE TABLE `images` (
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 --  Table structure for `images_pages`
@@ -90,7 +90,7 @@ CREATE TABLE `images_pages` (
   `page_id` int(10) unsigned NOT NULL,
   `url` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 --  Table structure for `pages`
@@ -119,7 +119,7 @@ CREATE TABLE `pages` (
   PRIMARY KEY (`id`),
   KEY `pagepath` (`path`),
   KEY `slug` (`slug`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 --  Table structure for `redirects`
