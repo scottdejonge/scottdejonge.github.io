@@ -67,7 +67,6 @@ class PagesController extends AppController {
 		}
 		*/
 
-		/*
 		$children = $this->Page->find('threaded', array(
 			'conditions' => array(
 				'Page.lft >' => $page['Page']['lft'],
@@ -76,7 +75,7 @@ class PagesController extends AppController {
 			),
 			'contain' => array(),
 		));
-		*/
+		
 
 		// Set template to be 'default' if not defined
 		$page['Page']['template'] = $page['Page']['template'] ?: 'default';

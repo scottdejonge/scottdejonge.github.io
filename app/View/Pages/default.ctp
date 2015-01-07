@@ -20,7 +20,7 @@
 					</div>
 					<div class="article-content">
 						<h1 class="page-title"><?php echo h($page['Page']['title']); ?></h1>
-						<?php echo $page['Page']['content_formatted']; ?>
+						<?php echo $page['Page']['content']; ?>
 					</div>
 				</article>
 			</div>

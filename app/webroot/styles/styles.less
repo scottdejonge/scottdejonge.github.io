@@ -15,7 +15,6 @@ body {
 
 body {
 	padding-top: 50px;
-	//background: @light;
 }
 
 //Header
@@ -27,7 +26,6 @@ body {
 	right: 0;
 	height: 50px;
 	background: @white;
-	//box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
 }
 
 .header-title {
@@ -66,40 +64,13 @@ body {
 				text-transform: uppercase;
 				.transition(all @transition-fast ease-in-out);
 				
-				/*
-&:after {
-					position: absolute;
-					left: 50%;
-					right: 50%;
-					bottom: 10px;
-					height: 2px;
-					content: '';
-					background: @primary;
-					.transition(all @transition-fast ease-in-out);
-				}
-*/
-				
 				&:hover,
 				&:focus {
 					background: darken(@primary, 5%);
-					
-					/*
-&:after {
-						left: 10px;
-						right: 10px;
-					}
-*/
 				}
 				
 				&.active {
 					background: @dark;
-					
-					/*
-&:after {
-						left: 10px;
-						right: 10px;
-					}
-*/
 				}
 			}
 		}
@@ -119,12 +90,6 @@ body {
 				padding: 15px;
 				font-size: 20px;
 				color: @white;
-				
-				/*
-&:after {
-					display: none;	
-				}
-*/
 			}
 		}
 	}
@@ -153,7 +118,6 @@ body {
 .article-content,
 .article-tile-footer {
 	padding: 25px 20px;
-	background: @white;
 }
 
 .article-tile-excerpt {
@@ -164,7 +128,6 @@ body {
 .footer {
 	padding: 15px 0px;
 	height: 50px;
-	//background: @white;
 }
 
 .footer-copyright {
