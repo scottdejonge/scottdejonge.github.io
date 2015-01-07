@@ -5,10 +5,10 @@
 		</a>
 		<nav class="navigation social-links right">
 			<ul>
-				<li><a href="#">&#10026;</a></li>
-				<li><a href="#">&#10026;</a></li>
-				<li><a href="#">&#10026;</a></li>
-				<li><a href="#">&#10026;</a></li>
+				<li><a href="#"><?php echo file_get_contents(WWW_ROOT.'assets/svg/twitter.svg'); ?></a></li>
+				<li><a href="#"><?php echo file_get_contents(WWW_ROOT.'assets/svg/facebook.svg'); ?></a></li>
+				<li><a href="#"><?php echo file_get_contents(WWW_ROOT.'assets/svg/instagram.svg'); ?></a></li>
+				<li><a href="#"><?php echo file_get_contents(WWW_ROOT.'assets/svg/github.svg'); ?></a></li>
 			</ul>
 		</nav>
 		<nav class="navigation right">

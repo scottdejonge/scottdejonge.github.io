@@ -43,7 +43,8 @@ body {
 
 //Navigation
 .navigation {
-	background: @primary;
+	margin-right: 10px;
+	//background: @primary;
 	
 	ul {
 		margin: 0;
@@ -58,7 +59,7 @@ body {
 				padding: 15px;
 				.bold-font();
 				.font-size(1.2);
-				color: @white;
+				color: @dark;
 				line-height: 20px;
 				letter-spacing: 1px;
 				text-transform: uppercase;
@@ -66,11 +67,12 @@ body {
 				
 				&:hover,
 				&:focus {
-					background: darken(@primary, 5%);
+					//background: darken(@primary, 5%);
 				}
 				
 				&.active {
-					background: @dark;
+					color: @primary;
+					//background: @dark;
 				}
 			}
 		}
@@ -80,6 +82,7 @@ body {
 
 //Social Links
 .social-links {
+	margin-right: 0;
 	background: @dark;
 	
 	ul {
@@ -88,8 +91,32 @@ body {
 			
 			a {
 				padding: 15px;
-				font-size: 20px;
+				.square(50px);
+				line-height: 1;
 				color: @white;
+				
+				svg {
+					.square(20px);
+					fill: @white;
+					.transition(all @transition-fast ease-in-out);
+					
+					path {
+						fill: @white;
+						.transition(all @transition-fast ease-in-out);
+					}
+				}
+				
+				&:hover,
+				&:focus {
+					
+					svg {
+						fill: @primary;
+						
+						path {
+							fill: @primary;
+						}
+					}
+				}
 			}
 		}
 	}
