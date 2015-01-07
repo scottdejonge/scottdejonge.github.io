@@ -28,9 +28,11 @@ body {
 	background: @white;
 }
 
-.header-title {
+.header-logo {
 	display: block;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 50px;
 	height: 50px;
 	
@@ -41,10 +43,19 @@ body {
 	}
 }
 
+.header-navigation {
+	text-align: center;
+}
+
+.header-social {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 //Navigation
 .navigation {
-	margin-right: 10px;
-	//background: @primary;
+	margin: 0 auto;
 	
 	ul {
 		margin: 0;
@@ -82,26 +93,28 @@ body {
 
 //Social Links
 .social-links {
-	margin-right: 0;
-	background: @dark;
 	
 	ul {
+		margin: 0;
 		
 		li {
+			display: inline-block;
+			margin: 0;
 			
 			a {
+				display: block;
 				padding: 15px;
 				.square(50px);
 				line-height: 1;
-				color: @white;
+				color: @dark;
 				
 				svg {
 					.square(20px);
-					fill: @white;
+					fill: @dark;
 					.transition(all @transition-fast ease-in-out);
 					
 					path {
-						fill: @white;
+						fill: @dark;
 						.transition(all @transition-fast ease-in-out);
 					}
 				}

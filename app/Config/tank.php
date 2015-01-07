@@ -16,6 +16,10 @@ Configure::write('Tank.MagicImage', array(
 			'h' => 675,
 			'fit' => true,
 		),
+		'1280-720' => array(
+			'w' => 1280,
+			'h' => 720,
+		),
 		'1280-600' => array(
 			'w' => 1280,
 			'h' => 600,

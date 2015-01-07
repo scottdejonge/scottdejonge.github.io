@@ -57,16 +57,6 @@ class PagesController extends AppController {
 
 		$this->pageTitle = $page['Page']['title'];
 
-		// Use parent page images if none exist at this level
-		/*
-		if (empty($page['Image']) && empty($page['Page']['disable_hero_images'])) {
-			$page['Image'] = $this->Page->getHeroImages($page['Page']['parent_id']);
-		} else if (!empty($page['Page']['disable_hero_images'])) {
-			// remove images from array if hero images are disabled on this page
-			$page['Image'] = array();
-		}
-		*/
-
 		$children = $this->Page->find('threaded', array(
 			'conditions' => array(
 				'Page.lft >' => $page['Page']['lft'],
@@ -75,7 +65,6 @@ class PagesController extends AppController {
 			),
 			'contain' => array(),
 		));
-		
 
 		// Set template to be 'default' if not defined
 		$page['Page']['template'] = $page['Page']['template'] ?: 'default';
@@ -89,7 +78,6 @@ class PagesController extends AppController {
 		$this->set('title_for_layout', $page['Page']['title']);
 
 		$this->render($page['Page']['template']);
-
 	}
 
 
