@@ -43,6 +43,8 @@ if (!$edit_mode){
 
 $main[] = $this->Form->input('title', array('class' => 'text-input medium-input'));
 
+$main[] = $this->Form->input('subtitle', array('class' => 'text-input medium-input'));
+
 $main[] = $this->Form->input('content', array('ckeditor' => true));
 
 $main[] = '</fieldset>';
