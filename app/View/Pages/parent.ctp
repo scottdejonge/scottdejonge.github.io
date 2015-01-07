@@ -21,7 +21,7 @@
 					if (!empty($child['Page']['url'])) {
 						$link = $child['Page']['url'];
 					} else {
-						$link = $child['Page']['path'];
+						$link =  '/' . $child['Page']['path'];
 					}
 					
 				?>
@@ -41,7 +41,7 @@
 						<?php if(!empty($child['Page']['content'])) : ?>
 							<footer class="article-tile-footer">
 								<h3 class="article-tile-title">
-									<?php echo $this->Html->link(h($child['Page']['title']), '/' . $child['Page']['path']);?>
+									<?php echo $this->Html->link(h($child['Page']['title']), $link);?>
 								</h3>
 								<hr class="divider">
 								<p class="article-tile-excerpt"><?php echo $this->Text->truncate(strip_tags($child['Page']['content']), 200); ?></p>
