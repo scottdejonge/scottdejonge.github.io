@@ -17,27 +17,6 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'work'));
-	
-/**
- * Admin/Tank (move to plugin?)
- */
- 	// admin login page
-	Router::connect('/admin', array('plugin' => 'tank', 'controller' => 'admin_users', 'action' => 'login', 'prefix' => 'admin', 'admin' => true));
-
-	// hookup admin controllers
-	Router::connect('/admin/:controller', array('plugin' => 'tank', 'prefix' => 'admin', 'action' => 'index', 'admin' => true), array('controller' => 'admin_users|uploads|images|documents|redirects'));
-	Router::connect('/admin/:controller/:action/*', array('plugin' => 'tank', 'prefix' => 'admin', 'admin' => true), array('controller' => 'admin_users|uploads|images|documents|redirects'));
-
-	// maybe these rules should go first above the other urls
-	Router::connect('/admin/:controller', array('prefix' => 'admin', 'admin' => true));
-	Router::connect('/admin/:controller/:action/*', array('prefix' => 'admin', 'admin' => true));
-
-	// Resized images
-	Router::connect('/generated/images/*', array('plugin' => 'tank', 'controller' => 'images', 'action' => 'view'));
-
-	Router::connect('/sitemap', array('plugin' => 'tank', 'controller' => 'sitemap', 'action' => 'index'));
-
-	Router::parseExtensions('csv', 'xml', 'json', 'rss');
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

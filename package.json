@@ -1,0 +1,22 @@
+{
+	"name": "scottdejonge",
+	"version": "0.0.1",
+	"description": "Scott de Jonge",
+	"dependencies": {
+		"browserify": "latest",
+		"bigfishtv-turret": "latest",
+		"less": "latest"
+	},
+	"devDependencies": {
+		"watchify": "latest",
+		"catw": "latest"
+	},
+	"scripts": {
+		"watch-css": "catw -c 'lessc -' 'styles/styles.less' -o app/webroot/generated/styles/styles.css -v",
+		"watch-js": "watchify scripts/*.js -o app/webroot/generated/scripts/scripts.js -dv",
+		"watch": "npm run watch-css & npm run watch-js",
+		"build-css": "catw -c 'lessc -' 'styles/*.less' > app/webroot/generated/styles/styles.css",
+		"build-js": "browserify scripts/*.js > app/webroot/generated/scripts/scripts.js",
+		"build": "npm run build-css && npm run build-js"
+	}
+}
