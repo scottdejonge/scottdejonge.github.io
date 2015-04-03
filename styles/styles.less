@@ -20,37 +20,6 @@ textarea, input {
 	outline: none;
 }
 
-// Gradient
-@-webkit-keyframes gradient {
-	
-	0% {
-		background-position: 0% 0%;
-	}
-	
-	50% {
-		background-position: 100% 100%;
-	}
-	
-	100% {
-		background-position: 0% 0%;
-	}
-}
-
-@keyframes gradient {
-	
-	0% {
-		background-position: 0% 0%;
-	}
-	
-	50% {
-		background-position: 100% 100%;
-	}
-	
-	100% {
-		background-position: 0% 0%;
-	}
-}
-
 // General
 html,
 body {
@@ -96,7 +65,7 @@ hr {
 	}
 
 	@media @small {
-		margin: 2em;
+		margin: 3.5em 2em;
 	}
 }
 
@@ -202,6 +171,14 @@ ol li {
 	@media @small {
 		margin: 1em 20px;
 	}
+}
+
+// Strong
+strong {
+	.bold-font();
+	.font-size(1.4);
+	font-style: normal;
+	text-transform: uppercase;
 }
 
 // Small
@@ -334,6 +311,8 @@ main {
 }
 
 // Aside
+@aside-background: @inverse;
+
 aside {
 	position: fixed;
 	top: 0;
@@ -341,7 +320,7 @@ aside {
 	padding: 20px;
 	width: 300px;
 	height: 100vh;
-	background: @inverse;
+	background: @aside-background;
 
 	@media @mobile {
 		.translateX(-100%);
@@ -367,11 +346,23 @@ aside {
 		a {
 			margin: 2em auto 3.5em;
 			display: block;
-			.square(100px);
-			border-radius: 50%;
-			background: linear-gradient(180deg, #FC3D39, #FC3159, #FD9427, #FECB2F, #53D769, #3CABDA, #177EFB, #595AD3) !important;
-			background-size: 1200% 1200% !important;
-			.animation(gradient 60s infinite);
+		}
+
+		svg {
+			width: 72px;
+			height: 84px;
+		}
+	}
+
+	hr {
+		background: @grey;
+
+		&:before {
+			background: @aside-background;
+		}
+
+		&:after {
+			color: @grey;
 		}
 	}
 
@@ -390,15 +381,12 @@ aside {
 }
 
 // Nav
+@nav-color: @white;
+
 nav {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	.translateY(-50%);
 
 	ul {
-		margin: 0;
+		margin: 5em 0em;
 		padding: 0;
 
 		li {
@@ -407,23 +395,26 @@ nav {
 
 			a {
 				display: block;
-				padding: 20px;
-				.thin-font();
-				.font-size(2.4);
-				color: @white;
+				padding: 10px 20px;
+				.font-size(1.8);
+				color: @nav-color;
 				text-align: center;
 
 				&:visited {
-					color: darken(@white, 2%);
+					color: darken(@nav-color, 2%);
 				}
 
 				&:hover,
 				&:focus {
-					color: darken(@white, 5%);
+					color: darken(@nav-color, 5%);
 
 					&:visited {
-						color: darken(@white, 5%);
+						color: darken(@nav-color, 5%);
 					}
+				}
+
+				strong {
+					.font-size(1.4);
 				}
 			}
 		}

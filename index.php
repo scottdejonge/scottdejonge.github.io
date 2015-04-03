@@ -3,10 +3,10 @@
 <main role="main">
 
 	<h1>About</h1>
-	<p>I am a Web Designer and Developer from Brisbane, Queensland, Australia.</p>
-	<p>I have a Bachelors in Multimedia from the University of Queensland. I have experience in User Interface and User Experience design.</p>
-	<p>I build things using HTML, CSS, and PHP as well as popular web frameworks such as WordPress, CakePHP, CodeIgnitor, and Bootstrap.</p>
+	<p>I am a Digital Developer at <a href="http://bigfish.tv/" target="_blank">Bigfish.tv</a> in Brisbane, Queensland, Australia. I have a Bachelors in Multimedia from the University of Queensland.</p>
+	<p>I design and build responsive interfaces with a key focus on user interface and user experience design, accessibility, usability, and performance.</p>
 
+	<p><a href="https://twitter.com/scottdejonge" target="_blank"><strong>Twitter</strong></a></p>
 	<hr>
 
 	<h1>Projects</h1>
