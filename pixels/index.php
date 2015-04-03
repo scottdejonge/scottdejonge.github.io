@@ -1,70 +1,70 @@
 <?php include('../includes/header.php'); ?>
 <section>
 	<figure>
-		<img src="barrels.png" alt="Pixel Art Barrels">
+		<img src="/assets/images/barrels.png" alt="Pixel Art Barrels">
 	</figure>
 	<figure>
-		<img src="clouds.png" alt="Pixel Art Clouds">
+		<img src="/assets/images/clouds.png" alt="Pixel Art Clouds">
 	</figure>
 	<figure>
-		<img src="crane.png" alt="Pixel Art Crane">
+		<img src="/assets/images/crane.png" alt="Pixel Art Crane">
 	</figure>
 	<figure>
-		<img src="delorien.png" alt="Pixel Art Delorien">
+		<img src="/assets/images/delorien.png" alt="Pixel Art Delorien">
 	</figure>
 	<figure>
-		<img src="cars.png" alt="Pixel Art">
+		<img src="/assets/images/cars.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="bones.png" alt="Pixel Art">
+		<img src="/assets/images/bones.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="garbage_truck.png" alt="Pixel Art">
+		<img src="/assets/images/garbage_truck.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="guns.png" alt="Pixel Art">
+		<img src="/assets/images/guns.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="heart.png" alt="Pixel Art">
+		<img src="/assets/images/heart.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="jurrasic_park.png" alt="Pixel Art">
+		<img src="/assets/images/jurrasic_park.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="milk.png" alt="Pixel Art">
+		<img src="/assets/images/milk.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="mini.png" alt="Pixel Art">
+		<img src="/assets/images/mini.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="red_apple.png" alt="Pixel Art">
+		<img src="/assets/images/red_apple.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="sprites_player_1.png" alt="Pixel Art">
+		<img src="/assets/images/sprites_player_1.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="sprites_player_2.png" alt="Pixel Art">
+		<img src="/assets/images/sprites_player_2.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="sprites_player_3.png" alt="Pixel Art">
+		<img src="/assets/images/sprites_player_3.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="sprites_player_4.png" alt="Pixel Art">
+		<img src="/assets/images/sprites_player_4.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="sprites_sugar_daddies.png" alt="Pixel Art">
+		<img src="/assets/images/sprites_sugar_daddies.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="thingy.png" alt="Pixel Art">
+		<img src="/assets/images/thingy.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="trucks.png" alt="Pixel Art">
+		<img src="/assets/images/trucks.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="keys.png" alt="Pixel Art">
+		<img src="/assets/images/keys.png" alt="Pixel Art">
 	</figure>
 	<figure>
-		<img src="manhole.png" alt="Pixel Art">
+		<img src="/assets/images/manhole.png" alt="Pixel Art">
 	</figure>
 </section>
 <?php include('../includes/footer.php'); ?>
