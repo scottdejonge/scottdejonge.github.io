@@ -1,22 +1,42 @@
 {
-	"name": "scottdejonge",
-	"version": "0.0.1",
-	"description": "Scott de Jonge",
-	"dependencies": {
-		"browserify": "latest",
-		"bigfishtv-turret": "latest",
-		"less": "latest"
-	},
-	"devDependencies": {
-		"watchify": "latest",
-		"catw": "latest"
-	},
-	"scripts": {
-		"watch-css": "catw -c 'lessc -' 'styles/styles.less' -o app/webroot/generated/styles/styles.css -v",
-		"watch-js": "watchify scripts/*.js -o app/webroot/generated/scripts/scripts.js -dv",
-		"watch": "npm run watch-css & npm run watch-js",
-		"build-css": "catw -c 'lessc -' 'styles/*.less' > app/webroot/generated/styles/styles.css",
-		"build-js": "browserify scripts/*.js > app/webroot/generated/scripts/scripts.js",
-		"build": "npm run build-css && npm run build-js"
-	}
+  "name": "html5",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@code.bigfish.tv:html5.git"
+  },
+  "dependencies": {
+    "less": "2.2.0"
+  },
+  "devDependencies": {
+    "watch": "^0.13.0",
+    "browserify": "8.1.3",
+    "browserify-shim": "3.8.2",
+    "uglify-js": " 2.4.16",
+    "browser-sync": "2.0.1"
+  },
+  "scripts": {
+    "sync": "browser-sync start --proxy \"dev.html5\" --files \"generated/styles/*.css\"",
+    "watch:styles": "watch \"npm run build:styles\" \"styles\"",
+    "watch:scripts": "watch \"npm run build:scripts\" \"scripts\"",
+    "watch": "npm run watch:styles & npm run watch:scripts & npm run sync",
+    "build:styles": "lessc styles/styles.less > generated/styles/styles.css",
+    "build:scripts": "browserify scripts/scripts.js > generated/scripts/scripts.js",
+    "build": "npm run build:styles && npm run build:scripts",
+    "deploy:styles": "lessc -x styles/styles.less > generated/styles/styles.css",
+    "deploy:scripts": "browserify scripts/scripts.js | uglifyjs -c > generated/scripts/scripts.js",
+    "deploy": "npm run deploy:styles && npm run deploy:scripts"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+
+  },
+  "browserify-shim": {
+
+  }
 }
