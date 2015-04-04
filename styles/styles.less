@@ -311,7 +311,7 @@ main {
 }
 
 // Aside
-@aside-background: @inverse;
+@aside-background: #00A1D7;
 
 aside {
 	position: fixed;
@@ -340,6 +340,11 @@ aside {
 		.thin-font();
 	}
 
+	img {
+		width: 50px;
+		height: auto;
+	}
+
 	header {
 		text-align: center;
 
@@ -355,14 +360,14 @@ aside {
 	}
 
 	hr {
-		background: @grey;
+		background: @white;
 
 		&:before {
 			background: @aside-background;
 		}
 
 		&:after {
-			color: @grey;
+			color: @white;
 		}
 	}
 
