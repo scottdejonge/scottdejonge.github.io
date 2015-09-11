@@ -1,14 +1,13 @@
 {
-  "name": "scottdejonge",
+  "name": "rmep",
   "description": "",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottdejonge/scottdejonge.com"
+    "url": "https://github.com/scottdejonge/scottdejonge"
   },
   "dependencies": {
-    "bigfishtv-turret": "^3.0.0",
-    "jquery": "^2.1.4",
+    "bigfishtv-turret": "^3.1.0",
     "less": "^2.5.1"
   },
   "devDependencies": {
@@ -21,24 +20,10 @@
   "scripts": {
     "sync": "browser-sync start --proxy \"dev.scottdejonge\" --files \"generated/styles/*.css\"",
     "watch:styles": "watch \"npm run build:styles\" \"styles\"",
-    "watch:scripts": "watch \"npm run build:scripts\" \"scripts\"",
-    "watch": "npm run watch:styles & npm run watch:scripts & npm run sync",
+    "watch": "npm run watch:styles & npm run sync",
     "build:styles": "lessc -s --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
-    "build:scripts": "browserify scripts/scripts.js > generated/scripts/scripts.js",
-    "build": "npm run build:styles && npm run build:scripts",
+    "build": "npm run build:styles",
     "deploy:styles": "lessc -x --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
-    "deploy:scripts": "browserify scripts/scripts.js | uglifyjs -c > generated/scripts/scripts.js",
-    "deploy": "npm run deploy:styles && npm run deploy:scripts"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-shim"
-    ]
-  },
-  "browser": {
-    
-  },
-  "browserify-shim": {
-    
+    "deploy": "npm run deploy:styles"
   }
 }

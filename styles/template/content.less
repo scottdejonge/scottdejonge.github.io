@@ -1,0 +1,61 @@
+.content {
+	padding-top: @padding-large;
+	padding-bottom: @padding-large;
+	background: @white;
+
+	@media @large-up {
+		padding-top: @padding-xlarge;
+		padding-bottom: @padding-xlarge;
+	}
+
+	h2, h3 {
+		
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	h2 {
+		margin: 50px 0px 35px;
+	}
+
+	h3 {
+		margin: 35px 0px 20px;
+	}
+
+	h4 {
+		margin: 20px 0px 35px;
+		.semibold-font();
+		.uppercase();
+	}
+
+	p {
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.lead {
+
+	}
+
+	.pullout {
+
+	}
+
+	blockquote {
+
+		p {
+
+		}
+
+		cite {
+
+		}
+	}
+}

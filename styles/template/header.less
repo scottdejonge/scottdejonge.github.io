@@ -4,5 +4,40 @@
 
 // Header
 .header {
-	
+	background: @dark;
+
+	@media @medium-up {
+		background: @dark url('../../assets/images/header.svg') no-repeat;
+		background-position: 100% 100%;
+	}
+
+	.lead {
+		color: @primary;
+	}
+}
+
+.header-inner {
+	display: table;
+	width: 100%;
+	height: 50vh;
+}
+
+.header-inner-content {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.header-title {
+	color: @white;
+}
+
+.header-lead {
+	max-width: @max-width-small;
+	color: @white;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }

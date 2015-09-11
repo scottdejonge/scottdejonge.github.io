@@ -9,13 +9,29 @@
 
 // Template
 @import './template/header.less';
+@import './template/content.less';
 @import './template/footer.less';
 
+// Components
+@import './components/grid.less';
+@import './components/card.less';
+@import './components/social.less';
+@import './components/section-title.less';
+
+
+/*
+ * Mixins
+ */
+
+.uppercase() {
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
 
 /*
  * General
  */
 
 body {
-	
+	letter-spacing: 0.035rem;
 }

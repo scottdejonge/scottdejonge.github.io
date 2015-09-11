@@ -1,0 +1,25 @@
+.social {
+	
+	a {
+		display: inline-block;
+		margin-left: 15px;
+
+		&:hover,
+		&:focus {
+
+			svg path {
+				fill: @dark;
+			}
+		}
+	}
+
+	svg {
+		.square(16px);
+		vertical-align: middle;
+
+		path {
+			fill: @light-grey;
+			.transition(all @transition-fast ease-in-out);
+		}
+	}
+}
