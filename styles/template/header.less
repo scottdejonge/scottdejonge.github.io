@@ -4,15 +4,13 @@
 
 // Header
 .header {
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: @dark;
 
 	@media @medium-up {
 		background: @dark url('../../assets/images/header.svg') no-repeat;
 		background-position: 100% 100%;
-	}
-
-	.lead {
-		color: @primary;
 	}
 }
 
@@ -30,12 +28,13 @@
 }
 
 .header-title {
+	font-size: 6.4vh;
 	color: @white;
 }
 
 .header-lead {
-	max-width: @max-width-small;
-	color: @white;
+	font-size: 3.2vh;
+	color: @light-grey;
 
 	&:last-child {
 		margin-bottom: 0;
