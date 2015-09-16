@@ -1,9 +1,9 @@
 .grid {
 	padding: @padding-medium @padding-xsmall;
-	background: @light;
+	background: @white;
 
-	@media @large-up {
-		padding: @padding-xlarge @padding-medium @padding-large;
+	@media @medium-up {
+		padding: @padding-xlarge @padding-medium;
 	}
 }
 
@@ -11,8 +11,8 @@
 	.flex-display(flex);
 	.flex-wrap(wrap);
 	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
 	-ms-flex-pack: start;
+	-webkit-justify-content: flex-start;
 	justify-content: space-between;
 	margin: 0;
 	width: 100%;

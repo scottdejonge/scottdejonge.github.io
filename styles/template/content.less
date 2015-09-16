@@ -2,8 +2,8 @@
 	padding: @padding-medium @padding-xsmall;
 	background: @white;
 
-	@media @large-up {
-		padding: @padding-xlarge @padding-medium @padding-large;
+	@media @medium-up {
+		padding: @padding-xlarge @padding-medium;
 	}
 
 	h2, h3, h4 {
@@ -37,6 +37,15 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	em {
+		color: lighten(@paragraph-color, 20%);
+	}
+
+	strong {
+		.medium-font();
+		color: @dark;
 	}
 
 	.lead {

@@ -3,6 +3,8 @@
 	.flex-display(flex);
 	.flex-direction(column);
 	width: 100%;
+	border: 1px solid @light;
+	box-shadow: 0px 1px 5px fade(@dark, 3.5%);
 }
 
 .card-link {
@@ -16,8 +18,7 @@
 	&:hover,
 	&:focus {
 		text-decoration: none;
-		box-shadow: 0px 1px 20px fade(@dark, 5%);
-
+		
 		.card-footer {
 
 			svg path {
@@ -27,15 +28,10 @@
 	}
 }
 
-.card-header {
-	
-}
-
 .card-image {
 	position: relative;
 	padding-top: 75%;
-	background: @dark;
-	border-bottom: 1px solid @light;
+	background: @light;
 
 	img {
 		.center();
@@ -59,25 +55,16 @@
 
 .card-title {
 	margin: 0;
-	margin-bottom: 20px;
 	.font-size(2);
 	line-height: 1.5;
 }
 
-.card-title-overlay {
-	.center();
-	margin: 0;
-	width: 80%;
-	.bold-font();
-	.font-size(2.4);
-	color: @white;
-	text-align: center;
-	.uppercase();
-	pointer-events: none;
-
-	@media @large-up {
-		.font-size(3.2);
-	}
+.card-divider {
+	margin: 15px auto 15px 0px;
+	width: 100%;
+    max-width: 50px;
+	height: 2px;
+	background: @dark;
 }
 
 .card-summary {
