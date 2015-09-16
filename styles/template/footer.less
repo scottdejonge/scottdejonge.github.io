@@ -1,17 +1,17 @@
-/*
- * Footer
- */
-
-// Footer
 .footer {
-	padding-top: @padding-small;
-	padding-bottom: @padding-small;
+	padding: @padding-small;
+	background: @white;
+	.clearfix();
+
+	@media @large-up {
+		padding: @padding-small @padding-medium;
+	}
 }
 
 .footer-copyright {
 	margin: 0;
 	.medium-font();
 	.font-size(1.4);
-	color: @light-grey;
-	line-height: 1;
+	color: @grey;
+	line-height: 16px;
 }

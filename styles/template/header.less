@@ -4,20 +4,14 @@
 
 // Header
 .header {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background: @dark;
-
-	@media @medium-up {
-		background: @dark url('../../assets/images/header.svg') no-repeat;
-		background-position: 100% 100%;
-	}
+	
 }
 
 .header-inner {
 	display: table;
 	width: 100%;
 	height: 50vh;
+	min-height: 400px;
 }
 
 .header-inner-content {
@@ -28,8 +22,16 @@
 }
 
 .header-title {
-	font-size: 6.4vh;
+	.font-size(4.2);
 	color: @white;
+
+	@media @large {
+		.font-size(5.4);
+	}
+
+	@media @xlarge {
+		.font-size(6.4);
+	}
 }
 
 .header-lead {
