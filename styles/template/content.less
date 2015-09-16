@@ -39,6 +39,10 @@
 		}
 	}
 
+	.lead {
+		max-width: @max-width-xsmall;
+	}
+
 	em {
 		color: lighten(@paragraph-color, 20%);
 	}
@@ -46,6 +50,10 @@
 	strong {
 		.medium-font();
 		color: @dark;
+
+		@media @xsmall {
+			display: block;
+		}
 	}
 
 	.lead {

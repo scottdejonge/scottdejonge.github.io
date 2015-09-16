@@ -32,21 +32,21 @@
 @margin-large: 65px;
 @margin-medium: 50px;
 @margin-small: 35px;
-@margin-xsmall: 20px;
+@margin-xsmall: 15px;
 
 // Padding
 @padding-xlarge: 100px;
 @padding-large: 65px;
 @padding-medium: 50px;
 @padding-small: 35px;
-@padding-xsmall: 20px;
+@padding-xsmall: 15px;
 
 // Max Width
 @max-width-xlarge: 1280px;
 @max-width-large: 1024px;
 @max-width-medium: 800px;
 @max-width-small: 600px;
-@max-width-xsmall: 450px;
+@max-width-xsmall: 300px;
 
 
 /*
@@ -58,7 +58,7 @@
 @body-font-weight: @regular-font-weight; 
 @body-color: @grey;
 @body-line-height: @line-height-medium;
-@body-background: @grey;
+@body-background: @light;
 
 
 /*
@@ -229,11 +229,11 @@
  */
 
 // Lead
-@lead-margin: 0px 0px 35px 0px;
-@lead-font-family: @thin-font-family;
-@lead-font-weight: @thin-font-weight;
-@lead-font-size: 2.4;
-@lead-color: @body-color;
+@lead-margin: 0px 0px @margin-large 0px;
+@lead-font-family: @medium-font-family;
+@lead-font-weight: @medium-font-weight;
+@lead-font-size: @font-size-large;
+@lead-color: @dark;
 @lead-line-height: @line-height-medium;
 
 
@@ -827,10 +827,10 @@
 
 // Nav
 @nav-list-margin: 0;
-@nav-item-margin: 10px 0px;
+@nav-item-margin: 0;
 
 // Nav Inline
-@nav-inline-item-margin: 0px 10px;
+@nav-inline-item-margin: 0;
 
 
 /*

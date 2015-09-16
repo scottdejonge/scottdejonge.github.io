@@ -18,16 +18,20 @@
 <div class="container no-padding">
 
 	<header class="header" role="banner">
-		<div class="header-inner">
-			<div class="header-inner-content">
-				<h1 class="header-title">UI/UX designer<br>&amp; Web developer</h1>
-				<p class="header-lead lead">Data/Design for humans.</p>
-			</div>
-		</div>
+		<img class="header-avatar" src="/assets/images/avatar.png" alt="Scott de Jonge Avatar">
+		<h1 class="header-title">Scott de Jonge</h1>
+		<nav class="navigation">
+			<a href="#about">About</a>
+			<a href="#projects">Projects</a>
+			<a href="#work">Work</a>
+			<a href="#achievements">Achievements</a>
+			<a href="#contact">Contact</a>
+		</nav>
 	</header>
 
-	<section class="content" aria-labelledby="about-title">
-		<h2 id="about-title" class="section-title">About Me</h2>
+	<section id="about" class="content" aria-labelledby="about-title">
+		<h2 id="about-title" class="section-title">About</h2>
+		<p class="lead">UI/UX designer &amp; Web developer.<br>Data &amp; Design for humans.</p>
 		<div class="row">
 			<div class="column-1-2 column-xlarge-1-4 margin-bottom-medium">
 				<h4>Profile</h4>
@@ -69,11 +73,12 @@
 
 	<section class="fact" aria-labelledby="fact-title-1">
 		<h3 id="fact-title-1" class="section-title">Fun Fact</h3>
-		<p>This webpage does not contain Javascript. Sometimes you just don't need it.</p>
+		<p>This site doesn't contain Javascript. Sometimes you don't need it.</p>
 	</section>
 
-	<section class="grid" aria-labelledby="projects-title">
+	<section id="projects" class="content" aria-labelledby="projects-title">
 		<h2 id="projects-title" class="section-title">Projects</h2>
+		<p class="lead">A collection of GitHub repos I'm suppost to be looking after.</p>
 		<ul class="grid-items">
 			<li class="grid-item">
 				<article class="card">
@@ -192,11 +197,12 @@
 
 	<section class="fact" aria-labelledby="fact-title-2">
 		<h3 id="fact-title-2" class="section-title">Fun Fact</h3>
-		<p>This webpage does not contain Javascript. Sometimes you just don't need it.</p>
+		<p>Online battles don't matter. Bickering over technology is mad waste of time.</p>
 	</section>
 
-	<section class="grid" aria-labelledby="work-title">
+	<section id="work" class="content" aria-labelledby="work-title">
 		<h2 id="work-title" class="section-title">Work</h2>
+		<p class="lead">A selection of websites I have worked on at <a href="http://bigfish.tv">bigfish.tv</a>.</p>
 		<ul class="grid-items">
 			<li class="grid-item">
 				<a class="tile" href="#">
@@ -243,36 +249,79 @@
 
 	<section class="fact" aria-labelledby="fact-title-3">
 		<h3 id="fact-title-3" class="section-title">Fun Fact</h3>
-		<p>This webpage is build on semantic markup and SVG for accessible content. This is styled using Turret as a base.</p>
+		<p>The cool kids make sure their markup is semantic and accessible.</p>
 	</section>
 
-	<section class="content" aria-labelledby="achievements-title">
+	<section id="achievements" class="content" aria-labelledby="achievements-title">
 		<h2 id="achievements-title" class="section-title">Achievements</h2>
-		<ul>
-			<li><strong>Born:</strong> all cool, no fool since '89 <em>diapers to designer to developer</em></li>
-			<li><strong>Web User:</strong> browser bad boy since '95 <em>Netscape to Chrome</em></li>
-			<li><strong>Web Maker:</strong> wild wild web since '02 <em>frames to floats to flexbox</em></li>
-			<li><strong>Awards:</strong> fuck awards <em>just make good shit</em></li>
+		<p class="lead">A short but sweet list of my illustrious accomplishments.</p>
+		<ul class="grid-items">
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Born</h4>
+					<p>All cool, no fool since '89<br><em>Diapers to designer to developer</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Web User</h4>
+					<p>Browser bad boy since '95<br><em>Netscape to Chrome</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Web Maker</h4>
+					<p>Wild wild web since '02<br><em>Frames to floats to flexbox</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Awards</h4>
+					<p>Fuck awards<br><em>"Creative's" circle jerk</em></p>
+				</article>
+			</li>
 		</ul>
 	</section>
 
 	<section class="fact" aria-labelledby="fact-title-3">
 		<h3 id="fact-title-3" class="section-title">Fun Fact</h3>
-		<p>This webpage is build on semantic markup and SVG for accessible content. This is styled using Turret as a base.</p>
+		<p>When you don't implement <a href="http://deathtobullshit.com/">bullshit</a>, you don't need to debug <a href="http://deathtobullshit.com/">bullshit</a>.</p>
 	</section>
 
-	<section class="content" aria-labelledby="contact-title">
+	<section id="contact" class="content content-center" aria-labelledby="contact-title">
 		<h2 id="contact-title" class="section-title">Contact</h2>
-		<ul>
-			<li><strong>Twitter:</strong> absolute pure dribble <a href="#">@scottdejonge</a></li>
-			<li><strong>GitHub:</strong> radicool repos <a href="#">@scottdejonge</a></li>
-			<li><strong>Instagram:</strong> poor quality photography <a href="#">@scottdejonge</a></li>
+		<p class="lead"><a href="https://www.youtube.com/watch?v=Jy7ERY_6Hg0">Hello, Hello!<br>Follow me? Okay.</a></p>
+		<ul class="grid-items">
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Twitter</h4>
+					<p><a href="#">@scottdejonge</a><br><em>Absolute pure dribble</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>GitHub</h4>
+					<p><a href="#">@scottdejonge</a><br><em>Radicool repos</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Instagram</h4>
+					<p><a href="#">@scottdejonge</a><br><em>Poor quality photography</em></p>
+				</article>
+			</li>
+			<li class="grid-item">
+				<article class="tile">
+					<h4>Everything</h4>
+					<p><a href="#">@scottdejonge</a><br><em>Just search ya dummy</em></p>
+				</article>
+			</li>
 		</ul>
 	</section>
 
 
 	<footer class="footer" role="contentinfo">
-		<p class="footer-copyright left">Website by Scott de Jonge in 🇦🇺</p>
+		<p class="footer-copyright">Website by Scott de Jonge in 🇦🇺</p>
 	</footer>
 
 </div>
