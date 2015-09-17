@@ -1,0 +1,18 @@
+.hero {
+	position: relative;
+}
+
+.hero-caption {
+	padding: @padding-xsmall;
+	background: @white;
+
+	@media @medium-up {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: @padding-small @padding-medium;
+		color: @white;
+		.gradient(fade(@dark, 0%), 0%, fade(@dark, 50%), 100%);
+	}
+}
