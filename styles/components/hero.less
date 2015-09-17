@@ -6,15 +6,22 @@
 	padding: @padding-xsmall;
 	background: @white;
 
-	@media @medium-up {
+	@media @small-up {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		padding: @padding-small @padding-medium;
 		color: @white;
 		background: transparent;
 		text-shadow: 0px 1px 4px fade(@dark, 20%);
 		.gradient(fade(@dark, 0%), 0%, fade(@dark, 50%), 100%);
+	}
+
+	@media @medium-up {
+		padding: @padding-small @padding-medium;
+	}
+
+	@media @small {
+		padding: @padding-small @padding-xsmall;
 	}
 }
