@@ -12,18 +12,15 @@
   },
   "devDependencies": {
     "watch": "^0.13.0",
-    "browserify": "^10.2.6",
-    "browserify-shim": "^3.8.9",
-    "uglify-js": " ^2.4.23",
+    "cssmin": "^0.4.3",
+    "autoprefixer": "^6.0.3",
     "browser-sync": "^2.7.13"
   },
   "scripts": {
     "sync": "browser-sync start --proxy \"dev.scottdejonge\" --files \"generated/styles/*.css\"",
-    "watch:styles": "watch \"npm run build:styles\" \"styles\"",
-    "watch": "npm run watch:styles & npm run sync",
-    "build:styles": "lessc -s --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
-    "build": "npm run build:styles",
-    "deploy:styles": "lessc -x --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
-    "deploy": "npm run deploy:styles"
+    "watch": "watch \"npm run build:css\" \"styles\"",
+    "build:css": "lessc -s --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
+    "dist:css": "autoprefixer -b 'last 2 versions' < generated/styles/styles.css | cssmin > dist/main.css",
+    "build": "npm run build:css && npm run dist:css"
   }
 }
