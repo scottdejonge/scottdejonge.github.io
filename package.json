@@ -7,20 +7,17 @@
     "url": "https://github.com/scottdejonge/scottdejonge"
   },
   "dependencies": {
-    "bigfishtv-turret": "^3.1.0",
-    "less": "^2.5.1"
+    "bigfishtv-turret": "^3.1.0"
   },
   "devDependencies": {
+    "less": "^2.5.1",
     "watch": "^0.13.0",
-    "cssmin": "^0.4.3",
-    "autoprefixer": "^6.0.3",
-    "browser-sync": "^2.7.13"
+    "browser-sync": "^2.7.13",
+    "less-plugin-autoprefix": "^1.5.0"
   },
   "scripts": {
-    "sync": "browser-sync start --proxy \"dev.scottdejonge\" --files \"generated/styles/*.css\"",
-    "watch": "watch \"npm run build:css\" \"styles\"",
-    "build:css": "lessc -s --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less > generated/styles/styles.css",
-    "dist:css": "autoprefixer -b 'last 2 versions' < generated/styles/styles.css | cssmin > dist/main.css",
-    "build": "npm run build:css && npm run dist:css"
+    "sync": "browser-sync start --proxy \"dev.scottdejonge\" --files \"dist/*.css\"",
+    "watch": "watch \"npm run build\" \"styles\"",
+    "build": "lessc -s --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less --autoprefix > dist/main.css"
   }
 }
