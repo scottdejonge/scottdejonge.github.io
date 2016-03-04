@@ -1,42 +1,31 @@
-.content {
-	padding: @padding-medium @padding-xsmall;
-	background: @white;
-
-	@media @medium-up {
-		padding: @padding-xlarge @padding-medium;
-	}
-
-	h2, h3, h4 {
+.section {
+	margin: @margin-xlarge 0;
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	p,
+	ul,
+	ol,
+	li {
 		
 		&:first-child {
 			margin-top: 0;
 		}
-	}
-
-	h2 {
-		margin: 50px 0px 35px;
-	}
-
-	h3 {
-		margin: 35px 0px 20px;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	h4 {
-		margin: 35px 0px 20px;
 		.semibold-font();
 		.uppercase();
 	}
 
 	p {
-		max-width: 90%;
-
-		&:first-child {
-			margin-top: 0;
-		}
-
-		&:last-child {
-			margin-bottom: 0;
-		}
+		max-width: @max-width-xsmall;
 	}
 
 	.lead {
