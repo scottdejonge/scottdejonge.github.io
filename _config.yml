@@ -1,0 +1,22 @@
+# Site settings
+title: Scott de Jonge
+email: dejonge.scott@gmail.com
+description: "Scott de Jonge is a interaction designer, web developer, and all round cool dude from Brisbane, Australia. Previously a sole trader, now works at bigfish.tv creating universally accessible reponsive web interfaces for anyone anywhere."
+
+# Server
+baseurl: "/"
+destination: _site
+host: 0.0.0.0
+port: 4001
+url: http://scottdejonge.com
+encoding: UTF-8
+exclude: []
+
+# URLs
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+
+# Repo
+repo: https://github.com/scottdejonge/scottdejonge
