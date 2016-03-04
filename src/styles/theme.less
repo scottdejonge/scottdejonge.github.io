@@ -21,32 +21,32 @@
 @transition-slow: 0.5s;
 
 // Height
-@height-xlarge: 65px;
-@height-large: 50px;
-@height-medium: 40px;
-@height-small: 30px;
-@height-xsmall: 20px;
+@height-xlarge: 6.0rem;
+@height-large: 5.0rem;
+@height-medium: 4.4rem;
+@height-small: 3.6rem;
+@height-xsmall: 2.4rem;
 
 // Margin
-@margin-xlarge: 80px;
-@margin-large: 65px;
-@margin-medium: 50px;
-@margin-small: 35px;
-@margin-xsmall: 15px;
+@margin-xlarge: 8.0rem;
+@margin-large: 5.0rem;
+@margin-medium: 3.0rem;
+@margin-small: 2.0rem;
+@margin-xsmall: 1.0rem;
 
 // Padding
-@padding-xlarge: 100px;
-@padding-large: 65px;
-@padding-medium: 50px;
-@padding-small: 35px;
-@padding-xsmall: 15px;
+@padding-xlarge: 8.0rem;
+@padding-large: 5.0rem;
+@padding-medium: 3.0rem;
+@padding-small: 2.0rem;
+@padding-xsmall: 1.0rem;
 
 // Max Width
-@max-width-xlarge: 1280px;
-@max-width-large: 1024px;
-@max-width-medium: 800px;
-@max-width-small: 600px;
-@max-width-xsmall: 300px;
+@max-width-xlarge: 128rem;
+@max-width-large: 100rem;
+@max-width-medium: 80rem;
+@max-width-small: 60rem;
+@max-width-xsmall: 48rem;
 
 
 /*
@@ -58,7 +58,21 @@
 @body-font-weight: @regular-font-weight; 
 @body-color: @grey;
 @body-line-height: @line-height-medium;
-@body-background: @light;
+@body-letter-spacing: 0.01rem;
+@body-background: @white;
+
+
+/*
+ * Root
+ */
+
+// Root Size
+@root-size: 10px;
+@root-size-xlarge: @root-size;
+@root-size-large: @root-size;
+@root-size-medium: @root-size;
+@root-size-small: @root-size - 1;
+@root-size-xsmall: @root-size - 2;
 
 
 /*
@@ -90,6 +104,31 @@
 
 
 /*
+ * Container
+ */
+
+// Container
+@container-xsmall: 100%;
+@container-small: 100%;
+@container-medium: 1024px;
+@container-large: 1280px;
+@container-xlarge: 1280px;
+
+
+/*
+ * Gutter
+ */
+
+// Gutter
+@gutter: 1.6rem;
+@gutter-xlarge: @gutter;
+@gutter-large: @gutter;
+@gutter-medium: @gutter;
+@gutter-small: @gutter;
+@gutter-xsmall: @gutter;
+
+
+/*
  * Font
  */
 
@@ -113,14 +152,6 @@
 @semibold-font-weight: normal;
 @bold-font-weight: normal;
 
-// Base Font Size
-@base-font-size: 10px;
-@base-font-size-xlarge: @base-font-size;
-@base-font-size-large: @base-font-size;
-@base-font-size-medium: @base-font-size;
-@base-font-size-small: @base-font-size;
-@base-font-size-xsmall: @base-font-size;
-
 // Font Sizes
 @font-size-xlarge: 2.4;
 @font-size-large: 1.8;
@@ -128,12 +159,13 @@
 @font-size-small: 1.4;
 @font-size-xsmall: 1.2;
 
+
 // Line height
-@line-height-xlarge: 1.75;
+@line-height-xlarge: 1.8;
 @line-height-large: 1.65;
 @line-height-medium: 1.5;
-@line-height-small: 1.2;
-@line-height-xsmall: 1;
+@line-height-small: 1.35;
+@line-height-xsmall: 1.2;
 
 
 /*
@@ -156,7 +188,7 @@
 // Screen Sizes
 @screen-xsmall: 480px;
 @screen-xsmall-max: (@screen-small-min - 1);
-@screen-small: 768px;
+@screen-small: 640px;
 @screen-small-min: @screen-small;
 @screen-small-max: (@screen-medium-min - 1);
 @screen-medium: 1024px;
@@ -182,6 +214,7 @@
 
 // Headings Small
 @headings-small-font-family: @medium-font-family;
+@headings-small-font-weight: @medium-font-weight;
 @headings-small-size: 0.6em;
 @headings-small-color: @grey;
 
@@ -199,8 +232,8 @@
  */
 
 // Strong
-@strong-font-family: @bold-font-family;
-@strong-font-weight: @bold-font-weight;
+@strong-font-family: @semibold-font-family;
+@strong-font-weight: @semibold-font-weight;
 
 
 /*
@@ -216,12 +249,12 @@
  */
 
 // Paragraph
-@paragraph-margin: 20px 0px;
+@paragraph-margin: 2rem 0;
 @paragraph-font-family: @regular-font-family;
 @paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-medium;
 @paragraph-color: @body-color;
-@paragraph-line-height: 1.6;
+@paragraph-line-height: @line-height-medium;
 
 
 /*
@@ -284,8 +317,9 @@
 @pullout-font-family: @blockquote-quote-font-family;
 @pullout-font-weight: @blockquote-quote-font-weight;
 @pullout-font-size: @blockquote-quote-font-size;
+@pullout-color: @lead-color;
 @pullout-border: solid @primary;
-@pullout-border-width:  0px 0px 0px 5px;
+@pullout-border-width: 0 0 0 0.4rem;
 
 
 /*
@@ -293,24 +327,25 @@
  */
 
 // List
-@list-margin: 20px 0px;
+@list-margin: 2rem 0;
 @list-padding: 0;
 
 // Lists Item
-@list-item-margin: 0;
+@list-item-margin: 1rem 0 1rem 2rem;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
 @list-item-color: @paragraph-color;
+@list-item-line-height: @paragraph-line-height;
 
 // Child List
-@child-list-margin: 10px 0px;
+@child-list-margin: 1rem 0;
 @child-list-padding: 0;
 @child-list-item-margin: @list-item-margin;
 
 // Unordered List
-@unordered-list-icon: none;
-@unordered-child-list-icon: none;
+@unordered-list-icon: disc;
+@unordered-child-list-icon: disc;
 
 
 /*
@@ -322,14 +357,14 @@
 @definition-list-padding: 0;
 
 // Definition Term
-@definition-term-margin: 10px 0px;
+@definition-term-margin: 1rem 0;
 @definition-term-font-family: @semibold-font-family;
 @definition-term-font-weight: @semibold-font-weight;
 @definition-term-font-size: @font-size-medium;
 @definition-term-color: @paragraph-color;
 
 // Definition Description
-@definition-description-margin: 0px 0px 20px 0px;
+@definition-description-margin: 0 0 2rem 0;
 @definition-description-font-family: @regular-font-family;
 @definition-description-font-weight: @regular-font-weight;
 @definition-description-font-size: @font-size-medium;
@@ -352,17 +387,17 @@
  */
 
 // Pre
-@pre-margin: 20px 0px;
-@pre-padding: 10px;
+@pre-margin: 2rem 0;
+@pre-padding: 1rem;
 @pre-color: @body-color;
 @pre-tab-size: 4;
 @pre-hyphens: none;
 @pre-line-height: @line-height-medium;
-@pre-background: #FCFCFE;
-@pre-border: 1px solid @light;
+@pre-background: lighten(@light, 1%);
+@pre-border: 1px solid @light-grey;
 
 // Pre Code
-@pre-code-color: @body-color;
+@pre-code-color: @code-color;
 
 
 /*
@@ -370,8 +405,8 @@
  */
 
 // Kbd
-@kbd-margin: 0px 5px;
-@kbd-padding: 4px;
+@kbd-margin: 0 0.5rem;
+@kbd-padding: 0.4rem;
 @kbd-font-family: @code-font-family;
 @kbd-font-weight: @code-font-weight;
 @kbd-font-size: @code-font-size;
@@ -381,28 +416,39 @@
 
 
 /*
- * Container
+ * Mark
  */
 
-// Container
-@container-xsmall: 100%;
-@container-small: 100%;
-@container-medium: 1024px;
-@container-large: 1280px;
-@container-xlarge: 1680px;
+// Mark
+@mark-margin: 0;
+@mark-padding: 0.3rem;
+@mark-font-family: @paragraph-font-family;
+@mark-font-weight: @paragraph-font-weight;
+@mark-font-size: @paragraph-font-size;
+@mark-color: @paragraph-color;
+@mark-background: yellow;
+@mark-border: none;
+@mark-border-radius: @border-radius;
 
+// Mark Error
+@mark-error-color: @white;
+@mark-error-background: @error;
+@mark-error-border: none;
 
-/*
- * Gutter
- */
+// Mark Warning
+@mark-warning-color: @white;
+@mark-warning-background: @warning;
+@mark-warning-border: none;
 
-// Gutter
-@gutter: 15px;
-@gutter-xlarge: 50px;
-@gutter-large: 35px;
-@gutter-medium: @gutter;
-@gutter-small: @gutter;
-@gutter-xsmall: @gutter;
+// Mark Success
+@mark-success-color: @white;
+@mark-success-background: @success;
+@mark-success-border: none;
+
+// Mark Info
+@mark-info-color: @white;
+@mark-info-background: @info;
+@mark-info-border: none;
 
 
 /*
@@ -410,11 +456,11 @@
  */
 
 // Label
-@label-margin: 15px 0px;
-@label-font-family: @semibold-font-family;
-@label-font-weight: @semibold-font-weight;
-@label-font-size: 1.2;
-@label-color: @dark;
+@label-margin: 1rem 0;
+@label-font-family: @medium-font-family;
+@label-font-weight: @medium-font-weight;
+@label-font-size: @font-size-xsmall;
+@label-color: @grey;
 @label-line-height: @line-height-medium;
 
 
@@ -424,11 +470,11 @@
 
 // Fieldset
 @fieldset-margin: 0;
-@fieldset-padding: 20px;
-@fieldset-border: 1px solid @grey;
+@fieldset-padding: 2rem;
+@fieldset-border: 1px solid @light-grey;
 
 // Feildset Legend
-@fieldset-legend-padding: 10px;
+@fieldset-legend-padding: 1rem;
 @fieldset-legend-font-size: @font-size-medium;
 @fieldset-legend-color: @grey;
 
@@ -441,7 +487,7 @@
 @form-message-margin: @label-margin;
 @form-message-font-family: @paragraph-font-family;
 @form-message-font-weight: @paragraph-font-weight;
-@form-message-font-size: 1.2;
+@form-message-font-size: @font-size-small;
 @form-message-color: @body-color;
 @form-message-line-height: @paragraph-line-height;
 
@@ -459,20 +505,25 @@
 // Input
 @input-height: @height-medium;
 @input-margin: @label-margin;
-@input-padding: 0 16px;
+@input-padding: 0 1.6rem;
 @input-color: @body-color;
 @input-font-family: @regular-font-family;
 @input-font-weight: @regular-font-weight;
-@input-font-size: @font-size-medium;
+@input-font-size: @font-size-small;
 @input-line-height: @line-height-medium;
 @input-background: @white;
 @input-border: 1px solid @light-grey;
 @input-border-radius: @border-radius;
 
+// Input Hover
+@input-hover-color: @input-color;
+@input-hover-background: darken(@input-background, 2%);
+@input-hover-border: 1px solid darken(@light-grey, 10%);
+
 // Input Focus
 @input-focus-color: @input-color;
 @input-focus-background: darken(@input-background, 2%);
-@input-focus-border: 1px solid darken(@light-grey, 10%);
+@input-focus-border: 1px solid @primary;
 
 // Input Placeholder
 @input-placeholder-font-family: @input-font-family;
@@ -486,6 +537,13 @@
 @input-inverse-color: @white;
 @input-inverse-background: @inverse;
 @input-inverse-border: none;
+
+// Input Inverse Hover
+@input-inverse-hover-color: @input-inverse-color;
+@input-inverse-hover-background: darken(@input-inverse-background, 2%);
+@input-inverse-hover-border: @input-inverse-border;
+
+// Input Inverse Focus
 @input-inverse-focus-color: @input-inverse-color;
 @input-inverse-focus-background: darken(@input-inverse-background, 2%);
 @input-inverse-focus-border: @input-inverse-border;
@@ -496,10 +554,10 @@
 @input-disabled-border: 1px solid darken(@light, 10%);
 
 // Input Search
-@input-search-border-radius: 20px;
+@input-search-border-radius: 2rem;
 
 // Textarea
-@textarea-padding: 12px 16px;
+@textarea-padding: 1.6rem;
 @textarea-line-height: @line-height-medium;
 
 
@@ -507,7 +565,7 @@
  * Input Indicators
  */
 
-// Indicators
+// Input Indicators
 @input-error-color: @error;
 @input-warning-color: @warning;
 @input-success-color: @success;
@@ -519,27 +577,27 @@
  */
 
 // Input Extra Large
-@input-xlarge-padding: 0 30px;
+@input-xlarge-padding: 0 2.0rem;
 @input-xlarge-height: @height-xlarge;
-@input-xlarge-font-size: @font-size-xlarge;
+@input-xlarge-font-size: @font-size-large;
 
 // Input Large
-@input-large-padding: 0 25px;
+@input-large-padding: 0 1.6rem;
 @input-large-height: @height-large;
-@input-large-font-size: @font-size-large;
+@input-large-font-size: @font-size-medium;
 
 // Input Medium
-@input-medium-padding: 0 16px;
+@input-medium-padding: 0 1.2rem;
 @input-medium-height: @input-height;
 @input-medium-font-size: @input-font-size;
 
 // Input Small
-@input-small-padding: 0 12px;
+@input-small-padding: 0 1.2rem;
 @input-small-height: @height-small;
 @input-small-font-size: @font-size-small;
 
 // Input Extra Small
-@input-xsmall-padding: 0 8px;
+@input-xsmall-padding: 0 0.8rem;
 @input-xsmall-height: @height-xsmall;
 @input-xsmall-font-size: @font-size-xsmall;
 
@@ -549,12 +607,12 @@
  */
 
 // Control
-@control-margin: @label-margin;
-@control-padding: 0px 0px 0px 1.5em;
+@control-margin: @input-margin;
+@control-padding: 0 0 0 1.5em;
 @control-color: @input-color;
 
 // Control Indicator
-@control-indicator-size: 16px;
+@control-indicator-size: 1.6rem;
 @control-indicator-color: @primary;
 @control-indicator-background: @input-background;
 @control-indicator-border: @input-border;
@@ -565,14 +623,15 @@
 @control-label-checked-color: @control-label-color;
 
 // Control Label
-@control-label-margin: 0px 0px 0px 10px;
-@control-label-font-family: @label-font-family;
+@control-label-margin: 0 0 0 1rem;
+@control-label-font-family: @input-font-family;
+@control-label-font-weight: @input-font-weight;
 @control-label-font-size: @label-font-size;
-@control-label-color: @label-color;
-@control-label-line-height: 1.5;
+@control-label-color: @input-color;
+@control-label-line-height: @input-line-height;
 
 // Control Inline
-@control-inline-margin-right: 20px;
+@control-inline-margin-right: 2rem;
 
 // Checkbox
 @checkbox-border-radius: none;
@@ -593,12 +652,13 @@
 @select-font-weight: @input-font-weight;
 @select-font-size: @input-font-size;
 @select-color: @input-color;
+@select-line-height: auto;
 @select-background: @input-background;
 @select-border: @input-border;
 @select-border-radius: @border-radius;
 
 // Select Arrow
-@select-arrow-size: 5px;
+@select-arrow-size: 0.4rem;
 @select-arrow-background: @dark;
 
 // Select Inverse
@@ -643,23 +703,23 @@
  */
 
 // Button
-@button-padding: 12px 20px;
+@button-padding: 1.4rem 1.8rem;
 @button-height: @height-medium;
-@button-font-family: @bold-font-family;
-@button-font-weight: @bold-font-weight;
-@button-font-size: 1.4;
+@button-font-family: @semibold-font-family;
+@button-font-weight: @semibold-font-weight;
+@button-font-size: @font-size-small;
 @button-color: @dark-grey;
 @button-line-height: 1;
 @button-text-align: center;
-@button-text-transform: uppercase;
+@button-text-transform: none;
 @button-background: @white;
 @button-border: 1px solid @light-grey;
 @button-border-radius: @border-radius;
 
 // Button Hover
-@button-hover-color: @dark-grey;
-@button-hover-background: darken(@button-background, 10%);
-@button-hover-border: 1px solid darken(@light-grey, 10%);
+@button-hover-color: @primary;
+@button-hover-background: @button-background;
+@button-hover-border: 1px solid @primary;
 
 
 /*
@@ -731,7 +791,7 @@
  * Button Indicators
  */
 
-// Button Error
+//Button Error
 @button-error-color: @white;
 @button-error-background: @error;
 @button-error-border: none;
@@ -739,7 +799,7 @@
 @button-error-hover-background: darken(@error, 10%);
 @button-error-hover-border: none;
 
-// Button Warning
+//Button Warning
 @button-warning-color: @white;
 @button-warning-background: @warning;
 @button-warning-border: none;
@@ -747,7 +807,7 @@
 @button-warning-hover-background: darken(@warning, 10%);
 @button-warning-hover-border: none;
 
-// Button Success
+//Button Success
 @button-success-color: @white;
 @button-success-background: @success;
 @button-success-border: none;
@@ -755,7 +815,7 @@
 @button-success-hover-background: darken(@success, 10%);
 @button-success-hover-border: none;
 
-// Button Info
+//Button Info
 @button-info-color: @white;
 @button-info-background: @info;
 @button-info-border: none;
@@ -769,14 +829,14 @@
  */
 
 // Button Extra Large
-@button-xlarge-padding: 20px 50px;
+@button-xlarge-padding: 2.0rem 3.2rem;
 @button-xlarge-height: @height-xlarge;
-@button-xlarge-font-size: 1.8;
+@button-xlarge-font-size: 1.6;
 
 // Button Large
-@button-large-padding: 18px 35px;
+@button-large-padding: 1.7rem 2.8rem;
 @button-large-height: @height-large;
-@button-large-font-size: 1.6;
+@button-large-font-size: 1.5;
 
 // Button Medium
 @button-medium-padding: @button-padding;
@@ -784,14 +844,56 @@
 @button-medium-font-size: @button-font-size;
 
 // Button Small
-@button-small-padding: 8px 16px;
+@button-small-padding: 1.1rem 1.6rem;
 @button-small-height: @height-small;
-@button-small-font-size: @font-size-small;
+@button-small-font-size: 1.3;
 
 // Button Extra Small
-@button-xsmall-padding: 4px 12px;
+@button-xsmall-padding: 0.6rem 1.2rem;
 @button-xsmall-height: @height-xsmall;
-@button-xsmall-font-size: @font-size-xsmall;
+@button-xsmall-font-size: 1.2;
+
+
+/*
+ * Button Icon
+ */
+
+// Button Icon
+@button-icon-size: @button-font-size;
+@button-icon-fill: @button-color;
+@button-icon-left-margin: 1em;
+@button-icon-right-margin: 1em;
+
+// Button Icon Styles
+@button-icon-inverse-fill: @button-inverse-color;
+@button-icon-inverse-hover-fill: @button-inverse-hover-color;
+@button-icon-primary-fill: @button-primary-color;
+@button-icon-primary-hover-fill: @button-primary-hover-color;
+@button-icon-secondary-fill: @button-secondary-color;
+@button-icon-secondary-hover-fill: @button-secondary-hover-color;
+@button-icon-tertiary-fill: @button-tertiary-color;
+@button-icon-tertiary-hover-fill: @button-tertiary-hover-color;
+@button-icon-border-fill: @button-border-color;
+@button-icon-border-hover-fill: @button-border-hover-color;
+@button-icon-text-fill: @button-text-color;
+@button-icon-text-hover-fill: @button-text-hover-color;
+
+// Button Icon Indicators
+@button-icon-error-fill: @button-error-color;
+@button-icon-error-hover-fill: @button-error-hover-color;
+@button-icon-warning-fill: @button-warning-color;
+@button-icon-warning-hover-fill: @button-warning-hover-color;
+@button-icon-success-fill: @button-success-color;
+@button-icon-success-hover-fill: @button-success-hover-color;
+@button-icon-info-fill: @button-info-color;
+@button-icon-info-hover-fill: @button-info-hover-color;
+
+// Button Icon Sizes
+@button-icon-xlarge-size: @button-xlarge-font-size;
+@button-icon-large-size: @button-large-font-size;
+@button-icon-medium-size: @button-medium-font-size;
+@button-icon-small-size: @button-small-font-size;
+@button-icon-xsmall-size: @button-xsmall-font-size;
 
 
 /*
@@ -818,7 +920,7 @@
  */
 
 // Media
-@media-background: @white;
+@media-background: transparent;
 
 
 /*
@@ -838,11 +940,13 @@
  */
 
 // Table
+@table-margin: @paragraph-margin;
 @table-background: none;
+@table-border: 1px solid @light-grey;
 @table-border-radius: @border-radius;
 
 // Table Caption
-@table-caption-margin: 5px 10px;
+@table-caption-margin: 1rem 0;
 @table-caption-font-family: @bold-font-family;
 @table-caption-font-weight: @bold-font-weight;
 @table-caption-font-size: @font-size-medium;
@@ -850,33 +954,25 @@
 @table-caption-text-align: left;
 
 // Table Head
-@table-head-padding: 10px;
+@table-head-padding: 1rem;
 @table-head-font-family: @bold-font-family;
 @table-head-font-weight: @bold-font-weight;
 @table-head-font-size: @paragraph-font-size;
 @table-head-text-align: left;
 @table-head-text-transform: none;
 @table-head-color: @body-color;
+@table-head-border: @table-border;
+@table-head-background: @light;
 
-// Table Body
-@table-cell-padding: 10px;
+// Table Cell
+@table-cell-padding: 1rem;
 @table-cell-font-family: @regular-font-family;
 @table-cell-font-weight: @regular-font-weight;
 @table-cell-font-size: @paragraph-font-size;
 @table-cell-color: @body-color;
 @table-cell-line-height: @line-height-medium;
 @table-cell-vertical-align: middle;
-
-// Table Border
-@table-border: solid @light-grey;
-@table-border-width: 1px;
-
-// Table Block
-@table-block-head-background: @light;
+@table-cell-border: @table-border;
 
 // Table Reponsive
-@table-responsive-breakpoint: @small-down;
-@table-responsive-row-margin: 20px 0px;
-@table-responsive-cell-padding: 10px;
-@table-responsive-border: solid @light;
-@table-responsive-border-width: 1px;
+@table-responsive-breakpoint: @xsmall;
