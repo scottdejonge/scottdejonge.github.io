@@ -2,6 +2,12 @@ $gutter: 10px;
 
 $fast: 100ms;
 
+$avenir-black: 'AvenirLTStd-Black';
+$avenir-heavy: 'AvenirLTStd-Heavy';
+$avenir-medium: 'AvenirLTStd-Medium';
+$avenir-roman: 'AvenirLTStd-Roman';
+$avenir-light: 'AvenirLTStd-Light';
+
 $serif: Georgia, Times, Times New Roman, serif;
 $sans-serif: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 
