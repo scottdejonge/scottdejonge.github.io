@@ -10,7 +10,8 @@ host: 0.0.0.0
 port: 4001
 url: http://scottdejonge.com
 encoding: UTF-8
-exclude: []
+exclude:
+  - node_modules
 
 # URLs
 permalink: /:categories/:title/
