@@ -1,28 +1,13 @@
 .footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	border-top: 1px solid $light-grey;
+	padding: $space-s;
+	background: $white;
+	text-align: center;
+	border-top: 1px solid $light;
 }
 
-.footer-navigation {
-	display: inline-flex;
-	
-	a {
-		padding: 1.5rem;
-		font-size: 1.2rem;
-		color: $dark-grey;
-		text-decoration: none;
-		border-right: 1px solid $light-grey;
-
-		&:first-child {
-			border-left: 1px solid $light-grey;
-		}
-
-		&:hover,
-		&:focus {
-			color: $dark-grey;
-			text-decoration: none;
-		}
-	}
+.footer-copyright {
+	margin: 0;
+	font-size: 1.4rem;
+	color: $grey;
+	line-height: 16px;
 }

@@ -15,6 +15,6 @@ body {
 	flex-direction: column;
 	min-height: 100%;
 	color: $dark-grey;
-	letter-spacing: 0.03rem;
+	letter-spacing: $letter-spacing;
 	background: $light;
 }
