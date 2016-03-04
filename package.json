@@ -1,24 +1,32 @@
 {
   "name": "scottdejonge",
-  "description": "",
   "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "author": "Scott de Jonge <dejonge.scott@gmail.com> (http://scottdejonge.com/)",
+  "homepage": "http://scottdejonge.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/scottdejonge/scottdejonge"
   },
-  "dependencies": {
-    "bigfishtv-turret": "^3.1.0"
+  "bugs": {
+    "url": "https://github.com/scottdejonge/scottdejonge/issues"
   },
+  "dependencies": {},
   "devDependencies": {
-    "less": "^2.5.1",
-    "watch": "^0.13.0",
-    "browser-sync": "^2.7.13",
-    "less-plugin-autoprefix": "^1.5.0",
-    "less-plugin-clean-css": "^1.5.1"
+    "autoprefixer": "^6.3.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss": "^5.0.14",
+    "postcss-import": "^8.0.2",
+    "postcss-loader": "^0.8.0",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.2"
   },
   "scripts": {
-    "sync": "browser-sync start --proxy \"dev.scottdejonge\" --files \"dist/*.css\"",
-    "watch": "watch \"npm run build\" \"styles\"",
-    "build": "lessc --include-path=\"node_modules/bigfishtv-turret\" styles/styles.less --clean-css --autoprefix  > dist/main.css"
+    "start": "npm run watch",
+    "watch": "webpack -d --watch"
   }
 }
