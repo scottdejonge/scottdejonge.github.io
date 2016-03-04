@@ -1,4 +1,6 @@
+var path = require('path');
 var webpack = require('webpack');
+var postcss = require('postcss');
 var autoprefixer = require('autoprefixer');
 var precss = require('precss');
 var postcssImport = require('postcss-import');
@@ -11,11 +13,21 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
   },
+  plugins: [
+    new ExtractTextPlugin('bundle.css', {
+      allChunks: true
+    })
+  ],
   module: {
     loaders: [
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader')
+        include: path.join(__dirname, 'src/css'),
+        loader: ExtractTextPlugin.extract('css-loader!postcss-loader'),
+      },
+      {
+        test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?/,
+        loader: 'url?limit=8000&name=[name].[ext]'
       }
     ]
   },
@@ -30,15 +42,5 @@ module.exports = {
       }),
       precss
     ];
-  },
-  devtool: 'source-map',
-  devServer: {
-    contentBase: './dist',
-    hot: true
-  },
-  plugins: [
-    new ExtractTextPlugin('bundle.css', {
-      allChunks: true
-    })
-  ]
+  }
 };
