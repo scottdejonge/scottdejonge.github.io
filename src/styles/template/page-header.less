@@ -1,0 +1,27 @@
+.page-header {
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	background: @dark;
+
+	h1,
+	h2 {
+		margin: 0.5em 0;
+		color: @white;
+		
+		&:first-child {
+			margin-top: 0;
+		}
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	h1 {
+		.font-size(4.8);
+	}
+
+	h2 {
+		.font-size(3.6);
+	}
+}

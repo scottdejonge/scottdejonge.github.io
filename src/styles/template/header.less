@@ -1,25 +1,33 @@
 .header {
-	padding: @padding-medium @padding-xsmall;
+	padding-top: @padding-xsmall;
+	padding-bottom: @padding-xsmall;
 	text-align: center;
 	background: @white;
+}
 
-	@media @medium-up {
-		padding: @padding-medium;
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-logo {
+	display: block;
+	margin: 0px auto;
+
+	img {
+		.square(32px);
+		border-radius: 50%;
 	}
 }
 
-.header-avatar {
-	margin: 0px auto;
-	.square(112px);
-	border-radius: 56px;
-}
-
-.header-title {
-	margin: 30px 0px 10px;
-	.bold-font();
-	.uppercase();
-
-	@media @xsmall {
-		.font-size(2.4);
+.header-navigation {
+	
+	a {
+		display: inline-block;
+		padding: 10px;
+		.semibold-font();
+		.font-size(@font-size-small);
+		.uppercase(0.1rem);
 	}
 }

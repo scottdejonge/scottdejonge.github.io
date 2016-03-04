@@ -1,27 +1,30 @@
 .hero {
+	background: @dark;
+}
+
+.hero-image {
 	position: relative;
 }
 
-.hero-caption {
+.hero-image-inner {
+	position: absolute;
+	top: 50%;
+	left: @gutter * 2;
+	right: 0;
 	padding: @padding-xsmall;
-	background: @white;
-
-	@media @small-up {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
+	.translateY(-50%);
+	
+	h1,
+	p {
 		color: @white;
-		background: transparent;
 		text-shadow: 0px 1px 4px fade(@dark, 20%);
-		.gradient(fade(@dark, 0%), 0%, fade(@dark, 50%), 100%);
-	}
 
-	@media @medium-up {
-		padding: @padding-small @padding-medium;
-	}
-
-	@media @small {
-		padding: @padding-small @padding-xsmall;
+		&:first-child {
+			margin-top: 0;
+		}
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
