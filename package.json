@@ -12,11 +12,16 @@
   "bugs": {
     "url": "https://github.com/scottdejonge/scottdejonge/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bigfishtv-turret": "^3.2.0"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
     "path": "^0.12.7",
     "postcss": "^5.0.14",
     "postcss-import": "^8.0.2",

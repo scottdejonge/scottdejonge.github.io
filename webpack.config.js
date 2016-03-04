@@ -2,8 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 var postcss = require('postcss');
 var autoprefixer = require('autoprefixer');
-var precss = require('precss');
-var postcssImport = require('postcss-import');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -21,9 +19,9 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.css$/,
-        include: path.join(__dirname, 'src/css'),
-        loader: ExtractTextPlugin.extract('css-loader!postcss-loader'),
+        test: /\.less$/,
+        include: path.join(__dirname, 'src/styles'),
+        loader: ExtractTextPlugin.extract('css-loader!postcss-loader!less-loader'),
       },
       {
         test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?/,
@@ -35,12 +33,7 @@ module.exports = {
     return [
       autoprefixer({
         browsers: ['last 2 versions']
-      }),
-      postcssImport({
-        path: './src/css/*.css',
-        addDependencyTo: webpack
-      }),
-      precss
+      })
     ];
   }
 };
