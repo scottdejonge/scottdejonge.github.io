@@ -56,9 +56,9 @@
 // Body
 @body-font-family: @regular-font-family;
 @body-font-weight: @regular-font-weight; 
-@body-color: @dark-grey;
+@body-color: @grey;
 @body-line-height: @line-height-medium;
-@body-letter-spacing: 0.01rem;
+@body-letter-spacing: 0.02rem;
 @body-background: @white;
 
 
@@ -82,9 +82,9 @@
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #F0F1F5;
-@grey: #6B727B;
-@dark-grey: #414851;
+@light-grey: #F6F6F6;
+@grey: #666666;
+@dark-grey: #444444;
 
 //Indicators
 @info: #149CFD;
@@ -94,7 +94,7 @@
 
 //Palette
 @light: #F0F1F5;
-@dark: #121212;
+@dark: #333333;
 @primary: #02A1D7;
 @secondary: #2FCC9D;
 @tertiary: #B2347E;
@@ -154,10 +154,10 @@
 
 // Font Sizes
 @font-size-xlarge: 2.4;
-@font-size-large: 1.8;
-@font-size-medium: 1.6;
-@font-size-small: 1.4;
-@font-size-xsmall: 1.2;
+@font-size-large: 2.0;
+@font-size-medium: 1.8;
+@font-size-small: 1.6;
+@font-size-xsmall: 1.4;
 
 
 // Line height
@@ -249,11 +249,11 @@
  */
 
 // Paragraph
-@paragraph-margin: 2rem 0;
+@paragraph-margin: 1.5em 0;
 @paragraph-font-family: @regular-font-family;
 @paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-medium;
-@paragraph-color: @body-color;
+@paragraph-color: @dark-grey;
 @paragraph-line-height: @line-height-medium;
 
 
@@ -262,12 +262,12 @@
  */
 
 // Lead
-@lead-margin: 0 0 2em 0;
-@lead-font-family: @medium-font-family;
-@lead-font-weight: @medium-font-weight;
+@lead-margin: 2em 0;
+@lead-font-family: @thin-font-family;
+@lead-font-weight: @thin-font-weight;
 @lead-font-size: @font-size-large;
 @lead-color: @dark;
-@lead-line-height: @line-height-medium;
+@lead-line-height: @line-height-small;
 
 
 /*
@@ -285,16 +285,16 @@
  */
 
 // Blockquote
-@blockquote-margin: 0;
-@blockquote-padding: 0;
+@blockquote-margin: @lead-margin;
+@blockquote-padding: 0 0 0 @padding-medium;
 
 // Blockquote Quote
 @blockquote-quote-margin: 0;
-@blockquote-quote-font-family: @paragraph-font-family;
-@blockquote-quote-font-weight: @paragraph-font-weight;
-@blockquote-quote-font-size: @paragraph-font-size;
+@blockquote-quote-font-family: @lead-font-family;
+@blockquote-quote-font-weight: @lead-font-weight;
+@blockquote-quote-font-size: @lead-font-size;
 @blockquote-quote-font-style: normal;
-@blockquote-quote-line-height: @paragraph-line-height;
+@blockquote-quote-line-height: @lead-line-height;
 @blockquote-quote-color: @body-color;
 
 // Blockquote Cite
@@ -397,7 +397,7 @@
 @pre-border: 1px solid @light-grey;
 
 // Pre Code
-@pre-code-color: @code-color;
+@pre-code-color: @grey;
 
 
 /*
