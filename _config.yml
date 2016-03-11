@@ -19,5 +19,10 @@ permalink: /:categories/:title/
 # Build settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 # Repo
 repo: https://github.com/scottdejonge/scottdejonge
