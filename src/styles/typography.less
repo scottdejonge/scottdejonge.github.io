@@ -66,6 +66,30 @@ ul {
 	}
 }
 
+blockquote {
+	position: relative;
+	text-align: center;
+
+	&::before,
+	&::after {
+		position: absolute;
+		left: 50%;
+		margin-left: -15px;
+		content: '';
+		width: 30px;
+		height: 2px;
+		background: @light-grey;
+	}
+
+	&::before {
+		margin-top: -3.0rem;
+	}
+
+	&::after {
+		margin-top: 3.0rem;
+	}
+}
+
 .footnotes {
 	
 	ol {
