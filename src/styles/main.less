@@ -12,22 +12,43 @@
 
 // Template
 @import './template/header.less';
+@import './template/logo.less';
 @import './template/section.less';
-@import './template/page-header.less';
 @import './template/footer.less';
 
 // Components
-@import './components/card.less';
+@import './components/project.less';
 @import './components/hero.less';
 @import './components/list.less';
-@import './components/social.less';
-@import './components/tile.less';
-
 
 /*
- * General
+ * Temp
  */
 
-.media-1680-800 {
-	.media-ratio(1680, 800);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+dt,
+ul,
+ol,
+ul li,
+ol li {
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+strong {
+	color: @dark;
 }

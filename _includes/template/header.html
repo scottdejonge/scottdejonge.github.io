@@ -1,21 +1,7 @@
 <header class="header" role="banner">
 	<div class="container">
-		<div class="header-inner">
-
-			<nav class="header-navigation">
-				<a href="{{ site.baseurl }}/about">About</a>
-				<a href="{{ site.baseurl }}/blog">Blog</a>
-			</nav>
-
-			<a class="header-logo" href="{{ site.baseurl }}">
-				<img src="assets/images/avatar.svg" alt="Scott de Jonge Avatar">
-			</a>
-
-			<nav class="header-navigation">
-				<a href="{{ site.baseurl }}/about">About</a>
-				<a href="{{ site.baseurl }}/blog">Blog</a>
-			</nav>
-
-		</div>
+		<a class="logo" href="{{ site.baseurl }}">
+			<img src="{{ "/assets/images/avatar.svg" | prepend: site.baseurl }}" alt="Scott de Jonge Avatar">
+		</a>
 	</div>
 </header>

@@ -1,18 +1,29 @@
 .footer {
-	padding: @padding-small;
-	background: @white;
+	padding-top: @padding-small;
+	padding-bottom: @padding-small;
 	text-align: center;
-	border-top: 1px solid @light;
 
 	@media @medium-up {
-		padding: @padding-small @padding-medium;
+		padding-top: @padding-medium;
+		padding-bottom: @padding-medium;
+	}
+}
+
+.footer-nav {
+	margin-bottom: @margin-small;
+	.font-size(@font-size-small);
+	color: @grey;
+	line-height: 1;
+
+	a {
+		color: @body-color;
+		text-decoration: none;
 	}
 }
 
 .footer-copyright {
 	margin: 0;
-	.medium-font();
-	.font-size(1.4);
-	color: @grey;
-	line-height: 16px;
+	
+	.font-size(@font-size-small);
+	line-height: 1;
 }

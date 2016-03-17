@@ -58,7 +58,7 @@
 @body-font-weight: @regular-font-weight; 
 @body-color: @grey;
 @body-line-height: @line-height-medium;
-@body-letter-spacing: 0.02rem;
+@body-letter-spacing: 0.01rem;
 @body-background: @white;
 
 
@@ -71,8 +71,8 @@
 @root-size-xlarge: @root-size;
 @root-size-large: @root-size;
 @root-size-medium: @root-size;
-@root-size-small: @root-size - 1;
-@root-size-xsmall: @root-size - 2;
+@root-size-small: @root-size;
+@root-size-xsmall: @root-size;
 
 
 /*
@@ -82,8 +82,8 @@
 //Shades
 @white: #FFFFFF;
 @black: #000000;
-@light-grey: #F6F6F6;
-@grey: #666666;
+@light-grey: #ECECEF;
+@grey: #626769;
 @dark-grey: #444444;
 
 //Indicators
@@ -94,7 +94,7 @@
 
 //Palette
 @light: #F0F1F5;
-@dark: #333333;
+@dark: #292E31;
 @primary: #02A1D7;
 @secondary: #2FCC9D;
 @tertiary: #B2347E;
@@ -109,10 +109,10 @@
 
 // Container
 @container-xsmall: 100%;
-@container-small: 100%;
-@container-medium: 1024px;
-@container-large: 1280px;
-@container-xlarge: 1440px;
+@container-small: 640px;
+@container-medium: 640px;
+@container-large: 640px;
+@container-xlarge: 640px;
 
 
 /*
@@ -120,7 +120,7 @@
  */
 
 // Gutter
-@gutter: 1.6rem;
+@gutter: 15px;
 @gutter-xlarge: @gutter;
 @gutter-large: @gutter;
 @gutter-medium: @gutter;
@@ -153,7 +153,7 @@
 @bold-font-weight: normal;
 
 // Font Sizes
-@font-size-xlarge: 2.4;
+@font-size-xlarge: 2.2;
 @font-size-large: 2.0;
 @font-size-medium: 1.8;
 @font-size-small: 1.6;
@@ -174,7 +174,7 @@
 
 // Link
 @link-color: @dark;
-@link-text-decoration: none;
+@link-text-decoration: underline;
 
 // Link Hover
 @link-hover-color: @dark;
@@ -219,8 +219,8 @@
 @headings-small-color: @grey;
 
 // Heading Font Sizes
-@h1-font-size: 3.2;
-@h2-font-size: 2.4;
+@h1-font-size: 2.4;
+@h2-font-size: 2.2;
 @h3-font-size: 2.0;
 @h4-font-size: 1.6;
 @h5-font-size: 1.4;
@@ -232,8 +232,8 @@
  */
 
 // Strong
-@strong-font-family: @semibold-font-family;
-@strong-font-weight: @semibold-font-weight;
+@strong-font-family: @medium-font-family;
+@strong-font-weight: @medium-font-weight;
 
 
 /*
@@ -249,11 +249,11 @@
  */
 
 // Paragraph
-@paragraph-margin: 1.5em 0;
+@paragraph-margin: 2em 0;
 @paragraph-font-family: @regular-font-family;
 @paragraph-font-weight: @regular-font-weight;
 @paragraph-font-size: @font-size-medium;
-@paragraph-color: @dark-grey;
+@paragraph-color: @body-color;
 @paragraph-line-height: @line-height-medium;
 
 
@@ -263,9 +263,9 @@
 
 // Lead
 @lead-margin: 2em 0;
-@lead-font-family: @thin-font-family;
-@lead-font-weight: @thin-font-weight;
-@lead-font-size: @font-size-large;
+@lead-font-family: @regular-font-family;
+@lead-font-weight: @regular-font-weight;
+@lead-font-size: @font-size-xlarge;
 @lead-color: @dark;
 @lead-line-height: @line-height-small;
 
@@ -286,7 +286,7 @@
 
 // Blockquote
 @blockquote-margin: @lead-margin;
-@blockquote-padding: 0 0 0 @padding-medium;
+@blockquote-padding: 0;
 
 // Blockquote Quote
 @blockquote-quote-margin: 0;
@@ -295,7 +295,7 @@
 @blockquote-quote-font-size: @lead-font-size;
 @blockquote-quote-font-style: normal;
 @blockquote-quote-line-height: @lead-line-height;
-@blockquote-quote-color: @body-color;
+@blockquote-quote-color: @lead-color;
 
 // Blockquote Cite
 @blockquote-cite-margin: 0;
@@ -327,11 +327,11 @@
  */
 
 // List
-@list-margin: 2rem 0;
+@list-margin: @paragraph-margin;
 @list-padding: 0;
 
 // Lists Item
-@list-item-margin: 1rem 0 1rem 2rem;
+@list-item-margin: 0.5em 0 0.5em 1em;
 @list-item-font-family: @paragraph-font-family;
 @list-item-font-weight: @paragraph-font-weight;
 @list-item-font-size: @paragraph-font-size;
@@ -358,10 +358,10 @@
 
 // Definition Term
 @definition-term-margin: 1rem 0;
-@definition-term-font-family: @semibold-font-family;
-@definition-term-font-weight: @semibold-font-weight;
+@definition-term-font-family: @medium-font-family;
+@definition-term-font-weight: @medium-font-weight;
 @definition-term-font-size: @font-size-medium;
-@definition-term-color: @paragraph-color;
+@definition-term-color: @headings-color;
 
 // Definition Description
 @definition-description-margin: 0 0 2rem 0;
@@ -416,289 +416,6 @@
 
 
 /*
- * Mark
- */
-
-// Mark
-@mark-margin: 0;
-@mark-padding: 0.3rem;
-@mark-font-family: @paragraph-font-family;
-@mark-font-weight: @paragraph-font-weight;
-@mark-font-size: @paragraph-font-size;
-@mark-color: @paragraph-color;
-@mark-background: yellow;
-@mark-border: none;
-@mark-border-radius: @border-radius;
-
-// Mark Error
-@mark-error-color: @white;
-@mark-error-background: @error;
-@mark-error-border: none;
-
-// Mark Warning
-@mark-warning-color: @white;
-@mark-warning-background: @warning;
-@mark-warning-border: none;
-
-// Mark Success
-@mark-success-color: @white;
-@mark-success-background: @success;
-@mark-success-border: none;
-
-// Mark Info
-@mark-info-color: @white;
-@mark-info-background: @info;
-@mark-info-border: none;
-
-
-/*
- * Label
- */
-
-// Label
-@label-margin: 1rem 0;
-@label-font-family: @medium-font-family;
-@label-font-weight: @medium-font-weight;
-@label-font-size: @font-size-xsmall;
-@label-color: @grey;
-@label-line-height: @line-height-medium;
-
-
-/*
- * Fieldset
- */
-
-// Fieldset
-@fieldset-margin: 0;
-@fieldset-padding: 2rem;
-@fieldset-border: 1px solid @light-grey;
-
-// Feildset Legend
-@fieldset-legend-padding: 1rem;
-@fieldset-legend-font-size: @font-size-medium;
-@fieldset-legend-color: @grey;
-
-
-/*
- * Form Message
- */
-
-// Form Message
-@form-message-margin: @label-margin;
-@form-message-font-family: @paragraph-font-family;
-@form-message-font-weight: @paragraph-font-weight;
-@form-message-font-size: @font-size-small;
-@form-message-color: @body-color;
-@form-message-line-height: @paragraph-line-height;
-
-// Form Message Indicators
-@form-message-error-color: @error;
-@form-message-warning-color: @warning;
-@form-message-success-color: @success;
-@form-message-info-color: @info;
-
-
-/*
- * Input
- */
-
-// Input
-@input-height: @height-medium;
-@input-margin: @label-margin;
-@input-padding: 0 1.6rem;
-@input-color: @body-color;
-@input-font-family: @regular-font-family;
-@input-font-weight: @regular-font-weight;
-@input-font-size: @font-size-small;
-@input-line-height: @line-height-medium;
-@input-background: @white;
-@input-border: 1px solid @light-grey;
-@input-border-radius: @border-radius;
-
-// Input Hover
-@input-hover-color: @input-color;
-@input-hover-background: darken(@input-background, 2%);
-@input-hover-border: 1px solid darken(@light-grey, 10%);
-
-// Input Focus
-@input-focus-color: @input-color;
-@input-focus-background: darken(@input-background, 2%);
-@input-focus-border: 1px solid @primary;
-
-// Input Placeholder
-@input-placeholder-font-family: @input-font-family;
-@input-placeholder-font-size: @input-font-size;
-@input-placeholder-color: fade(@input-color, 50%);
-@input-placeholder-line-height: @input-line-height;
-@input-placeholder-letter-spacing: 0px;
-@input-placeholder-text-transform: none;
-
-// Input Inverse
-@input-inverse-color: @white;
-@input-inverse-background: @inverse;
-@input-inverse-border: none;
-
-// Input Inverse Hover
-@input-inverse-hover-color: @input-inverse-color;
-@input-inverse-hover-background: darken(@input-inverse-background, 2%);
-@input-inverse-hover-border: @input-inverse-border;
-
-// Input Inverse Focus
-@input-inverse-focus-color: @input-inverse-color;
-@input-inverse-focus-background: darken(@input-inverse-background, 2%);
-@input-inverse-focus-border: @input-inverse-border;
-
-// Input Disabled
-@input-disabled-color: @light;
-@input-disabled-background: @light;
-@input-disabled-border: 1px solid darken(@light, 10%);
-
-// Input Search
-@input-search-border-radius: 2rem;
-
-// Textarea
-@textarea-padding: 1.6rem;
-@textarea-line-height: @line-height-medium;
-
-
-/*
- * Input Indicators
- */
-
-// Input Indicators
-@input-error-color: @error;
-@input-warning-color: @warning;
-@input-success-color: @success;
-@input-info-color: @info;
-
-
-/*
- * Input Sizes
- */
-
-// Input Extra Large
-@input-xlarge-padding: 0 2.0rem;
-@input-xlarge-height: @height-xlarge;
-@input-xlarge-font-size: @font-size-large;
-
-// Input Large
-@input-large-padding: 0 1.6rem;
-@input-large-height: @height-large;
-@input-large-font-size: @font-size-medium;
-
-// Input Medium
-@input-medium-padding: 0 1.2rem;
-@input-medium-height: @input-height;
-@input-medium-font-size: @input-font-size;
-
-// Input Small
-@input-small-padding: 0 1.2rem;
-@input-small-height: @height-small;
-@input-small-font-size: @font-size-small;
-
-// Input Extra Small
-@input-xsmall-padding: 0 0.8rem;
-@input-xsmall-height: @height-xsmall;
-@input-xsmall-font-size: @font-size-xsmall;
-
-
-/*
- * Control
- */
-
-// Control
-@control-margin: @input-margin;
-@control-padding: 0 0 0 1.5em;
-@control-color: @input-color;
-
-// Control Indicator
-@control-indicator-size: 1.6rem;
-@control-indicator-color: @primary;
-@control-indicator-background: @input-background;
-@control-indicator-border: @input-border;
-
-// Control Checked
-@control-indicator-checked-background: @primary;
-@control-indicator-checked-border: 1px solid @primary;
-@control-label-checked-color: @control-label-color;
-
-// Control Label
-@control-label-margin: 0 0 0 1rem;
-@control-label-font-family: @input-font-family;
-@control-label-font-weight: @input-font-weight;
-@control-label-font-size: @label-font-size;
-@control-label-color: @input-color;
-@control-label-line-height: @input-line-height;
-
-// Control Inline
-@control-inline-margin-right: 2rem;
-
-// Checkbox
-@checkbox-border-radius: none;
-
-// Radio
-@radio-border-radius: 50%;
-
-
-/*
- * Select
- */
-
-// Select
-@select-margin: @input-margin;
-@select-padding: @input-padding;
-@select-height: @input-height;
-@select-font-family: @input-font-family;
-@select-font-weight: @input-font-weight;
-@select-font-size: @input-font-size;
-@select-color: @input-color;
-@select-line-height: auto;
-@select-background: @input-background;
-@select-border: @input-border;
-@select-border-radius: @border-radius;
-
-// Select Arrow
-@select-arrow-size: 0.4rem;
-@select-arrow-background: @dark;
-
-// Select Inverse
-@select-inverse-color: @input-inverse-color;
-@select-inverse-border: @input-inverse-border;
-@select-inverse-background: @input-inverse-background;
-@select-inverse-arrow-background: @white;
-
-
-/*
- * Select Sizes
- */
-
-// Select Extra Large
-@select-xlarge-padding: @input-xlarge-padding;
-@select-xlarge-height: @input-xlarge-height;
-@select-xlarge-font-size: @input-xlarge-font-size;
-
-// Select Large
-@select-large-padding: @input-large-padding;
-@select-large-height: @input-large-height;
-@select-large-font-size: @input-large-font-size;
-
-// Select Medium
-@select-medium-padding: @select-padding;
-@select-medium-height: @select-height;
-@select-medium-font-size: @select-font-size;
-
-// Select Small
-@select-small-padding: @input-small-padding;
-@select-small-height: @input-small-height;
-@select-small-font-size: @input-small-font-size;
-
-// Select Extra Small
-@select-xsmall-padding: @input-xsmall-padding;
-@select-xsmall-height: @input-xsmall-height;
-@select-xsmall-font-size: @input-xsmall-font-size;
-
-
-/*
  * Button
  */
 
@@ -739,164 +456,6 @@
 
 
 /*
- * Button Styles
- */
-
-// Button Inverse
-@button-inverse-color: @light;
-@button-inverse-background: @inverse;
-@button-inverse-border: none;
-@button-inverse-hover-color: @button-inverse-color;
-@button-inverse-hover-background: darken(@button-inverse-background, 10%);
-@button-inverse-hover-border: none;
-
-// Button Primary
-@button-primary-color: @white;
-@button-primary-background: @primary;
-@button-primary-border: none;
-@button-primary-hover-color: @button-primary-color;
-@button-primary-hover-background: darken(@primary, 10%);
-@button-primary-hover-border: none;
-
-// Button Secondary
-@button-secondary-color: @white;
-@button-secondary-background: @secondary;
-@button-secondary-border: none;
-@button-secondary-hover-color: @button-secondary-color;
-@button-secondary-hover-background: darken(@secondary, 10%);
-@button-secondary-hover-border: none;
-
-// Button Tertiary
-@button-tertiary-color: @white;
-@button-tertiary-background: @tertiary;
-@button-tertiary-border: none;
-@button-tertiary-hover-color: @button-tertiary-color;
-@button-tertiary-hover-background: darken(@tertiary, 10%);
-@button-tertiary-hover-border: none;
-
-// Button Border
-@button-border-color: @dark;
-@button-border-border: 1px solid @button-border-color;
-@button-border-background: transparent;
-@button-border-hover-color: @white;
-@button-border-hover-border: 1px solid @button-border-color;
-@button-border-hover-background: @button-border-color;
-
-// Button Text
-@button-text-color: @dark;
-@button-text-hover-color: @primary;
-
-
-/*
- * Button Indicators
- */
-
-//Button Error
-@button-error-color: @white;
-@button-error-background: @error;
-@button-error-border: none;
-@button-error-hover-color: @button-error-color;
-@button-error-hover-background: darken(@error, 10%);
-@button-error-hover-border: none;
-
-//Button Warning
-@button-warning-color: @white;
-@button-warning-background: @warning;
-@button-warning-border: none;
-@button-warning-hover-color: @button-warning-color;
-@button-warning-hover-background: darken(@warning, 10%);
-@button-warning-hover-border: none;
-
-//Button Success
-@button-success-color: @white;
-@button-success-background: @success;
-@button-success-border: none;
-@button-success-hover-color: @button-success-color;
-@button-success-hover-background: darken(@success, 10%);
-@button-success-hover-border: none;
-
-//Button Info
-@button-info-color: @white;
-@button-info-background: @info;
-@button-info-border: none;
-@button-info-hover-color: @button-info-color;
-@button-info-hover-background: darken(@button-info-background, 10%);
-@button-info-hover-border: none;
-
-
-/*
- * Button Sizes
- */
-
-// Button Extra Large
-@button-xlarge-padding: 2.0rem 3.2rem;
-@button-xlarge-height: @height-xlarge;
-@button-xlarge-font-size: 1.6;
-
-// Button Large
-@button-large-padding: 1.7rem 2.8rem;
-@button-large-height: @height-large;
-@button-large-font-size: 1.5;
-
-// Button Medium
-@button-medium-padding: @button-padding;
-@button-medium-height: @button-height;
-@button-medium-font-size: @button-font-size;
-
-// Button Small
-@button-small-padding: 1.1rem 1.6rem;
-@button-small-height: @height-small;
-@button-small-font-size: 1.3;
-
-// Button Extra Small
-@button-xsmall-padding: 0.6rem 1.2rem;
-@button-xsmall-height: @height-xsmall;
-@button-xsmall-font-size: 1.2;
-
-
-/*
- * Button Icon
- */
-
-// Button Icon
-@button-icon-size: @button-font-size;
-@button-icon-fill: @button-color;
-@button-icon-left-margin: 1em;
-@button-icon-right-margin: 1em;
-
-// Button Icon Styles
-@button-icon-inverse-fill: @button-inverse-color;
-@button-icon-inverse-hover-fill: @button-inverse-hover-color;
-@button-icon-primary-fill: @button-primary-color;
-@button-icon-primary-hover-fill: @button-primary-hover-color;
-@button-icon-secondary-fill: @button-secondary-color;
-@button-icon-secondary-hover-fill: @button-secondary-hover-color;
-@button-icon-tertiary-fill: @button-tertiary-color;
-@button-icon-tertiary-hover-fill: @button-tertiary-hover-color;
-@button-icon-border-fill: @button-border-color;
-@button-icon-border-hover-fill: @button-border-hover-color;
-@button-icon-text-fill: @button-text-color;
-@button-icon-text-hover-fill: @button-text-hover-color;
-
-// Button Icon Indicators
-@button-icon-error-fill: @button-error-color;
-@button-icon-error-hover-fill: @button-error-hover-color;
-@button-icon-warning-fill: @button-warning-color;
-@button-icon-warning-hover-fill: @button-warning-hover-color;
-@button-icon-success-fill: @button-success-color;
-@button-icon-success-hover-fill: @button-success-hover-color;
-@button-icon-info-fill: @button-info-color;
-@button-icon-info-hover-fill: @button-info-hover-color;
-
-// Button Icon Sizes
-@button-icon-xlarge-size: @button-xlarge-font-size;
-@button-icon-large-size: @button-large-font-size;
-@button-icon-medium-size: @button-medium-font-size;
-@button-icon-small-size: @button-small-font-size;
-@button-icon-xsmall-size: @button-xsmall-font-size;
-
-
-/*
  * Figure
  */
 
@@ -920,7 +479,7 @@
  */
 
 // Media
-@media-background: transparent;
+@media-background: @light;
 
 
 /*

@@ -1,0 +1,45 @@
+.project {
+	margin-top: @margin-medium;
+	margin-bottom: @margin-medium;
+	padding: @padding-small;
+	border: 1px solid @light-grey;
+
+	@media @small-up {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.project-image {
+	flex: 0 0 auto;
+	position: relative;
+
+	@media @small-up {
+		margin-right: @margin-small;
+	}
+
+	@media @xsmall {
+		margin-bottom: @margin-small;
+	}
+
+	img {
+		.square(64px);
+	}
+}
+
+.project-inner {
+	flex: 1;
+}
+
+.project-title {
+	.font-size(@font-size-large);
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.project-summary {
+	margin: 0;
+	.font-size(@font-size-small);
+}

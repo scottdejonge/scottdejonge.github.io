@@ -1,6 +1,6 @@
 .section {
-	margin-top: @margin-xlarge;
-	margin-bottom: @margin-xlarge;
+	margin-top: @margin-large;
+	margin-bottom: @margin-large;
 
 	&:first-child {
 		margin-top: 0;
@@ -9,66 +9,4 @@
 	&:last-child {
 		margin-bottom: 0;
 	}
-	
-	h1,
-	h2,
-	h3,
-	h4,
-	p,
-	ul,
-	ol,
-	li {
-		
-		&:first-child {
-			margin-top: 0;
-		}
-		
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-	
-	p {
-		max-width: @max-width-xsmall;
-	}
-
-	strong {
-		.medium-font();
-		color: @dark;
-
-		@media @xsmall {
-			display: block;
-		}
-	}
-}
-
-.section-light,
-.section-dark,
-.section-primary,
-.section-secondary,
-.section-tertiary {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: @padding-xlarge;
-	padding-bottom: @padding-xlarge;
-}
-
-.section-light {
-	background: @light;
-}
-
-.section-dark {
-	background: @dark;
-}
-
-.section-primary {
-	background: @primary;
-}
-
-.section-secondary {
-	background: @secondary;
-}
-
-.section-tertiary {
-	background: @tertiary;
 }
