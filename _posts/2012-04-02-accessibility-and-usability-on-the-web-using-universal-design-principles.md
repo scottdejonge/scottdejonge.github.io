@@ -6,27 +6,33 @@ author: scottdejonge
 categories: []
 ---
 
-The World Wide Web provides access to enormous amount of information from all over the globe. It has become an indispensible source for communication and social interaction through social networks and mobile devices.
+The World Wide Web provides access to enormous amount of information from all over the globe. It has become an indispensable source for communication and social interaction through social networks and mobile devices.
 
 Now more then ever the world is connected through the web through a diverse range of browsing technologies such as tablets, smartphones, laptops and desktop computers. For an emerging generation the Internet is the primary source of communication and information. However, as the World Wide Web expands to connect every reach of the world much of the content available is inaccessible.
 
 People with physical, speech, cognitive, and neurological disabilities require the use of accessibility technologies to read and understand web content. The environment in which web content is distributed, the browser, is quickly emerging as the source for assistive technologies in the form of browser extensions. Computer operating systems also provide universal access with screen readers. As web content is distributed into more facets of human function in the household and at work, the role of an accessible web is necessary in order to provide universal access.  
 
-Traditionally accessibility on the web relates at a technology level, this being the reach in which web content is viewable through user agents such as browsers, but as emerging web technologies provide more ways to view and interact with the web the need for accessibility to provide the same experience for all users is greatly increasing. The usability of web content for participants with disabilities is an important measure into the effectives of accessible technologies. By applying universal design principles to achieve an accessible web, the goal is to create a web in which there is inclusion –accessible information and technologies- without exclusion. An accessible web should promote interaction between accessibility and web technologies to provide a platform for universal access for all users.
+Traditionally accessibility on the web relates at a technology level, this being the reach in which web content is viewable through user agents such as browsers, but as emerging web technologies provide more ways to view and interact with the web the need for accessibility to provide the same experience for all users is greatly increasing.
+
+The usability of web content for participants with disabilities is an important measure into the effectives of accessible technologies. By applying universal design principles to achieve an accessible web, the goal is to create a web in which there is inclusion -accessible information and technologies- without exclusion. An accessible web should promote interaction between accessibility and web technologies to provide a platform for universal access for all users.
 
 ## Accessibility
 
-Accessibility is a term defined in environmental and architecture planning for ‘the simplicity with which activities in the society can be reached’. The term accessibility acts as an umbrella for all parameters that influence human functioning within environments (Stahl, 2003). This defines accessibility as an environmental measure (Pirie, 1979). Accessibility can be divided into three dimensions. These have applications in the physical environment, the access of information, and societal activities and services (Stahl, 2003). The three dimensions of accessibility are micro, meso and macro. The micro dimension describes the immediate environment (Stahl, 2003). The meso environment encompasses the public environment at a municipal level (Pirie, 1979). The micro environment is that of a sociological whole, an approach to accessibility through national or universal strategies. The United Nations outline accessibility as the access to information and communication which under the Standard Rules on the Equalization of Opportunities for Persons with Disabilities and is defined within Section 2: Target areas for equal participation (United Nations, 1993).
+Accessibility is a term defined in environmental and architecture planning for ‘the simplicity with which activities in the society can be reached’. The term accessibility acts as an umbrella for all parameters that influence human functioning within environments (Stahl, 2003). This defines accessibility as an environmental measure (Pirie, 1979).
+
+Accessibility can be divided into three dimensions. These have applications in the physical environment, the access of information, and societal activities and services (Stahl, 2003). The three dimensions of accessibility are micro, meso and macro. The micro dimension describes the immediate environment (Stahl, 2003). The meso environment encompasses the public environment at a municipal level (Pirie, 1979). The micro environment is that of a sociological whole, an approach to accessibility through national or universal strategies. The United Nations outline accessibility as the access to information and communication which under the Standard Rules on the Equalization of Opportunities for Persons with Disabilities and is defined within Section 2: Target areas for equal participation (United Nations, 1993).
 
 States should develop strategies to make information services and documentation accessible for different groups of persons with disabilities. Braille, tape services, large print and other appropriate technologies should be used to provide access to written information and documentation for persons with visual impairments. Similarly, appropriate technologies should be used to provide access to spoken information for persons with auditory impairments or comprehension difficulties.
 
-Equal participation in an online context is outlined in the recommendations of W3C’s Web Content Accessibility Guidelines (WCAG) 2.0 (W3C, 2008). Reviewed by W3C members, software developers, and interested parties, the Web Content Accessibility Guidelines provide technical guidance for accessibility in an online context in order to meet the varying needs of the online audience as a whole. Within the W3C guidelines are several levels of recommendations including overall principles, general guidelines, testable success criteria, and a collection of sufficient techniques and advisory techniques (W3C, 2008).  Web accessibility encompasses all disabilities that affect across to the web, including physical, speech, cognitive, and neurological disabilities (Australian Government: Department of Finance and Deregulation, 2010). The Australian Government endorses the Web Content Accessibility Guidelines (WCAG) 2.0, with all government websites updated to apply accessibility principles through a Web Accessibility National Transition Strategy (Australian Government Information Management Office, 2012).
+Equal participation in an online context is outlined in the recommendations of W3C’s Web Content Accessibility Guidelines (WCAG) 2.0 (W3C, 2008). Reviewed by W3C members, software developers, and interested parties, the Web Content Accessibility Guidelines provide technical guidance for accessibility in an online context in order to meet the varying needs of the online audience as a whole. Within the W3C guidelines are several levels of recommendations including overall principles, general guidelines, testable success criteria, and a collection of sufficient techniques and advisory techniques (W3C, 2008).
+
+Web accessibility encompasses all disabilities that affect across to the web, including physical, speech, cognitive, and neurological disabilities (Australian Government: Department of Finance and Deregulation, 2010). The Australian Government endorses the Web Content Accessibility Guidelines (WCAG) 2.0, with all government websites updated to apply accessibility principles through a Web Accessibility National Transition Strategy (Australian Government Information Management Office, 2012).
 
 Accessibility is measurable through compliance with norms and standards  (Stahl, 2003). Stahl’s measurement of validity and reliability of information gathering of accessibility is established in three steps:
 
-Personal component: a description of functional capacity based on knwoledge on human functioning.
-Environment component: a descriptoon of barriers in the environemtn in relation to the standards avaliable, but based on user evaluation.
-Analysis juxtaposing the personal and environmental components.
+1. Personal component: a description of functional capacity based on knowledge on human functioning.
+2. Environment component: a description of barriers in the environment in relation to the standards available, but based on user evaluation.
+3. Analysis juxtaposing the personal and environmental components.
 
 ## Usability
 
@@ -34,12 +40,12 @@ Usability is derived from the function of tool within an environment. The word u
 
 The perception of usability as a measure of function is determined via user interaction, independent from official compliance guidelines. Usability is a measure of effectiveness towards function, that being the process of compliance of specific user goals in an environment. Effectiveness of function from a usability standpoint is an evaluation of the efficiency in which a user’s goals are achieved within the environment.
 
-Usability is not based with compliance with official norms or standards it is mainly subjective in nature  (Stahl, 2003). Stahl states the reliablity and validity of usability measurements from information gathering can be quantified by four steps:
+Usability is not based with compliance with official norms or standards it is mainly subjective in nature  (Stahl, 2003). Stahl states the reliability and validity of usability measurements from information gathering can be quantified by four steps:
 
-Personal component: a description of functional capacity based on knwoledge on human functioning.
-Environment component: a descriptoon of barriers in the environemtn in relation to the standards avaliable, but based on user evaluation.
-Activity component: a description of activities to be performed in the environment.
-Analysis integrating the personal, envirnmental, and activity components: a description of usability problems.
+1. Personal component: a description of functional capacity based on knowledge on human functioning.
+2. Environment component: a description of barriers in the environment in relation to the standards available, but based on user evaluation.
+3. Activity component: a description of activities to be performed in the environment.
+4. Analysis integrating the personal, environmental, and activity components: a description of usability problems.
 
 ## Universal Design
 
@@ -47,14 +53,17 @@ Universal design is a practice in which accessibility is achieved through a set 
 
 The seven principles of universal design as defined from the Centre of Universal Deign at the North Carolina State University are:
 
-Equitability of use, the usability and marketability of a product to people with diverse abilities.
-Flexibility in use, the accommodation of a wide range of individual preferences and abilities.
-Simple and intuitive use, the creation of product that is easy to understand, regardless of experience, knowledge, language skills, or current concentration level.
-Perceptible information, communicating necessary information effectively, regardless of ambient conditions or sensory abilities.
-Tolerance for error, minimizing hazards and adverse consequences of accidental or unintended actions.
-Low physical effort, the product can be used efficiently and comfortably, with a minimum of fatigue.
-Size and space for approach and use, the appropriate size and space for approach, reach manipulation, and use regardless of body size, posture, or mobility.
-Gregg Vanderheiden of the Trace Research & Development Center at the University of Wisconsin-Madison has defined universal design as the process of creating products (devices, environments, systems, and processes) which are usable by people with the widest possible range of abilities, operating within the widest possible range of situations (environments, conditions, and circumstances), as is commercially practical  (Gregg Vanderheiden). Vanderheiden’s definition of universal design has two major components: The first is the design of products, so that they are flexible enough that they can be directly used (without requiring any assistive technologies or modifications) by people with the widest range of abilities and circumstances as is commercially practical given current materials, technologies, and knowledge. Vanderheiden’s second component of universal design is product design that is compatible with the assistive technologies that might be used by those who cannot efficiently access and use the products directly.
+1. Equitability of use, the usability and marketability of a product to people with diverse abilities.
+2. Flexibility in use, the accommodation of a wide range of individual preferences and abilities.
+3. Simple and intuitive use, the creation of product that is easy to understand, regardless of experience, knowledge, language skills, or current concentration level.
+4. Perceptible information, communicating necessary information effectively, regardless of ambient conditions or sensory abilities.
+5. Tolerance for error, minimising hazards and adverse consequences of accidental or unintended actions.
+6. Low physical effort, the product can be used efficiently and comfortably, with a minimum of fatigue.
+7. Size and space for approach and use, the appropriate size and space for approach, reach manipulation, and use regardless of body size, posture, or mobility.
+
+Gregg Vanderheiden of the Trace Research & Development Center at the University of Wisconsin-Madison has defined universal design as the process of creating products (devices, environments, systems, and processes) which are usable by people with the widest possible range of abilities, operating within the widest possible range of situations (environments, conditions, and circumstances), as is commercially practical (Gregg Vanderheiden).
+
+Vanderheiden’s definition of universal design has two major components: The first is the design of products, so that they are flexible enough that they can be directly used (without requiring any assistive technologies or modifications) by people with the widest range of abilities and circumstances as is commercially practical given current materials, technologies, and knowledge. Vanderheiden’s second component of universal design is product design that is compatible with the assistive technologies that might be used by those who cannot efficiently access and use the products directly.
 
 Universal design is synonymous with ‘design for all’ (Stahl, 2003). Universal design approaches accessibility through social change, accessibility is reached through a compliance with social norms relating to the design and appropriate use of product in the wider public.
 
@@ -96,9 +105,11 @@ Navigation menus should avoid opening links in new browser windows. Pop-up dialo
 
 Websites should limit the number of links on a page, avoiding small buttons and links for a call to action. Using whitespace between buttons and links improves visibility of navigation elements in a website. Links containing images should provide another method for linking to something. Important commands should appear as their own unique links, and should be underlined within large text elements. Links within text should be logical.
 
-#### Page Organization
+#### Page Organisation
 
-Immediately confirm the current page to the user once it has loaded, making sure to confirm the company name on the homepage once it has loaded. Pages should minimize the need for scrolling. Users should be warned when a choice is coming. After a user has made a choice all possible outcomes should be kept in the same vicinity. Pages should be ordered and designed logically and consistently. Carefully consider using “Skip Links” so users can skip links or navigational elements. Choose a simple, informative Web address for your site, and keep that URL in the address field after the page loads.  (Make whatever appears in the address field logical.)
+Immediately confirm the current page to the user once it has loaded, making sure to confirm the company name on the homepage once it has loaded. Pages should minimise the need for scrolling. Users should be warned when a choice is coming. After a user has made a choice all possible outcomes should be kept in the same vicinity.
+
+Pages should be ordered and designed logically and consistently. Carefully consider using “Skip Links” so users can skip links or navigational elements. Choose a simple, informative Web address for your site, and keep that URL in the address field after the page loads.  (Make whatever appears in the address field logical.)
 
 #### Intervening Pages
 
@@ -106,11 +117,15 @@ The website should only include necessary pages, plash or cover pages should be 
 
 #### Forms and Fields
 
-Forms should limit the amount of information required, with required fields highlighted to the user clearly. Field label text should be in close proximity to the field which is relates. Instructions correlating to a field within a form should come before the field itself. The form should contain standardised fields (for phone numbers, first name and last name etc.) and be stacked in a vertical column. Field order within a form should be logical and consistent with the user’s expectation of required information. The form submission button must be as close to the last field as possible, highlighting the completion of the form fields. Errors in the form submission should be highlighted to the user in clearly identifiable colours, in most cases red text.
+Forms should limit the amount of information required, with required fields highlighted to the user clearly. Field label text should be in close proximity to the field which is relates. Instructions correlating to a field within a form should come before the field itself. The form should contain standardised fields (for phone numbers, first name and last name etc.) and be stacked in a vertical column.
+
+Field order within a form should be logical and consistent with the user’s expectation of required information. The form submission button must be as close to the last field as possible, highlighting the completion of the form fields. Errors in the form submission should be highlighted to the user in clearly identifiable colours, in most cases red text.
 
 #### Presenting text
 
-Text should be natural language and concise. The size of text should scale with magnification of the browser. Fonts and colours be legible and high contrast to a single background colour, text should not be used on background images. The website should be legible with a screen magnifier. Text elements should be detected with screen readers for people with vision impairment, this includes the use of punctuation such as asterisks and parentheses.
+Text should be natural language and concise. The size of text should scale with magnification of the browser. Fonts and colours be legible and high contrast to a single background colour, text should not be used on background images.
+
+The website should be legible with a screen magnifier. Text elements should be detected with screen readers for people with vision impairment, this includes the use of punctuation such as asterisks and parentheses.
 
 #### Search
 
@@ -118,13 +133,21 @@ Search within a website should be forgiving of spelling errors. The search box s
 
 ## Web Accessibility Initiative (WAI)
 
-W3C’s Web Accessibility Initiative (WAI) develops strategies, guidelines, and resources to help make the Web accessible to people with disabilities (W3C, 2011). Rather than a reliance on web authors implementing web content compliant with the WCAG 2.0 guidelines, the Web Accessibility Initiative (WAI) model aims to provide an inclusive web environment with compliance from user agents, and authoring tools. The User Agent Accessibility Guidelines (UAAG) is part of a series of web accessibly guidelines, and targets web browsers, media players, and assistive technologies. The implication of the User Agent Accessibility Guidelines (UAAG) is that user control is provided for how the content and interfaces are rendered, access is given to all content with documentation provided for accessibly features (W3C, 2011). The Authoring Tool Accessibility Guidelines (ATAG) is primarily for developers of authoring tools such as: web content editing editors (WYSIWYG, HTML and XML editors), site management and publication tools including content managements systems (CMS), and websites that enable users to create web content including wikis, photo sharing sites, and social networking sites. The Authoring Tool Accessibility Guidelines (ATAG) ensures the authoring tools themselves are accessible to all users, as well as the content produced. Compliance with Web Content Accessibility Guidelines (WCAG) 2.0 is a criteria of the Web Accessibility Initiative (WAI), however the WAI aims to address accessibility in web resources for all users.
+W3C’s Web Accessibility Initiative (WAI) develops strategies, guidelines, and resources to help make the Web accessible to people with disabilities (W3C, 2011). Rather than a reliance on web authors implementing web content compliant with the WCAG 2.0 guidelines, the Web Accessibility Initiative (WAI) model aims to provide an inclusive web environment with compliance from user agents, and authoring tools.
+
+The User Agent Accessibility Guidelines (UAAG) is part of a series of web accessibly guidelines, and targets web browsers, media players, and assistive technologies. The implication of the User Agent Accessibility Guidelines (UAAG) is that user control is provided for how the content and interfaces are rendered, access is given to all content with documentation provided for accessibly features (W3C, 2011).
+
+The Authoring Tool Accessibility Guidelines (ATAG) is primarily for developers of authoring tools such as: web content editing editors (WYSIWYG, HTML and XML editors), site management and publication tools including content managements systems (CMS), and websites that enable users to create web content including wikis, photo sharing sites, and social networking sites. The Authoring Tool Accessibility Guidelines (ATAG) ensures the authoring tools themselves are accessible to all users, as well as the content produced. Compliance with Web Content Accessibility Guidelines (WCAG) 2.0 is a criteria of the Web Accessibility Initiative (WAI), however the WAI aims to address accessibility in web resources for all users.
 
 ## Conclusion
 
-To create a web environment that is accessible by all users, web designers and developers need to implement standard accessibility measures for the use of accessible technologies such as screen readers. The user’s needs are the foundation for usability, where the web interface provides functionality for the completion of tasks online. Participant-oriented design, namely usability-evaluated web development provides a subjective perspective into the functions of an online environment. From usability testing web designers can create an objective perspective based from the definition of accessibility to apply the Web Content Accessibility Guidelines (WCAG) as contextual recommendations for implementing an accessible website under the guidance of Web Accessibility Initiative (WAI). Cooperation between a social and developing architecture such as the Web Accessibility Initiative (WAI) and the strict guidance of Web Content Accessibility Guidelines (WCAG) can create a sustainable and flexible web. The social model of the Web Accessibility Initiative (WAI) creates a dialogue between user agents and web content -formed from the recommendations- for catering to web assistive technologies. Assistive policies and guidance aid in creating an accessible web interface for both the user agent, such as browsers, and the web content rendered within that environment.
+To create a web environment that is accessible by all users, web designers and developers need to implement standard accessibility measures for the use of accessible technologies such as screen readers. The user’s needs are the foundation for usability, where the web interface provides functionality for the completion of tasks online. Participant-oriented design, namely usability-evaluated web development provides a subjective perspective into the functions of an online environment. From usability testing web designers can create an objective perspective based from the definition of accessibility to apply the Web Content Accessibility Guidelines (WCAG) as contextual recommendations for implementing an accessible website under the guidance of Web Accessibility Initiative (WAI).
 
-Approaching web accessibility form universal design principles ensures that accessibility in inclusive of all potential users of a web interface. From implementing the universal design principles in the design of web interfaces, web designers can create flexible and simple interactions that are fundamentally intuitive and provide an equitability of use. Fundamental interactions online, such as the user completing fields within form, can be developed to provide universal access through the implementation of simple and intuitive guides for assistive technologies. Through a native language approach to error handling, in this case the web form, web designers can communicate efficiently to visually impaired users. Rather than the reliance on hover states and footnotes to circumnavigate error handling, web designers should approach error handling with a ‘minimum of effort’ methodology, this being low physical effort and appropriate use of space to communicate perceptible information effectively to the user.
+Cooperation between a social and developing architecture such as the Web Accessibility Initiative (WAI) and the strict guidance of Web Content Accessibility Guidelines (WCAG) can create a sustainable and flexible web. The social model of the Web Accessibility Initiative (WAI) creates a dialogue between user agents and web content -formed from the recommendations- for catering to web assistive technologies. Assistive policies and guidance aid in creating an accessible web interface for both the user agent, such as browsers, and the web content rendered within that environment.
+
+Approaching web accessibility form universal design principles ensures that accessibility in inclusive of all potential users of a web interface. From implementing the universal design principles in the design of web interfaces, web designers can create flexible and simple interactions that are fundamentally intuitive and provide an equitability of use. Fundamental interactions online, such as the user completing fields within form, can be developed to provide universal access through the implementation of simple and intuitive guides for assistive technologies.
+
+Through a native language approach to error handling, in this case the web form, web designers can communicate efficiently to visually impaired users. Rather than the reliance on hover states and footnotes to circumnavigate error handling, web designers should approach error handling with a ‘minimum of effort’ methodology, this being low physical effort and appropriate use of space to communicate perceptible information effectively to the user.
 
 Overall the emergence of new web technologies can provide web designers and developers an easier platform for the creation of accessible information online. As mobile and desktop operating systems already provide accessibility options for users, the emphasis for web content producers is to enable the use of these technologies efficiently through the web form. A fundamental approach to universal access can be implemented using universal deign principles, the adherence to web accessibility guidelines (WCAG, WAI etc.), as well as the understanding role of usability and accessibility in a online context.
 
@@ -172,6 +195,6 @@ Oxford University Press. (2010, April). Oxford Dictionaries. Retrieved May 19, 2
 
 Office of Spatial Policy, Department of Resources, Energy and Tourism (RET). (2012, April 13). Location Information Principles. Retrieved May 19, 2012 from Office of Spatial Policy, Department of Resources, Energy and Tourism (RET): http://www.ret.gov.au/Department/osp/Pages/OfficeSpatialPolicy.aspx
 
-Pirie, G. (1979). Measuring Accessibility: a review and proposal. Evironment and Planning A , 11 (3), 299-312.
+Pirie, G. (1979). Measuring Accessibility: a review and proposal. Environment and Planning A , 11 (3), 299-312.
 
 Stahl, S. I. (2003). Accessibility, Usability and Universal Design: positioning and definition of concepts describing person-environment relationships. Disability and Rehabilitation , 25 (2), 57-66.
