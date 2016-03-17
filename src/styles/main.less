@@ -13,13 +13,14 @@
 // Template
 @import './template/header.less';
 @import './template/logo.less';
+@import './template/post.less';
 @import './template/section.less';
 @import './template/footer.less';
 
 // Components
 @import './components/project.less';
 @import './components/hero.less';
-@import './components/list.less';
+
 
 /*
  * Temp
@@ -47,6 +48,38 @@ ol li {
 	&:last-child {
 		margin-bottom: 0;
 	}
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+	+ p {
+		margin-top: 0;
+	}
+}
+
+h1 {
+
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	margin: 2em 0 1em;
+	.bold-font();
+	text-transform: uppercase;
+	letter-spacing: 0.035rem;
 }
 
 strong {
