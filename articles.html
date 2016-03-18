@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section id="articles" class="section" aria-labelledby="articles-title">
+	<div class="container">
+		<h1 id="articles-title" class="section-title">Articles</h1>
+
+		{% for post in site.posts %}
+		  {% include post.html %}
+		{% endfor %}
+
+	</div>
+</section>
