@@ -33,6 +33,8 @@
   },
   "scripts": {
     "start": "npm run watch",
-    "watch": "webpack -d --watch"
+    "watch": "webpack -d --watch",
+    "build": "webpack -d",
+    "deploy": "webpack -p"
   }
 }
