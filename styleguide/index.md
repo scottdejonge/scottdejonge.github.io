@@ -16,27 +16,33 @@ Third level headings are most often used to denote names rather than sections, s
 
 Fourth level headings are used to split-up longer text into smaller sub-sections. Headings should be short and descriptive of the content they contain.
 
-### Typography Styles
+## Adjacent Heading Level 2
 
-#### Ordered List
+### To a Sibling Heading Level 3
+
+Adjacent headings of decending levels remove the `margin-top` from the younger sibling heading to reduce spacing.
+
+## Typographic Styles
+
+### Ordered List
 
 - Ordered Lists look like this.
 - Multi-leveled Ordered Lists look like this:
 	- This is an example of a second-level bullet
 
-#### Unordered List
+### Unordered List
 
 1. This is a Unordered List.
 2. Unordered Lists can also have multiple levels:
 	1. This is a second-level Unordered List item
 
-#### Blockquote
+### Blockquote
 
 Blockquotes are used to "pullout" content and quotes to give them visual dominance, and therefore, impact to whatever text they feature.
 
 > This is a blockquote of featured text that has been pulled out of paragraph content
 
-#### Code
+### Code
 
 Inline `code` examples are styled with a monospace typeface and are coloured.
 
@@ -58,7 +64,7 @@ Codeblocks have syntax highlighting using [Rouge](https://github.com/jneen/rouge
 </html>
 ```
 
-#### References
+### References
 
 References are applied with the [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes) `[^footnote]`.
 
