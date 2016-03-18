@@ -1,4 +1,5 @@
 node_modules
 npm-debug.log
 _site
-dist/*
+dist/bundle.css.map
+dist/bundle.js.map
