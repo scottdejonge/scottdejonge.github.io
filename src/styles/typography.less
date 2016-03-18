@@ -73,6 +73,19 @@ ul {
 
 	li {
 		padding-left: @padding-xsmall;
+		
+		ol,
+		ul {
+			margin: @child-list-margin;
+
+			&:first-child {
+				margin: @child-list-margin;
+			}
+
+			&:last-child {
+				margin: @child-list-margin;
+			}
+		}
 	}
 }
 
