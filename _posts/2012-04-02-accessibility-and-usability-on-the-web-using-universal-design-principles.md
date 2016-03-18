@@ -169,8 +169,6 @@ Overall the emergence of new web technologies can provide web designers and deve
 
 A fundamental approach to universal access can be implemented using universal deign principles, the adherence to web accessibility guidelines (WCAG, WAI etc.), as well as the understanding role of usability and accessibility in a online context.
 
-## References
-
 [^1]: United Nations. (2008, May 3). [Convention on the Rights of Persons with Disabilities](http://www.un.org/disabilities/documents/convention/convoptprot-e.pdf). Retrieved May 19, 2012.
 
 [^United-Nations-1993]: United Nations. (1993, December 20). [The Standard Rules on the Equalization of Opportunities for Persons with Disabilities](http://www.un.org/esa/socdev/enable/dissre04.htm). Retrieved May 19, 2012.

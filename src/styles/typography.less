@@ -102,7 +102,7 @@ blockquote {
 		content: '';
 		width: 30px;
 		height: 2px;
-		background: @light-grey;
+		background: @mid-light-grey;
 	}
 
 	&::before {
@@ -115,12 +115,27 @@ blockquote {
 }
 
 .footnotes {
+	margin-top: 10rem;
+
+	&::before {
+		position: absolute;
+		left: 50%;
+		margin-top: -5rem;
+		margin-left: -4rem;
+		content: '';
+		width: 8rem;
+		height: 2px;
+		background: @mid-light-grey;
+	}
 	
 	ol {
+		padding: 0 0 0 2rem;
 
 		li,
-		p {
+		p,
+		a {
 			.font-size(@font-size-xsmall);
+			color: @mid-grey;
 		}
 	}
 }
