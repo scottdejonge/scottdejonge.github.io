@@ -16,7 +16,7 @@ encoding: UTF-8
 exclude: ["node_modules", "Gemfile", "Gemfile.lock", "commit-hook.sh", "package.json"]
 
 # URLs
-permalink: /:categories/:title/
+permalink: pretty
 
 # Build settings
 markdown: kramdown
