@@ -1,0 +1,34 @@
+.post {
+	margin-top: 3rem;
+	font-family: var(--font-family-system);
+
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+}
+
+.post-image {
+	display: block;
+	margin-bottom: 0.75rem;
+	background: transparent;
+
+	& img {
+		width: 3rem;
+		height: 3rem;
+	}
+}
+
+.post-date {
+	margin: 0.75rem 0;
+}
+
+.post-title {
+	margin: 0;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.post-description {
+	margin: 0.75rem 0;
+	font-size: 0.75rem;
+}
