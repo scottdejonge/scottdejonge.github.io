@@ -3,5 +3,6 @@
 	margin-right: auto;
 	padding-left: var(--gutter);
 	padding-right: var(--gutter);
+	width: 100%;
 	max-width: 40rem;
 }
