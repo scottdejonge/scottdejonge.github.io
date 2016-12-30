@@ -7,14 +7,27 @@ This page exists to demonstrate the visual styles of the various elements that c
 
 ## Heading Level 2
 
-Second level headings are used to split text into sections. First level headings are only used once per page, in the page or post title. [Hyperlinks](/styleguide) are underlined and coloured when hovered.
+Second level headings are used to split text into sections. First level headings are only used once per page, in the page or post title. [Hyperlinks](/styleguide) are underlined and change colour when hovered.
+
+```markdown
+## Heading Level 2
+```
 
 ### Heading Level 3
+
 Third level headings are most often used to denote names rather than sections, so have a lower visual priority.
+
+```markdown
+### Heading Level 3
+```
 
 #### Heading Level 4
 
 Fourth level headings are used to split-up longer text into smaller sub-sections. Headings should be short and descriptive of the content they contain.
+
+```markdown
+#### Heading Level 4
+```
 
 ## Adjacent Heading Level 2
 
@@ -22,13 +35,24 @@ Fourth level headings are used to split-up longer text into smaller sub-sections
 
 Adjacent headings of decending levels remove the `margin-top` from the younger sibling heading to reduce spacing.
 
+```markdown
+## Adjacent Heading Level 2
+### To a Sibling Heading Level 3
+```
+
 ## Typographic Styles
 
 ### Ordered List
 
-- Ordered Lists look like this.
-- Multi-leveled Ordered Lists look like this:
-	- This is an example of a second-level bullet
+* Ordered Lists look like this.
+* Multi-leveled Ordered Lists look like this:
+	* This is an example of a second-level bullet
+
+```markdown
+* Ordered Lists look like this.
+* Multi-leveled Ordered Lists look like this:
+  * This is an example of a second-level bullet
+```
 
 ### Unordered List
 
@@ -36,15 +60,29 @@ Adjacent headings of decending levels remove the `margin-top` from the younger s
 2. Unordered Lists can also have multiple levels:
 	1. This is a second-level Unordered List item
 
+```markdown
+1. This is a Unordered List.
+2. Unordered Lists can also have multiple levels:
+  1. This is a second-level Unordered List item
+```
+
 ### Blockquote
 
 Blockquotes are used to "pullout" content and quotes to give them visual dominance, and therefore, impact to whatever text they feature.
 
 > This is a blockquote of featured text that has been pulled out of paragraph content
 
+```markdown
+> This is a blockquote of featured text that has been pulled out of paragraph content
+```
+
 ### Code
 
 Inline `code` examples are styled with a monospace typeface and are coloured.
+
+```markdown
+`code`
+```
 
 Codeblocks have syntax highlighting using [Rouge](https://github.com/jneen/rouge)
 
@@ -71,3 +109,7 @@ References are applied with the [Kramdown Footnotes Syntax](http://kramdown.gett
 e.g. A line of text that references Kramdown Footnotes Syntax [^footnote].
 
 [^footnote]: Kramdown [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes)
+
+```markdown
+[^footnote]: Kramdown [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes)
+```
