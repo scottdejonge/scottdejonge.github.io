@@ -1,0 +1,12 @@
+hr {
+	clear: both;
+	margin: 3rem 0;
+	height: 1rem;
+	font-size: 1rem;
+	text-align: center;
+	border: 0;
+
+	&::before {
+		content: '* * *';
+	}
+}

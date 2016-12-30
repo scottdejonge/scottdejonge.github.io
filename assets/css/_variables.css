@@ -1,0 +1,48 @@
+:root {
+
+
+	/**
+	 * Media Queries
+	 */
+
+	@custom-media --xs (max-width: 767px);
+	@custom-media --s (min-width: 768px) and (max-width: 1023px);
+	@custom-media --s-up (min-width: 768px);
+	@custom-media --s-down (max-width: 1023px);
+	@custom-media --m (min-width: 1024px) and (max-width: 1279px);
+	@custom-media --m-up (min-width: 1024px);
+	@custom-media --m-down (max-width: 1279px);
+	@custom-media --l (min-width: 1280px) and (max-width: 1679px);
+	@custom-media --l-up (min-width: 1280px);
+	@custom-media --l-down (max-width: 1679px);
+	@custom-media --xl (min-width: 1680px);
+
+
+	/**
+	 * Color
+	 */
+
+	--white: #FFFFFF;
+	--black: #000000;
+	--light: #F6F6FA;
+	--grey-light: #C6C6C8;
+	--grey: #56565D;
+	--grey-dark: #46464E;
+	--dark: #232325;
+
+
+	/**
+	 * Gutter
+	 */
+
+	--gutter: 1rem;
+
+
+	/**
+	 * Font
+	 */
+	
+	--font-family-serif: "et-book", Georgia, "Times New Roman", Times, serif;
+	--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+}

@@ -1,0 +1,15 @@
+pre {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+	overflow: auto;
+	font-family: var(--font-family-monospace);
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	tab-size: 2;
+	hyphens: none;
+	background: var(--white);
+}

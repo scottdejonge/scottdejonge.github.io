@@ -1,0 +1,6 @@
+.container {
+	margin: 3em auto;
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+	max-width: 40rem;
+}

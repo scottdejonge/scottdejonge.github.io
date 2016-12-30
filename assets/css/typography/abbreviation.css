@@ -1,0 +1,10 @@
+abbr,
+abbr[title] {
+	text-decoration: none;
+	font-family: inherit;
+	font-variant: all-small-caps;
+}
+
+abbr[title] {
+	cursor: help;
+}

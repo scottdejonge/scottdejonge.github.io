@@ -1,0 +1,23 @@
+a {
+	color: blue;
+	text-decoration: none;
+	background-image: linear-gradient(to bottom, currentColor 50%, transparent 50%);
+	background-repeat: repeat-x;
+	background-size: 2px 0.1em;
+	background-position: 0 1em;
+	transition: color 200ms ease-in-out;
+	
+	&:hover,
+	&:focus {
+		color: blue;
+		text-decoration: none;
+	}
+
+	&:active {
+		color: var(--dark);
+	}
+
+	&:visited {
+		color: rebeccapurple;
+	}
+}
