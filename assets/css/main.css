@@ -75,6 +75,7 @@
  */
 
 @import './template/header';
+@import './template/logo';
 @import './template/hero';
 @import './template/section';
 @import './template/footer';
