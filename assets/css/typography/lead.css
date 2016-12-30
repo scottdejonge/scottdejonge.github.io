@@ -1,0 +1,5 @@
+.lead {
+	margin: 0.5em 0;
+	font-family: var(--font-family-system);
+	font-size: 1.25rem;
+}
