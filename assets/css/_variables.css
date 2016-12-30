@@ -24,11 +24,19 @@
 
 	--white: #FFFFFF;
 	--black: #000000;
-	--light: #F6F6FA;
-	--grey-light: #C6C6C8;
-	--grey: #56565D;
-	--grey-dark: #46464E;
-	--dark: #232325;
+	--grey-100: #FDFDFE;
+	--grey-200: #F6F6F9;
+	--grey-300: #E6E6E8;
+	--grey-400: #56565D;
+	--grey-500: #46464E;
+	--grey-600: #232325;
+
+
+	/**
+	 * Border Radius
+	 */
+
+	--border-radius: 0.25rem;
 
 
 	/**

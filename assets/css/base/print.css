@@ -37,7 +37,7 @@
 
 	pre {
 		page-break-inside: avoid;
-		border: 1px solid var(--grey) !important;
+		border: 1px solid var(--grey-400) !important;
 	}
 
 	blockquote {

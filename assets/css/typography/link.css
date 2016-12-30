@@ -14,7 +14,7 @@ a {
 	}
 
 	&:active {
-		color: var(--dark);
+		color: var(--grey-600);
 	}
 
 	&:visited {
