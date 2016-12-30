@@ -42,6 +42,7 @@
  */
 
 @import './typography/headings';
+@import './typography/title';
 @import './typography/paragraph';
 @import './typography/link';
 @import './typography/strong';
