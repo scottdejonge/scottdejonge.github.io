@@ -14,26 +14,35 @@
 
 .post-image {
 	display: block;
-	margin-bottom: 0.75rem;
 	background: transparent;
 
 	& img {
-		width: 2rem;
-		height: 2rem;
+		width: 2.5rem;
+		height: 2.5rem;
 	}
 }
 
 .post-date {
-	margin: 0.75rem 0;
+	margin: 0;
+	font-size: 0.75rem;
 }
 
 .post-title {
-	margin: 0;
-	font-weight: 500;
+	margin: 0.5em 0;
+	font-weight: 600;
 	font-size: 1rem;
+	letter-spacing: 0.015em;
+
+	& a {
+		color: var(--grey-600);
+
+		&:not(:hover) {
+			background: transparent;
+		}
+	}
 }
 
 .post-description {
-	margin: 0.75rem 0;
-	font-size: 0.75rem;
+	margin: 0;
+	font-size: 0.875rem;
 }
