@@ -3,6 +3,9 @@ figure {
 }
 
 figcaption {
+	margin-top: 1em;
 	font-family: var(--font-family-system);
-	font-size: 0.875rem;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	color: var(--grey);
 }
