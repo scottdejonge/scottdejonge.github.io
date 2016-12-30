@@ -61,6 +61,14 @@
 
 
 /**
+ * Element
+ */
+
+@import './element/figure';
+@import './element/media';
+
+
+/**
  * Syntax
  */
 
