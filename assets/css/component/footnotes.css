@@ -1,0 +1,13 @@
+.footnotes {
+	font-family: var(--font-family-system);
+	font-size: 0.75rem;
+	color: var(--grey-400);
+
+	& ol {
+
+	}
+
+	& li {
+
+	}
+}
