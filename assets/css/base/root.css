@@ -5,11 +5,7 @@
 		font-size: 20px;
 	}
 
-	@media (--l) {
+	@media (--l-up) {
 		font-size: 24px;
-	}
-
-	@media (--xl) {
-		font-size: 28px;
 	}
 }
