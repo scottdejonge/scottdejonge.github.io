@@ -52,6 +52,8 @@
 @import './typography/pre';
 @import './typography/kbd';
 @import './typography/mark';
+@import './typography/footnotes';
+@import './typography/table';
 
 
 /**
@@ -68,6 +70,7 @@
 
 @import './template/header';
 @import './template/logo';
+@import './template/nav';
 @import './template/hero';
 @import './template/section';
 @import './template/footer';
@@ -78,7 +81,6 @@
  * Component
  */
 
-@import './component/footnotes';
 /* @import './component/post'; /
 
 

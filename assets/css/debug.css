@@ -11,6 +11,6 @@
 		repeating-linear-gradient(-90deg, var(--grid-color), var(--grid-color) var(--grid-weight), transparent var(--grid-weight), transparent var(--grid-size)); 
 
 	@media (--s-up) {
-		background-position: center center;
+		background-position: top center;
 	}
 }

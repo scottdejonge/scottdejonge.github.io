@@ -1,0 +1,15 @@
+table {
+	width: 100%;
+	font-family: var(--font-family-monospace);
+	font-size: 0.75rem;
+	text-align: left;
+	letter-spacing: -0.025em;
+	border: 1px solid currentColor;
+	border-collapse: collapse;
+}
+
+td,
+th {
+	padding: 0.5em;
+	border: 1px solid currentColor;
+}

@@ -7,4 +7,5 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 3rem;
+	border-bottom: 0.125rem solid currentColor;
 }

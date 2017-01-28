@@ -1,5 +1,5 @@
 a {
-	color: blue;
+	color: currentColor;
 	text-decoration: none;
 	background-image: linear-gradient(to bottom, currentColor 50%, transparent 50%);
 	background-repeat: repeat-x;
@@ -9,7 +9,7 @@ a {
 	
 	&:hover,
 	&:focus {
-		color: blue;
+		color: currentColor;
 		text-decoration: none;
 	}
 

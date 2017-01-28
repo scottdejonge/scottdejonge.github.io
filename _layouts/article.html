@@ -2,19 +2,14 @@
 layout: default
 ---
 
-<section class="hero" aria-labelledby="article-title">
+<main class="section" aria-labelledby="title">
   <div class="container">
-    <div class="hero-inner">
-      <h1 id="article-title">{{ page.title }}</h1>
+    <div class="hero">
+      <h1 id="title">{{ page.title }}</h1>
       <p class="lead">
-      	<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
       </p>
-     </div>
-  </div>
-</section>
-
-<main class="section">
-  <div class="container">
+    </div>
     {{ content }}
   </div>
 </main>

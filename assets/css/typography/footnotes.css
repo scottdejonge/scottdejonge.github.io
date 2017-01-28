@@ -1,0 +1,13 @@
+.footnotes {
+	font-family: var(--font-family-monospace);
+	font-size: 0.625rem;
+	letter-spacing: -0.025em;
+
+	& ol {
+
+	}
+
+	& li {
+
+	}
+}

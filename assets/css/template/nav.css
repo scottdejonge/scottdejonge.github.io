@@ -1,0 +1,22 @@
+.nav {
+	font-family: var(--font-family-monospace);
+	font-weight: bold;
+	font-size: 0.75rem;
+
+	& a {
+		padding-top: 1em;
+		padding-bottom: 1em;
+		color: currentColor;
+		text-decoration: none;
+		background: none;
+
+		& + a {
+			margin-left: 1em;
+		}
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}

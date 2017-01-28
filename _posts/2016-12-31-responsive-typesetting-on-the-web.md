@@ -59,7 +59,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. C
 
 Font size scale.
 
-<table style="width: 100%; text-align: left; border: 1px solid; border-color: #CCC; border-collapse: collapse;" border="1" cellpadding="5px" cellspacing="0">
+<table border="1" cellpadding="5px" cellspacing="0">
   <thead>
     <tr>
       <th></th>
