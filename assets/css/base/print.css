@@ -12,7 +12,7 @@
 	*::before,
 	*::after {
 		background: transparent !important;
-		color: var(--black) !important; /* Black prints faster: h5bp.com/s */
+		color: black !important; /* Black prints faster: h5bp.com/s */
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
@@ -37,7 +37,7 @@
 
 	pre {
 		page-break-inside: avoid;
-		border: 1px solid var(--grey-400) !important;
+		border: 1px solid #999 !important;
 	}
 
 	blockquote {
@@ -78,7 +78,7 @@
 
 		td,
 		th {
-			background-color: var(--white) !important;
+			background-color: white !important;
 		}
 	}
 }

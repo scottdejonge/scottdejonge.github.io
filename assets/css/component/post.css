@@ -1,11 +1,6 @@
 .post {
 	margin-top: 2rem;
 	padding: 1rem;
-	font-family: var(--font-family-system);
-	background: var(--white);
-	border: 1px solid var(--grey-300);
-	border-radius: var(--border-radius);
-	box-shadow: 0 0 1rem 0 var(--grey-200);
 
 	&:not(:last-child) {
 		margin-bottom: 2rem;
@@ -34,7 +29,6 @@
 	letter-spacing: 0.015em;
 
 	& a {
-		color: var(--grey-600);
 
 		&:not(:hover) {
 			background: transparent;

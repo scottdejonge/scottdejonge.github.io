@@ -1,9 +1,7 @@
 .footer {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	font-family: var(--font-family-system);
 	font-size: 0.75rem;
 	line-height: 1.5;
-	color: var(--grey-400);
 	text-align: center;
 }

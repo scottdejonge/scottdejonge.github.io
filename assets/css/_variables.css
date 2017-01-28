@@ -19,20 +19,6 @@
 
 
 	/**
-	 * Color
-	 */
-
-	--white: #FFFFFF;
-	--black: #000000;
-	--grey-100: #FDFDFE;
-	--grey-200: #F6F6F9;
-	--grey-300: #E6E6E8;
-	--grey-400: #56565D;
-	--grey-500: #46464E;
-	--grey-600: #232325;
-
-
-	/**
 	 * Border Radius
 	 */
 
@@ -50,7 +36,7 @@
 	 * Font
 	 */
 	
-	--font-family-serif: "et-book", Georgia, "Times New Roman", Times, serif;
+	--font-family-serif: Georgia, "Times New Roman", Times, serif;
 	--font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 }

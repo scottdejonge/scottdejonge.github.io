@@ -35,7 +35,6 @@
  */
 
 @import './typography/headings';
-@import './typography/title';
 @import './typography/paragraph';
 @import './typography/lead';
 @import './typography/link';

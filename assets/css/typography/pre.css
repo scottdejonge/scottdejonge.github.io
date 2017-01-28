@@ -11,5 +11,5 @@ pre {
 	word-break: normal;
 	tab-size: 2;
 	hyphens: none;
-	background: var(--white);
+	background: white;
 }
