@@ -16,8 +16,4 @@ a {
 	&:active {
 		
 	}
-
-	&:visited {
-		color: rebeccapurple;
-	}
 }

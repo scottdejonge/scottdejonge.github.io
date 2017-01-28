@@ -1,15 +1,22 @@
 ---
 layout: default
+title: Scott de Jonge
+description: "UI/UX designer &amp; Web developer that designs and builds websites for humans at bigfish.tv"
+color: "#130BE3"
+background: "#FFDEDE"
 ---
 
-<main id="intro" class="hero" aria-labelledby="intro-title">
-  <div class="container">
-    <h1 id="intro-title">Scott de Jonge</h1>
-    <p class="lead">UI/UX designer &amp; Web developer that designs and builds websites for humans at <a href="http://bigfish.tv">bigfish.tv</a>.</p>
-  </div>
-</main>
+{% include intro.html %}
 
-<section id="about" class="section" aria-labelledby="about-title">
+{% for project in site.projects %}
+  {% include project.html %}
+{% endfor %}
+
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}
+
+<!-- <section id="about" class="section" aria-labelledby="about-title">
   <div class="container">
     <h1 id="about-title">About</h1>
     <p>Scott de Jonge has a Bachelor of Multimedia Design from the University of Queensland with a focus on creating universally accessible reponsive web interfaces for anyone, anywhere.</p>
@@ -62,20 +69,9 @@ layout: default
     </article>
 
   </div>
-</section>
+</section> -->
 
-<section id="articles" class="section" aria-labelledby="articles-title">
-  <div class="container">
-    <h1 id="articles-title">Articles</h1>
-
-    {% for post in site.posts %}
-      {% include post.html %}
-    {% endfor %}
-
-  </div>
-</section>
-
-<section id="styleguide" class="section" aria-labelledby="styleguide-title">
+<!-- <section id="styleguide" class="section" aria-labelledby="styleguide-title">
   <div class="container">
     <h1 id="styleguide-title">Style Guide</h1>
 
@@ -85,4 +81,4 @@ layout: default
     </article>
 
   </div>
-</section>
+</section> -->

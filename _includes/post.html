@@ -1,4 +1,6 @@
 <article class="post">
-  <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
+  <div class="container">
+    <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
+  </div>
 </article>
