@@ -11,16 +11,32 @@ host: 0.0.0.0
 port: 4001
 url: http://scottdejonge.com
 encoding: UTF-8
+timezone: UTC
+permalink: pretty
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    permalink: /writing/:title/
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:path/"
 
 # Excludes
-exclude: ["node_modules", "Gemfile", "Gemfile.lock", "commit-hook.sh", "package.json"]
-
-# URLs
-permalink: pretty
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - commit-hook.sh
+  - package.json
 
 # Build settings
 markdown: kramdown
 
+# Kramdown
 kramdown:
   input: GFM
   auto_ids: true
