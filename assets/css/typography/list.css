@@ -2,8 +2,11 @@ ul,
 ol {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	padding-left: 1.5em;
 	line-height: 1.5;
+	background: var(--grey-100);
 
 	& li {
 		margin-top: 0.5rem;

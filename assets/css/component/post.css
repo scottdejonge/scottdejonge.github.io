@@ -5,7 +5,7 @@
 	background: var(--white);
 	border: 1px solid var(--grey-300);
 	border-radius: var(--border-radius);
-    box-shadow: 0 0 1rem 0 var(--grey-200);
+	box-shadow: 0 0 1rem 0 var(--grey-200);
 
 	&:not(:last-child) {
 		margin-bottom: 2rem;

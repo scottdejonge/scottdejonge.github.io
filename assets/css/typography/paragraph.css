@@ -1,5 +1,8 @@
 p {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	line-height: 1.65;
+	background: var(--grey-100);
 }

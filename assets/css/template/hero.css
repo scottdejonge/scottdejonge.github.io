@@ -3,6 +3,10 @@
 	flex-direction: column;
 	justify-content: center;
 	min-height: 80vh;
-	background: blue;
-	color: white;
+}
+
+.hero-inner {
+	padding: 1.5rem;
+	background: var(--grey-100);
+	border: 1px solid var(--grey-300);
 }
