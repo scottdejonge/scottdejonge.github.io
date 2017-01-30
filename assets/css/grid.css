@@ -2,16 +2,20 @@
 	--minor-grid-size: 0.5rem;
 	--minor-grid-color: color(black a(2%));
 	--minor-grid-weight: 1px;
-	--major-grid-size: 2rem;
+	--major-grid-size: 2.5rem;
 	--major-grid-color: color(black a(4%));
 	--major-grid-weight: 1px;
 }
 
-.debug {
-	background-size: var(--major-grid-size) var(--major-grid-size);
+.grid {
 	background-image:
 		repeating-linear-gradient(0deg, var(--major-grid-color), var(--major-grid-color) var(--major-grid-weight), transparent var(--major-grid-weight), transparent var(--major-grid-size)),
 		repeating-linear-gradient(-90deg, var(--major-grid-color), var(--major-grid-color) var(--major-grid-weight), transparent var(--major-grid-weight), transparent var(--major-grid-size)),
 		repeating-linear-gradient(0deg, var(--minor-grid-color), var(--minor-grid-color) var(--minor-grid-weight), transparent var(--minor-grid-weight), transparent var(--minor-grid-size)),
 		repeating-linear-gradient(-90deg, var(--minor-grid-color), var(--minor-grid-color) var(--minor-grid-weight), transparent var(--minor-grid-weight), transparent var(--minor-grid-size));
+	background-size: var(--major-grid-size) var(--major-grid-size);
+
+	@media (--s-up) {
+		background-position: top 2.5rem;
+	}
 }
