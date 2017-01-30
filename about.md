@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+color: "#FFF"
+background: "#141414"
 ---
 
 <figure>
