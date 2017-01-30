@@ -2,30 +2,4 @@ body {
 	font-family: var(--font-family-system);
 	color: black;
 	background: white;
-
-/*
-	&::before,
-	&::after {
-		z-index: -1;
-		display: block;
-		position: fixed;
-		top: 0;
-		left: 50%;
-		bottom: 0;
-		content: '';
-	}
-
-	&::before {
-		width: 100%;
-		max-width: calc(40rem - (var(--gutter) * 2));
-		border-left: 1px solid var(--grey-300);
-		border-right: 1px solid var(--grey-300);
-		opacity: 0;
-		transform: translateX(-50%);
-	}
-
-	&::after {
-		border-left: 1px solid var(--grey-300);
-	}
-*/
 }
