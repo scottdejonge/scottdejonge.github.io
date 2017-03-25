@@ -1,7 +1,7 @@
 .nav {
-	font-family: var(--font-family-monospace);
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 0.75rem;
+	text-transform: uppercase;
 
 	& a {
 		padding-top: 1em;
