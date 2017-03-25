@@ -2,7 +2,7 @@
 layout: default
 title: About
 color: "#FFF"
-background: "#141414"
+background: "#077655"
 ---
 
 <figure>
