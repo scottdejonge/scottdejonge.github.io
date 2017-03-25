@@ -33,10 +33,6 @@ h2 {
 h3 {
 	font-size: 1.75rem;
 	line-height: 1.35;
-	font-weight: 700;
-	font-family: var(--font-family-system);
-	letter-spacing: 0.025em;
-	text-transform: uppercase;
 
 	& + h4 {
 		margin-top: 0;
@@ -44,8 +40,11 @@ h3 {
 }
 
 h4 {
+	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 1.35;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
 
 	& + h5 {
 		margin-top: 0;
