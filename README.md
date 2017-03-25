@@ -1,1 +1,2 @@
-#Scott de Jonge
+# [Scott de Jonge](http://scottdejonge.com/)
+
