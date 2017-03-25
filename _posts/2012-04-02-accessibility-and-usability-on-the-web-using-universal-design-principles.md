@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title: "Accessibility and Usability on the Web using Universal Design Principles"
 date: "2012-04-02 15:00:00 +1000"
 author: scottdejonge

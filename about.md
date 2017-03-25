@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 color: "#FFF"
 background: "#141414"
