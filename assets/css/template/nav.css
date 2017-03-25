@@ -1,6 +1,6 @@
 .nav {
 	font-weight: 700;
-	font-size: 0.75rem;
+	font-size: 16px;
 	text-transform: uppercase;
 
 	& a {

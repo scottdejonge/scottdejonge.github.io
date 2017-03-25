@@ -1,0 +1,20 @@
+.post {
+
+	&:not(:last-child) {
+		margin-bottom: 2rem;
+	}
+}
+
+.post-date {
+	margin: 0;
+	font-size: 0.75rem;
+}
+
+.post-title {
+	margin: 0;
+}
+
+.post-description {
+	margin: 0;
+	font-size: 0.875rem;
+}

@@ -50,14 +50,6 @@
 
 
 /**
- * Element
- */
-
-@import './element/figure';
-@import './element/media';
-
-
-/**
  * Template
  */
 
@@ -69,12 +61,14 @@
 @import './template/footer';
 
 
-
 /**
- * Component
+ * Element
  */
 
-/* @import './component/post'; /
+@import './element/divider';
+@import './element/figure';
+@import './element/media';
+@import './element/post';
 
 
 /**
