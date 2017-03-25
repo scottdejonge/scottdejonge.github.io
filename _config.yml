@@ -16,10 +16,6 @@ permalink: pretty
 
 # Collections
 collections:
-  posts:
-    title: Posts
-    output: true
-    permalink: /writing/:title/
   projects:
     title: Projects
     output: true
@@ -43,4 +39,4 @@ kramdown:
   syntax_highlighter: rouge
 
 # Repo
-repo: https://github.com/scottdejonge/scottdejonge
+repo: https://github.com/scottdejonge/scottdejonge.github.io
