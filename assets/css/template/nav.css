@@ -15,10 +15,9 @@
 		text-align: center;
 		text-decoration: none;
 		background: none;
-	  border-left: 2px solid currentColor;
 
-	  &:last-child {
-	  	border-right: 2px solid currentColor;
+	  &:not(:first-child) {
+	  	border-left: 2px solid currentColor;
 	  }
 
 		&:hover,
