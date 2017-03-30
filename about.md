@@ -1,11 +1,14 @@
 ---
 layout: default
+order: 20
 title: About
-description: "A UI/UX designer and web developer that builds universally accessible responsive web interfaces."
+description: "I am a UI/UX designer and web developer that builds universally accessible responsive web interfaces."
 accent: "#62FED8"
 color: "#FFFFFF"
 background: "#0C0C0C"
 ---
+
+I am a UI/UX designer and web developer that builds universally accessible responsive web interfaces.
 
 ### Websites I've built
 

@@ -1,8 +1,9 @@
 ---
 layout: default
+order: 10
 title: Home
 page_title: Scott de Jonge
-description: "A UI/UX designer and web developer that builds universally accessible responsive web interfaces."
+description: "A UI/UX designer and web developer"
 accent: "#62FED8"
 color: "#FFFFFF"
 background: "#0C0C0C"
@@ -12,9 +13,13 @@ background: "#0C0C0C"
 
 <h2>Pages</h2>
 
-{% for post in site.pages %}
-  {% include post.html %}
+{% assign pages = (site.pages | sort: 'order') %}
+{% for post in pages %}
+  {% if post.url != "/" %}
+    {% include post.html %}
+  {% endif %}
 {% endfor %}
+
 
 {% include glyphs/2.svg %}
 
