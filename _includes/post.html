@@ -4,7 +4,7 @@
   </h3>
   {% if post.date %}
     <p class="post-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A %-d %B %Y" }}</time>
     </p>
   {% endif %}
   {% if post.description %}

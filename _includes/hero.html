@@ -2,7 +2,7 @@
   <h1 id="title" class="no-margin">{% if page.page_title %}{{ page.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
   {% if page.date %}
     <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A %-d %B %Y" }}</time>
     </p>
   {% endif %}
   {% if page.description %}
