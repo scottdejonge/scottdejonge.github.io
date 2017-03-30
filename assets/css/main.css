@@ -57,7 +57,7 @@
 @import './template/logo';
 @import './template/nav';
 @import './template/hero';
-@import './template/section';
+@import './template/main';
 @import './template/footer';
 
 
@@ -69,6 +69,13 @@
 @import './element/figure';
 @import './element/media';
 @import './element/post';
+
+
+/**
+ * Utility
+ */
+
+@import './utility';
 
 
 /**

@@ -1,3 +1,8 @@
 .hero {
-	margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+	min-height: 50vh;
 }

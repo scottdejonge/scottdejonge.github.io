@@ -1,0 +1,17 @@
+<svg class="divider" xmlns="http://www.w3.org/2000/svg" width="170" height="16" viewBox="0 0 170 16">
+  <title>Divider</title>
+  <g fill="none" fill-rule="evenodd" stroke-miterlimit="10" stroke-linecap="square" stroke-width="0.125rem">
+    <path d="M1,15 L15,1"/>
+    <path d="M43,15 L57,1" transform="rotate(90 50 8)"/>
+    <path d="M29,15 L43,1"/>
+    <path d="M15,15 L29,1" transform="rotate(90 22 8)"/>
+    <path d="M57,15 L71,1"/>
+    <path d="M99,15 L113,1" transform="rotate(90 106 8)"/>
+    <path d="M85,15 L99,1"/>
+    <path d="M71,15 L85,1" transform="rotate(90 78 8)"/>
+    <path d="M113,15 L127,1"/>
+    <path d="M155,15 L169,1" transform="rotate(90 162 8)"/>
+    <path d="M141,15 L155,1"/>
+    <path d="M127,15 L141,1" transform="rotate(90 134 8)"/>
+  </g>
+</svg>

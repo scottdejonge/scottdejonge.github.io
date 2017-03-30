@@ -1,14 +1,11 @@
 ---
 layout: default
 title: Scott de Jonge
-description: "UI/UX designer &amp; Web developer that designs and builds websites for humans at bigfish.tv"
-color: "#EBEBEB"
-background: "#1D1D1F"
+description: "A UI/UX designer and web developer that builds universally accessible responsive web interfaces."
+accent: "#62FED8"
+color: "#FFFFFF"
+background: "#0C0C0C"
 ---
-
-## About me
-
-Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
 ### Websites I've built
 

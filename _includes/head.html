@@ -40,6 +40,25 @@
   
   <!-- Styles -->
   <link rel="stylesheet" href="{{ "/public/bundle.css" | prepend: site.baseurl }}">
+  <style>
+    body {
+      {% if page.color %}color: {{ page.color }};{% endif %}
+      {% if page.background %}background-color: {{ page.background }};{% endif %}
+    }
+    {% if page.accent %}
+      svg {
+        stroke: {{ page.accent }};
+      }
+      .post-date,
+      a:hover,
+      a:focus {
+        color: {{ page.accent }};
+      }
+      .header-inner {
+        border-bottom-color: {{ page.accent }};
+      }
+    {% endif %}
+  </style>
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

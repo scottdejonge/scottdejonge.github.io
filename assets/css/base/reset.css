@@ -37,7 +37,9 @@ dd,
 dt,
 ul > li,
 ol > li,
-blockquote {
+blockquote,
+cite,
+.divider {
 
 	&:first-child {
 		margin-top: 0;

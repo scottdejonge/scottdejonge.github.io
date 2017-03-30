@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body class="grid" {% if page.color && page.background %} style="color: {{ page.color }}; background-color: {{ page.background }};" {% endif %}>
+  <body>
     {% include header.html %}
-    <main class="section" aria-labelledby="title">
+    <main>
       <div class="container">
-        <h1 id="title">{{ page.title }}</h1>
-        {% if page.date %}
-          <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></p>
-        {% endif %}
-        {% if page.description %}
-          <p class="lead">{{ page.description }}</p>
-        {% endif %}
-        {% include divider.svg %}
+        {% include hero.html %}
         {{ content }}
       </div>
     </main>
