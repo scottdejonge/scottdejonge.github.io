@@ -1,7 +1,7 @@
 a {
 	color: currentColor;
 	text-decoration: none;
-	background-image: linear-gradient(to bottom, currentColor 50%, transparent 50%);
+	background-image: none;
 	background-repeat: repeat-x;
 	background-size: 1px 2px;
 	background-position: 0 1.1em;
@@ -11,6 +11,7 @@ a {
 	&:focus {
 		color: currentColor;
 		text-decoration: none;
+		background-image: linear-gradient(to bottom, currentColor 50%, transparent 50%);
 	}
 
 	&:active {

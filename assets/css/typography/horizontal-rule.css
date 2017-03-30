@@ -1,12 +1,10 @@
 hr {
 	clear: both;
-	margin: 3rem 0;
-	height: 1rem;
+	margin: 3rem auto;
+  max-width: 4rem;
+  height: 0.25rem;
 	font-size: 1rem;
 	text-align: center;
 	border: 0;
-
-	&::before {
-		content: '* * *';
-	}
+  background: currentColor;
 }
