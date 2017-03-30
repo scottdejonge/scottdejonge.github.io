@@ -1,0 +1,67 @@
+---
+layout: default
+title: Projects
+description: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue."
+accent: "#F9EC31"
+color: "#FFFFFF"
+background: "#265CB7"
+---
+
+{% for project in site.projects %}
+  {% include project.html %}
+{% endfor %}
+
+<!-- <section id="about" class="section" aria-labelledby="about-title">
+  <div class="container">
+    <h1 id="about-title">About</h1>
+    <p>Scott de Jonge has a Bachelor of Multimedia Design from the University of Queensland with a focus on creating universally accessible reponsive web interfaces for anyone, anywhere.</p>
+    <p><a href="{{ site.baseurl }}/about">About me</a></p>
+  </div>
+</section>
+
+<section id="projects" class="section" aria-labelledby="projects-title">
+  <div class="container">
+    <h1 id="projects-title">Projects</h1>
+
+    <article class="post">
+      <a class="post-image" href="http://turretcss.com/">
+        <img src="assets/projects/turret.svg" alt="Turret">
+      </a>
+      <h2 class="post-title"><a href="http://turretcss.com/">Turret</a></h2>
+      <p class="post-description">Turret is a styles and browser behaviour normalisation framework for rapid development of responsive and accessible websites.</p>
+    </article>
+
+    <article class="post">
+      <a class="post-image" href="http://map-icons.com/">
+        <img src="assets/projects/map-icons.svg" alt="Map Icons">
+      </a>
+      <h2 class="post-title"><a href="http://map-icons.com/">Map Icons</a></h2>
+      <p class="post-description">An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels.</p>
+    </article>
+
+    <article class="post">
+      <a class="post-image" href="http://bonafidebangers.com/">
+        <img src="assets/projects/bonafide-bangers.svg" alt="Bonafide Bangers">
+      </a>
+      <h2 class="post-title"><a href="http://bonafidebangers.com/">Bonafide Bangers</a></h2>
+      <p class="post-description">Bonafide Bangers is the latest and greatest in not having a shithouse playlist of tunes when hanging out.</p>
+    </article>
+
+    <article class="post">
+      <a class="post-image" href="http://scottdejonge.github.io/recipes/">
+        <img src="assets/projects/recipes.svg" alt="Recipes">
+      </a>
+      <h2 class="post-title"><a href="http://scottdejonge.github.io/recipes/">Recipes</a></h2>
+      <p class="post-description">Recipes is a simple interface for Jeykll to easily write and record personal recipes.</p>
+    </article>
+
+    <article class="post">
+      <a class="post-image" href="https://github.com/scottdejonge/walkguide">
+        <img src="assets/projects/walk-guide.svg" alt="Walk Guide">
+      </a>
+      <h2 class="post-title"><a href="https://github.com/scottdejonge/walkguide">Walk Guide</a></h2>
+      <p class="post-description">Walk Guide is a responsive web application for discovering walks throughout Queensland.</p>
+    </article>
+
+  </div>
+</section> -->
