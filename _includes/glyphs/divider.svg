@@ -1,6 +1,6 @@
 <svg class="divider" xmlns="http://www.w3.org/2000/svg" width="170" height="16" viewBox="0 0 170 16">
   <title>Divider</title>
-  <g fill="none" fill-rule="evenodd" stroke-miterlimit="10" stroke-linecap="square" stroke-width="0.125rem">
+  <g fill="none" fill-rule="evenodd" stroke-miterlimit="10" stroke-linecap="square" stroke-width="2">
     <path d="M1,15 L15,1"/>
     <path d="M43,15 L57,1" transform="rotate(90 50 8)"/>
     <path d="M29,15 L43,1"/>

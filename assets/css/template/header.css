@@ -7,6 +7,6 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 4rem;
-  border-bottom-width: 0.125rem;
+  border-bottom-width: 2px;
 	border-bottom-style: solid;
 }

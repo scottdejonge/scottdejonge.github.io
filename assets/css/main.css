@@ -54,7 +54,6 @@
  */
 
 @import './template/header';
-@import './template/logo';
 @import './template/nav';
 @import './template/hero';
 @import './template/main';
@@ -67,6 +66,7 @@
 
 @import './element/divider';
 @import './element/figure';
+@import './element/icon';
 @import './element/media';
 @import './element/post';
 

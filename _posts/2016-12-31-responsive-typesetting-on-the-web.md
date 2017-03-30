@@ -2,8 +2,6 @@
 layout: default
 title: "Responsive typesetting on the web"
 date: "2012-04-02 15:00:00 +1000"
-author: scottdejonge
-categories: []
 color: "#BD4B69"
 background: "#F4FCDC"
 ---

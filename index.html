@@ -1,0 +1,33 @@
+---
+layout: default
+title: Home
+description: "A UI/UX designer and web developer that builds universally accessible responsive web interfaces."
+accent: "#62FED8"
+color: "#FFFFFF"
+background: "#0C0C0C"
+---
+
+{% include glyphs/1.svg %}
+
+<h2>Pages</h2>
+
+{% for post in site.pages %}
+  {% include post.html %}
+{% endfor %}
+
+{% include glyphs/2.svg %}
+
+<h2>Projects</h2>
+
+{% assign projects = (site.projects | sort: 'order') %}
+{% for project in projects %}
+  {% include project.html %}
+{% endfor %}
+
+{% include glyphs/3.svg %}
+
+<h2>Writing</h2>
+
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}

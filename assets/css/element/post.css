@@ -5,9 +5,10 @@
 	}
 }
 
-.post-date {
-	margin: 0;
-	font-size: 0.75rem;
+.post-meta {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  font-size: 0.75rem;
 }
 
 .post-title {
