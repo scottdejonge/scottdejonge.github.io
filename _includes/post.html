@@ -2,7 +2,12 @@
   <h3 class="post-title">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </h3>
-  <p class="post-date">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
-  </p>
+  {% if post.date %}
+    <p class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+    </p>
+  {% endif %}
+  {% if post.description %}
+    <p class="post-description">{{ post.description }}</p>
+  {% endif %}
 </article>
