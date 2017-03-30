@@ -54,8 +54,15 @@
       blockquote {
         color: {{ page.accent }};
       }
-      .nav {
+      .nav a {
+        color: {{ page.background }};
+        background-color: {{ page.accent }};
+      }
+      .nav a.active,
+      .nav a:hover,
+      .nav a:focus {
         color: {{ page.accent }};
+        background-color: {{ page.background }};
       }
     {% endif %}
   </style>

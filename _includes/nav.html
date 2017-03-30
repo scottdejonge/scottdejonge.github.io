@@ -1,6 +1,9 @@
 <nav class="nav">
-  <a href="{{ site.baseurl }}/"><span>Home</span></a>
-  <a href="{{ site.baseurl }}/about"><span>About</span></a>
-  <a href="{{ site.baseurl }}/projects"><span>Projects</span></a>
-  <a href="{{ site.baseurl }}/writing"><span>Writing</span></a>
+  {% for link in site.navigation %}
+    {% assign active = nil %}
+    {% if page.url == link.url %}
+      {% assign active = 'active' %}
+    {% endif %}
+      <a class="{{ active }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+  {% endfor %}
 </nav>

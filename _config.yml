@@ -40,3 +40,14 @@ kramdown:
 
 # Repo
 repo: https://github.com/scottdejonge/scottdejonge.github.io
+
+# Navigation
+navigation:
+  - text: Home
+    url: "/"
+  - text: About
+    url: "/about/"
+  - text: Projects
+    url: "/projects/"
+  - text: Writing
+    url: "/writing/"
