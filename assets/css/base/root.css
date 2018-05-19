@@ -1,11 +1,7 @@
 :root {
 	font-size: 16px;
 
-	@media (--s-up) {
-		font-size: 20px;
-	}
-
-	@media (--l-up) {
+	@media (min-width: 40rem) {
 		font-size: 24px;
 	}
 }
