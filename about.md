@@ -3,7 +3,6 @@ layout: default
 order: 20
 title: About
 description: "A description of my experience, education, and abilities."
-accent: "#F21B5F"
 color: "#282066"
 background: "#FCFCFD"
 ---
