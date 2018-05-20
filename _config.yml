@@ -12,7 +12,7 @@ port: 4001
 url: http://scottdejonge.com
 encoding: UTF-8
 timezone: UTC
-permalink: pretty
+permalink: /writing/:title
 
 # Collections
 collections:
