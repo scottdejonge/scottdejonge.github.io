@@ -8,6 +8,11 @@ color: "#3D3C3B"
 background: "#FFFFFF"
 ---
 
-{% for post in site.posts %}
-  {% include post.html %}
-{% endfor %}
+<section class="section" aria-labelledby="writing-title">
+  <h2 id="writing-title">Writing</h2>
+  <div class="grid">
+    {% for post in site.posts %}
+      {% include post.html %}
+    {% endfor %}
+  </div>
+</section>

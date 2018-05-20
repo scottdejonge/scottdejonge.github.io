@@ -1,8 +1,10 @@
-<article class="post">
-  <h3 class="post-title">
+<section class="post" aria-labelledby="{{ post.slug }}-title">
+  <h3 id="{{ post.slug }}-title">
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </h3>
-  {% if post.date %}
+  {% if post.website %}
+    <p class="post-meta"><a href="{{ post.website }}">{{ post.website }}</a></p>
+  {% else if post.date %}
     <p class="post-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A %-d %B %Y" }}</time>
     </p>
@@ -10,4 +12,4 @@
   {% if post.description %}
     <p class="post-description">{{ post.description }}</p>
   {% endif %}
-</article>
+</section>

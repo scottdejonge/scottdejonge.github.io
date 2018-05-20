@@ -1,5 +1,5 @@
-<section class="hero" aria-labelledby="title">
-  <h1 id="title" class="no-margin">{% if page.page_title %}{{ page.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
+<section class="section" aria-labelledby="section-title">
+  <h1 id="section-title">{% if page.page_title %}{{ page.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
   {% if page.date %}
     <p>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A %-d %B %Y" }}</time>
@@ -8,5 +8,5 @@
   {% if page.description %}
     <p class="lead">{{ page.description }}</p>
   {% endif %}
-  {% include glyphs/divider.svg %}
+  <hr class="divider">
 </section>

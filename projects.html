@@ -8,7 +8,12 @@ color: "#FFFFFF"
 background: "#211B3B"
 ---
 
-{% assign projects = (site.projects | sort: 'order') %}
-{% for project in projects %}
-  {% include project.html %}
-{% endfor %}
+<section class="section" aria-labelledby="projects-title">
+  <h2 id="projects-title">Projects</h2>
+  <div class="grid">
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for post in projects %}
+      {% include post.html %}
+    {% endfor %}
+  </div>
+</section>

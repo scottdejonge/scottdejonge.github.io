@@ -9,30 +9,33 @@ color: "#FFFFFF"
 background: "#0C0C0C"
 ---
 
-{% include glyphs/1.svg %}
+<section class="section" aria-labelledby="pages-title">
+  <h2 id="pages-title">Pages</h2>
+  <div class="grid">
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for post in pages %}
+      {% if post.url != "/" %}
+        {% include post.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
-<h2>Pages</h2>
+<section class="section" aria-labelledby="projects-title">
+  <h2 id="projects-title">Projects</h2>
+  <div class="grid">
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for post in projects %}
+      {% include post.html %}
+    {% endfor %}
+  </div>
+</section>
 
-{% assign pages = (site.pages | sort: 'order') %}
-{% for post in pages %}
-  {% if post.url != "/" %}
-    {% include post.html %}
-  {% endif %}
-{% endfor %}
-
-{% include glyphs/2.svg %}
-
-<h2>Projects</h2>
-
-{% assign projects = (site.projects | sort: 'order') %}
-{% for project in projects %}
-  {% include project.html %}
-{% endfor %}
-
-{% include glyphs/3.svg %}
-
-<h2>Writing</h2>
-
-{% for post in site.posts %}
-  {% include post.html %}
-{% endfor %}
+<section class="section" aria-labelledby="writing-title">
+  <h2 id="writing-title">Writing</h2>
+  <div class="grid">
+    {% for post in site.posts %}
+      {% include post.html %}
+    {% endfor %}
+  </div>
+</section>
