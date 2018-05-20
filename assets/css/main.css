@@ -2,7 +2,7 @@
  * Normalize
  */
 
-@import './lib/normalize';
+/*@import './lib/normalize';*/
 
 
 /**
@@ -10,6 +10,14 @@
  */
 
 @import './_variables';
+
+
+/**
+ * Fonts
+ */
+
+@import './_fonts';
+
 
 
 /**
@@ -35,7 +43,7 @@
 @import './typography/emphasis';
 @import './typography/abbreviation';
 @import './typography/small';
-@import './typography/horizontal-rule';
+@import './typography/hr';
 @import './typography/quote';
 @import './typography/blockquote';
 @import './typography/cite';
@@ -50,12 +58,19 @@
 
 
 /**
+ * Layout
+ */
+
+@import './layout/grid';
+
+
+/**
  * Template
  */
 
 @import './template/header';
 @import './template/nav';
-@import './template/hero';
+@import './template/section';
 @import './template/footer';
 
 
@@ -63,7 +78,6 @@
  * Element
  */
 
-@import './element/divider';
 @import './element/figure';
 @import './element/icon';
 @import './element/media';
@@ -71,14 +85,7 @@
 
 
 /**
- * Utility
- */
-
-@import './utility';
-
-
-/**
  * Syntax
  */
 
-@import './syntax';
+/*@import './syntax';*/

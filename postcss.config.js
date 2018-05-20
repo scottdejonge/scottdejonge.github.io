@@ -3,8 +3,7 @@ module.exports = {
     require('postcss-import'),
     require('postcss-cssnext')({
       features: {
-        rem: false,
-        customProperties: false
+        rem: false
       }
     }),
     require('cssnano')({

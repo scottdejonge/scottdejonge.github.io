@@ -1,14 +1,10 @@
 blockquote {
-	margin: 4rem 0;
-	padding-left: 2rem;
+	margin: 2rem 0;
+	padding-left: 1rem;
+  font-family: var(--font-family-slab);
+  font-variation-settings: "wght" 100, "wdth" 500;
+  font-size: 1.25em;
+  font-style: normal;
+  line-height: 1.35;
 	border-left: 0.25rem solid currentColor;
-
-	& p {
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-		font-weight: 600;
-		font-size: 1.5em;
-		font-style: normal;
-		line-height: 1.5;
-	}
 }

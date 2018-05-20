@@ -1,18 +1,14 @@
 .post {
-
-	&:not(:last-child) {
-		margin-bottom: 2rem;
-	}
+  padding: 1.5rem 0;
+  /*border: 0.125rem solid currentColor;*/
+  border-top: 0.25rem solid var(--border-color);
+  /*border-bottom: 0.25rem solid currentColor;*/
 }
 
 .post-meta {
-  margin-top: 0.25em;
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-size: 0.75rem;
-}
-
-.post-title {
-	margin: 0;
 }
 
 .post-description {

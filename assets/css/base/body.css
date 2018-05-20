@@ -1,6 +1,6 @@
 body {
-	font-family: var(--font-family-system);
-	color: black;
-  letter-spacing: 0.0135em;
-	background: white;
+  margin: 0;
+	font-family: var(--font-family);
+  color: var(--color);
+  background-color: var(--background-color);
 }
