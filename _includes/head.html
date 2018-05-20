@@ -37,35 +37,6 @@
   
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
-  
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ "/public/bundle.css" | prepend: site.baseurl }}">
-  <style>
-    body {
-      {% if page.color %}color: {{ page.color }};{% endif %}
-      {% if page.background %}background-color: {{ page.background }};{% endif %}
-    }
-    {% if page.accent %}
-      svg {
-        stroke: {{ page.accent }};
-      }
-      a,
-      hr,
-      blockquote {
-        color: {{ page.accent }};
-      }
-      .nav a {
-        color: {{ page.background }};
-        background-color: {{ page.accent }};
-      }
-      .nav a.active,
-      .nav a:hover,
-      .nav a:focus {
-        color: {{ page.accent }};
-        background-color: {{ page.background }};
-      }
-    {% endif %}
-  </style>
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="{{ "/public/bundle.css" | prepend: site.baseurl }}">
+<style>
+  :root {
+    {% if page.color %}--color: {{ page.color }};{% endif %}
+    {% if page.background %}--background: {{ page.background }};{% endif %}
+  }
+</style>
