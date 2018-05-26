@@ -17,6 +17,10 @@ date_format: "%-d %B %Y"
 
 # Collections
 collections:
+  works:
+    title: Works
+    output: true
+    permalink: "/works/:path/"
   projects:
     title: Projects
     output: true
@@ -51,10 +55,10 @@ instagram: https://instagram.com/scottdejonge
 # Navigation
 navigation:
   - title: Home
-    url: "/"
-  - title: About
-    url: "/about/"
+    url: /
+  - title: Work
+    url: /work
   - title: Projects
-    url: "/projects/"
+    url: /projects
   - title: Writing
-    url: "/writing/"
+    url: /writing

@@ -1,12 +1,11 @@
 ---
 layout: default
-order: 30
-title: Projects
-description: "A collection of projects and experiments for efficiency, exploration, and fun."
 ---
 
+{{ content }}
+
 <section class="section" aria-labelledby="projects-title">
-  <h2 id="projects-title">Projects</h2>
+  <h2 id="projects-title" class="screen-reader">Projects</h2>
   <div class="grid">
     {% assign projects = site.projects | sort: 'order' %}
     {% for post in projects %}

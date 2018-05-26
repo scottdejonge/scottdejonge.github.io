@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<section class="section" aria-labelledby="pages-title">
+  <h2 id="pages-title" class="screen-reader">Pages</h2>
+  <div class="grid">
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for post in pages %}
+      {% if post.url != "/" %}
+        {% include post.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

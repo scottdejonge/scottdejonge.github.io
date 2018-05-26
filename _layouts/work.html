@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<section class="section" aria-labelledby="works-title">
+  <h2 id="works-title" class="screen-reader">Work</h2>
+  <div class="grid">
+    {% assign works = site.works | sort: 'order' %}
+    {% for post in works %}
+      {% include project.html %}
+    {% endfor %}
+  </div>
+</section>

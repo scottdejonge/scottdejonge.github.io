@@ -1,5 +1,6 @@
 ---
 order: 40
+icon: map-icons
 title: Map Icons
 description: "An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels."
 website: http://map-icons.com/
