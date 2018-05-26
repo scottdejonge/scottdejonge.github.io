@@ -15,7 +15,7 @@
   "scripts": {
     "start": "npm run watch",
     "watch": "npm run build -- -w",
-    "build": "postcss assets/css/main.css -o public/bundle.css",
+    "build": "postcss assets/css/app.css -o public/bundle.css",
     "format": "prettier --print-width 120 --single-quote --write 'assets/css/**/*.css';"
   },
   "devDependencies": {

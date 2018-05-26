@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--box-shadow);
+
+  & header {
+    flex: auto;
+  }
+
+  & footer {
+    flex: none;
+    margin-top: 1em;
+  }
+}

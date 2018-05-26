@@ -1,0 +1,20 @@
+.action {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--sans-serif);
+  font-weight: 700;
+  font-size: 0.75em;
+  color: var(--primary);
+
+  & span {
+    flex: none;
+  }
+
+  & svg {
+    flex: none;
+    margin-left: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    fill: currentColor;
+  }
+}

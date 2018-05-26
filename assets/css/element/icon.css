@@ -1,8 +1,0 @@
-.icon {
-  display: block;
-  margin-bottom: 2rem;
-  
-  &:not(:first-of-type) {
-    margin-top: 5rem;
-  }
-}

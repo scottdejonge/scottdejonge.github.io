@@ -1,0 +1,11 @@
+.sans-serif {
+  font-family: var(--sans-serif);
+}
+
+.serif {
+  font-family: var(--serif);
+}
+
+.monospace {
+  font-family: var(--monospace);
+}

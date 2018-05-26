@@ -3,7 +3,7 @@ pre {
 	margin-bottom: 1em;
 	padding: 1em;
 	overflow: auto;
-	font-family: var(--font-family-monospace);
+	font-family: var(--monospace);
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
@@ -12,4 +12,6 @@ pre {
 	tab-size: 2;
 	hyphens: none;
 	background: white;
+  border-radius: 0.25rem;
+  box-shadow: var(--box-shadow);
 }
