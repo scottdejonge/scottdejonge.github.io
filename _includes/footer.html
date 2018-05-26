@@ -1,13 +1,19 @@
 <footer class="footer" role="contentinfo">
   <div class="container">
     <nav class="footer-nav">
-      <a href="{{ base.url }}/feed.xml">RSS</a>
-      &middot;
-      <a href="https://twitter.com/scottdejonge">Twitter</a>
-      &middot;
-      <a href="https://github.com/scottdejonge/">GitHub</a>
-      &middot;
-      <a href="https://instagram.com/scottdejonge/">Instagram</a>
+      <a href="{{ base.url }}/feed.xml" target="_blank" rel="noopener noreferrer">RSS</a>
+      {% if site.twitter %}
+        &middot;
+        <a href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a>
+      {% endif %}
+      {% if site.github %}
+        &middot;
+        <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      {% endif %}
+      {% if site.instagram %}
+        &middot;
+        <a href="{{ site.instagram }}" target="_blank" rel="noopener noreferrer">Instagram</a>
+      {% endif %}
     </nav>
     <p class="footer-copyright">&copy; {{ 'now' | date: "%Y" }}. Website by Scott de Jonge in 🇦🇺</p>
   </div>

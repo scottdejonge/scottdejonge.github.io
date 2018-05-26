@@ -41,6 +41,12 @@ kramdown:
 # Repo
 repo: https://github.com/scottdejonge/scottdejonge.github.io
 
+# Social
+twitter: https://twitter.com/scottdejonge
+github: https://github.com/scottdejonge
+instagram: https://instagram.com/scottdejonge
+
+
 # Navigation
 navigation:
   - text: Home
