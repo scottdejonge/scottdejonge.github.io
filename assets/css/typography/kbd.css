@@ -1,7 +1,7 @@
 kbd {
-	padding: 0.2em 0.4em;
-	font-family: var(--monospace);
-	font-size: 80%;
-	line-height: 1;
-	background: white;
+  padding: 0.2em 0.4em;
+  font-family: var(--monospace);
+  font-size: 80%;
+  line-height: 1;
+  background: white;
 }

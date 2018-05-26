@@ -1,34 +1,34 @@
 .nav {
-	flex: 1 1 0;
-	display: flex;
-	align-items: center;
-	font-family: var(--sans-serif);
-	font-weight: 700;
-	font-size: 0.75rem;
-	line-height: 1.35;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  font-family: var(--sans-serif);
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 
-	& a {
-		flex: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 3rem;
-		text-align: center;
-		text-decoration: none;
-		background: none;
-		transition: color 200ms ease-in-out,
-								background 200ms ease-in-out;
+  & a {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    transition: color 200ms ease-in-out,
+                background 200ms ease-in-out;
 
-		&:hover,
-		&:focus {
-			text-decoration: none;
-		}
-	}
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
 
-	& span {
-		display: block;
-	}
+  & span {
+    display: block;
+  }
 }

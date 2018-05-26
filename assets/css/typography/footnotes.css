@@ -1,14 +1,14 @@
 .footnotes {
   margin-top: 5rem;
-	font-family: var(--monospace);
-	font-size: 0.625rem;
-	letter-spacing: -0.025em;
+  font-family: var(--monospace);
+  font-size: 0.625rem;
+  letter-spacing: -0.025em;
 
-	& ol {
+  & ol {
 
-	}
+  }
 
-	& li {
+  & li {
 
-	}
+  }
 }

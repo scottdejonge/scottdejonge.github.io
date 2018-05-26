@@ -1,15 +1,15 @@
 dl {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 dt {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
-	font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 dd {
-	margin-bottom: 1em;
-	margin-left: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
 }

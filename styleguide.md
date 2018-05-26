@@ -48,7 +48,7 @@ Adjacent headings of decending levels remove the `margin-top` from the younger s
 
 * Ordered Lists look like this.
 * Multi-leveled Ordered Lists look like this:
-	* This is an example of a second-level bullet
+  * This is an example of a second-level bullet
 
 ```markdown
 * Ordered Lists look like this.
@@ -60,7 +60,7 @@ Adjacent headings of decending levels remove the `margin-top` from the younger s
 
 1. This is a Unordered List.
 2. Unordered Lists can also have multiple levels:
-	1. This is a second-level Unordered List item
+  1. This is a second-level Unordered List item
 
 ```markdown
 1. This is a Unordered List.

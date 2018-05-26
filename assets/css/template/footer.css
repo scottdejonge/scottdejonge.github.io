@@ -1,8 +1,8 @@
 .footer {
-	margin-top: 5rem;
-	margin-bottom: 2rem;
-	font-size: 0.75rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
   font-family: var(--sans-serif);
-	line-height: 1.5;
-	text-align: center;
+  line-height: 1.5;
+  text-align: center;
 }

@@ -1,15 +1,15 @@
 a {
-	color: currentColor;
-	text-decoration: none;
-	transition: color 200ms ease-in-out;
-	
-	&:hover,
-	&:focus {
-		color: currentColor;
-		text-decoration: underline;
-	}
+  color: currentColor;
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+  
+  &:hover,
+  &:focus {
+    color: currentColor;
+    text-decoration: underline;
+  }
 
-	&:active {
-		
-	}
+  &:active {
+    
+  }
 }
