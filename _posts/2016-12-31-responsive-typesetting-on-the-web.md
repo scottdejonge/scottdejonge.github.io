@@ -3,8 +3,6 @@ layout: default
 published: false
 title: "Responsive typesetting on the web"
 date: "2012-04-02 15:00:00 +1000"
-color: "#BD4B69"
-background: "#F4FCDC"
 ---
 
 This example should prove that through using simple <abbr title="Cascading Style Sheets">CSS</abbr>, and semantic <abbr title="Hypertext Text Markup Language">HTML</abbr>, along with effective typesetting design content can be visually appealing whilst also being natively accessible, responsive, and performant.

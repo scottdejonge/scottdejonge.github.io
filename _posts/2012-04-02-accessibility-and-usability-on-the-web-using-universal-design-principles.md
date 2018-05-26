@@ -2,8 +2,6 @@
 layout: default
 title: "Accessibility and Usability on the Web using Universal Design Principles"
 date: "2012-04-02 15:00:00 +1000"
-color: "#242163"
-background: "#F6FEFD"
 ---
 
 The World Wide Web provides access to enormous amount of information from all over the globe. It has become an indispensable source for communication and social interaction through social networks and mobile devices.

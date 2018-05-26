@@ -2,8 +2,6 @@
 layout: default
 title: "Broken Web Design Patterns"
 date: "2016-04-27 11:45:00 +1000"
-color: "#3D3C3B"
-background: "#FFFFFF"
 ---
 
 ## Things that are 😡👎💩

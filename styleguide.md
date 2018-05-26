@@ -3,8 +3,6 @@ layout: default
 order: 50
 title: Style Guide
 description: "A demonstration of the visual styles of the various elements that comprise the design of this site including headings and typographic styles."
-color: "#000"
-background: "#FFF"
 ---
 
 This page exists to demonstrate the visual styles of the various elements that comprise the design of this site.

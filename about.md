@@ -3,8 +3,6 @@ layout: default
 order: 20
 title: About
 description: "A description of my experience, education, and abilities."
-color: "#282066"
-background: "#FCFCFD"
 ---
 
 I'm a UI/UX designer and web developer that designs and builds universally accessible responsive web interfaces.
