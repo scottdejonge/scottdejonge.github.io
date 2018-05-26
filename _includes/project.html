@@ -3,6 +3,9 @@
     {% if post.icon %}
       {% include svg/{{ post.icon }}.svg %}
     {% endif %}
+    {% if post.year %}
+      <p class="meta">{{ post.year }}</p>
+    {% endif %}
     <h3 id="{{ post.slug }}-title">
       <a href="{{ post.website }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
     </h3>
