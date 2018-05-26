@@ -1,11 +1,11 @@
 <section class="box" aria-labelledby="{{ post.slug }}-title">
   <header class="flex-auto">
-    <h3 id="{{ post.slug }}-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h3>
     <p class="meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
     </p>
+    <h3 id="{{ post.slug }}-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
     {% if post.description %}
       <p class="description">{{ post.description }}</p>
     {% endif %}

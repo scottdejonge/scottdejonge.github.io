@@ -8,6 +8,11 @@
   & header {
     flex: auto;
 
+    & h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
     & svg {
       width: 2.5rem;
       height: 2.5rem;
