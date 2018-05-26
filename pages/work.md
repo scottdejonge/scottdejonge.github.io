@@ -2,7 +2,7 @@
 layout: work
 order: 30
 permalink: /work
-title: Work
-description: "Websites I have build for clients"
+title: Website Design & Development
+description: "Below is a selection of websites that I supported the design and/or development."
 ---
 
