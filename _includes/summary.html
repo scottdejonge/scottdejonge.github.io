@@ -2,7 +2,18 @@
   <h1 id="section-title">{% if page.page_title %}{{ page.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
   {% if page.date %}
     <p class="meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: site.date_format }}
+      </time>
+      &middot;
+      Reading time: <span title="Estimated read time">
+      {% assign words = content | number_of_words %}
+        {% if words < 360 %}
+          1 min
+        {% else %}
+          {{ words | divided_by:180 }} mins
+        {% endif %}
+      </span>
     </p>
   {% endif %}
   {% if page.description %}
