@@ -4,6 +4,7 @@ h3,
 h4,
 h5,
 h6 {
+  max-width: 20ch;
   font-family: var(--sans-serif);
   line-height: 1.2;
 
