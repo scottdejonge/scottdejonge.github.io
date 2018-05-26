@@ -50,11 +50,11 @@ instagram: https://instagram.com/scottdejonge
 
 # Navigation
 navigation:
-  - text: Home
+  - title: Home
     url: "/"
-  - text: About
+  - title: About
     url: "/about/"
-  - text: Projects
+  - title: Projects
     url: "/projects/"
-  - text: Writing
+  - title: Writing
     url: "/writing/"

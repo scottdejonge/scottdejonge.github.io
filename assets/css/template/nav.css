@@ -1,13 +1,24 @@
 .nav {
-  flex: 1 1 0;
-  display: flex;
-  align-items: center;
-  font-family: var(--sans-serif);
-  font-weight: 700;
-  font-size: 0.75rem;
-  line-height: 1.35;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+
+  & ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  & li {
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
 
   & a {
     flex: auto;
@@ -16,6 +27,7 @@
     align-items: center;
     justify-content: center;
     height: 3rem;
+    color: var(--dark);
     text-align: center;
     text-decoration: none;
     background: none;
