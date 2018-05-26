@@ -10,7 +10,7 @@ description: "A collection of projects and experiments for efficiency, explorati
   <div class="grid">
     {% assign projects = site.projects | sort: 'order' %}
     {% for post in projects %}
-      {% include post.html %}
+      {% include project.html %}
     {% endfor %}
   </div>
 </section>

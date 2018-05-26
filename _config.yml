@@ -13,6 +13,7 @@ url: http://scottdejonge.com
 encoding: UTF-8
 timezone: UTC
 permalink: /writing/:title
+date_format: "%-d %B %Y"
 
 # Collections
 collections:
