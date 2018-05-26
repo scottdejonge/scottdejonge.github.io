@@ -1,11 +1,10 @@
 a {
-  color: currentColor;
+  color: var(--primary);
   text-decoration: none;
   transition: color 200ms ease-in-out;
   
   &:hover,
   &:focus {
-    color: currentColor;
     text-decoration: underline;
   }
 
