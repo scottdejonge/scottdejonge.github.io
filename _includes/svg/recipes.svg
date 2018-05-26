@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>recipes</title>
+  <g>
+    <path d="M56,0H8A8,8,0,0,0,0,8V56a8,8,0,0,0,8,8H56a8,8,0,0,0,8-8V8A8,8,0,0,0,56,0ZM26,55H6V51H26Zm0-8H6V43H26Zm0-8H6V35H26Zm0-8H6V27H26Zm0-8H6V19H26Zm0-8H6V11H26ZM60,52a8,8,0,0,1-8,8H32V4H52a8,8,0,0,1,8,8Z"/>
+    <rect x="36" y="19" width="20" height="4"/>
+    <rect x="36" y="11" width="20" height="4"/>
+    <rect x="36" y="27" width="20" height="4"/>
+    <rect x="36" y="43" width="20" height="4"/>
+    <rect x="36" y="35" width="20" height="4"/>
+    <rect x="36" y="51" width="20" height="4"/>
+  </g>
+</svg>

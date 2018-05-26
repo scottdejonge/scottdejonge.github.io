@@ -7,6 +7,17 @@
 
   & header {
     flex: auto;
+
+    & svg {
+      width: 2.5rem;
+      height: 2.5rem;
+      fill: currentColor;
+    }
+
+    & h3 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
   }
 
   & footer {
