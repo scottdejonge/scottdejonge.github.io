@@ -11,4 +11,4 @@ I am constantly learning & bettering my skills; always excited to further develo
 
 I have experience with a full-stack of technologies with a primary focus on creating performant website that are simple & intuative to view & maintain.
 
-I graduated from the University of Queensl& with a Bachelor of Multimedia Design in 2012. Since then, I have been living & working in Brisbane, Australia as a Digital Developer for [bigfish.tv](http://bigfish.tv).
+I graduated from the University of Queensland with a Bachelor of Multimedia Design in 2012. Since then, I have been living & working in Brisbane, Australia as a Digital Developer for [bigfish.tv](http://bigfish.tv).
