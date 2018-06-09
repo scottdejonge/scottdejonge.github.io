@@ -1,0 +1,22 @@
+<nav class="social">
+  {% if site.social.twitter %}
+    <a href="{{ site.social.twitter }}" target="_blank" rel="noopener noreferrer" title="Twitter">
+      {% include svg/twitter.svg %}
+    </a>
+  {% endif %}
+  {% if site.social.github %}
+    <a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer" title="GitHub">
+      {% include svg/github.svg %}
+    </a>
+  {% endif %}
+  {% if site.social.instagram %}
+    <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer" title="Instagram">
+      {% include svg/instagram.svg %}
+    </a>
+  {% endif %}
+  {% if site.social.linkedin %}
+    <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer" title="Linkedin">
+      {% include svg/linkedin.svg %}
+    </a>
+  {% endif %}
+</nav>
