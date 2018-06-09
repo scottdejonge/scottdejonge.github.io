@@ -14,6 +14,32 @@
   --secondary: hsl(var(--secondary-hue), 80%, 50%);
 
   /**
+   * Syntax
+   */
+  
+   
+   /* body text / default code / primary content */
+   --syntax-base: inherit;
+   
+   /* comments / secondary content */
+   --syntax-comment: hsl(var(--primary-hue), 10%, 50%);
+   
+   /* constants */
+   --syntax-constants: hsl(300deg, 80%, 50%);
+   
+   /* regex, special keywords */
+   --syntax-special: hsl(0deg, 80%, 50%);
+   
+   /* reserved keywords */
+   --syntax-reserved: hsl(var(--primary-hue), 80%, 50%);
+   
+   /* strings, numbers */
+   --syntax-strings: hsl(30deg, 80%, 50%);
+   
+   /* operators, other keywords */
+   --syntax-operators: hsl(120deg, 80%, 50%);
+
+  /**
    * Border
    */
 
