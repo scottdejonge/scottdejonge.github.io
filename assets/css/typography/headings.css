@@ -13,6 +13,12 @@ h6 {
 
   & small {
     display: block;
+    margin-bottom: 0.5em;
+    font-weight: 800;
+    font-size: 0.375em;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: var(--primary);
   }
 
   & + p {

@@ -1,6 +1,13 @@
 <section class="section" aria-labelledby="section-title">
   <div class="container">
-    <h1 id="section-title">{% if page.page_title %}{{ page.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
+    <h1 id="section-title">
+      {% if page.headline %}
+        <small>{{ page.title }}</small>
+        {{ page.headline }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
     <hr>
     {% if page.date %}
       <p class="meta">

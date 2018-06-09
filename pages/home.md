@@ -2,8 +2,8 @@
 layout: home
 order: 10
 permalink: /
-title: Home
-page_title: Brisbane based UI/UX Designer & Web Developer
+title: About
+headline: I'm a Brisbane based UI/UX Designer & Web Developer
 description: "My name is Scott, & I design & build universally accessible, performant, & responsive web interfaces."
 ---
 
