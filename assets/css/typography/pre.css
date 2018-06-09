@@ -11,7 +11,7 @@ pre {
   word-break: normal;
   tab-size: 2;
   hyphens: none;
-  background: white;
+  background: var(--white);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }

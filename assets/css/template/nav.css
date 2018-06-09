@@ -14,10 +14,12 @@
     padding: 0;
     font-family: var(--sans-serif);
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: 0.625rem;
     line-height: 1.35;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   & a {
@@ -27,16 +29,23 @@
     align-items: center;
     justify-content: center;
     height: 3rem;
-    color: var(--dark);
+    padding: 0.5em;
+    color: currentColor;
     text-align: center;
     text-decoration: none;
-    background: none;
+    background: transparent;
     transition: color 200ms ease-in-out,
                 background 200ms ease-in-out;
 
     &:hover,
     &:focus {
+      background: var(--dark);
       text-decoration: none;
+    }
+
+    &.active {
+      color: var(--dark);
+      background: var(--light);
     }
   }
 

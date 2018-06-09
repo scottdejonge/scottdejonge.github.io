@@ -3,5 +3,5 @@ kbd {
   font-family: var(--monospace);
   font-size: 80%;
   line-height: 1;
-  background: white;
+  background: var(--white);
 }

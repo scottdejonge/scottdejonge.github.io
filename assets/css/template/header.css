@@ -1,3 +1,4 @@
 .header {
-  /*border-bottom: 0.25rem solid var(--border-color);*/
+  color: var(--light);
+  background: var(--primary);
 }
