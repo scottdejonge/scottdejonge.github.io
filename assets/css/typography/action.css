@@ -3,7 +3,7 @@
   align-items: center;
   font-family: var(--sans-serif);
   font-weight: 700;
-  font-size: 0.75em;
+  font-size: 0.625rem;
   color: var(--primary);
 
   & span {
