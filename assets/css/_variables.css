@@ -17,7 +17,7 @@
    * Border
    */
 
-  --border: 1px solid hsl(var(--secondary-hue), 80%, 95%);
+  --border: 1px solid hsl(var(--secondary-hue), 50%, 90%);
 
   /**
    * Border Radius
@@ -29,7 +29,7 @@
    * Border Radius
    */
 
-  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--secondary-hue), 80%, 50%, 5%);
+  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--secondary-hue), 80%, 75%, 5%);
 
   /**
    * Font

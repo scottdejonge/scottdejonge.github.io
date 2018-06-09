@@ -1,4 +1,8 @@
 .section {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-border {
+  border-bottom: var(--border);
 }

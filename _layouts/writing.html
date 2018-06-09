@@ -4,11 +4,8 @@ layout: default
 
 {{ content }}
 
-<section class="section" aria-labelledby="writing-title">
-  <h2 id="writing-title" class="screen-reader">Writing</h2>
-  <div class="grid">
-    {% for post in site.posts %}
-      {% include post.html %}
-    {% endfor %}
-  </div>
-</section>
+<div class="grid">
+  {% for post in site.posts %}
+    {% include post.html %}
+  {% endfor %}
+</div>
