@@ -4,6 +4,7 @@ module.exports = {
     require('postcss-cssnext')({
       features: {
         customProperties: false,
+        colorHsl: false,
         rem: false
       }
     }),
