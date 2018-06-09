@@ -1,6 +1,7 @@
 .lead {
   margin: 0.5em 0;
-  max-width: 40ch;
+  max-width: 35ch;
+  font-family: var(--sans-serif);
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1.375;
 }
