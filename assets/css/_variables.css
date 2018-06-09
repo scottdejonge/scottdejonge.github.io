@@ -6,8 +6,8 @@
 
   --hue: 240deg;
   --white: hsl(var(--hue), 100%, 100%);
-  --light: hsl(var(--hue), 100%, 99.5%);
-  --mid: hsl(var(--hue), 20%, 20%);
+  --light: hsl(var(--hue), 75%, 99.5%);
+  --mid: hsl(var(--hue), 20%, 25%);
   --dark: hsl(var(--hue), 20%, 10%);
   --primary: hsl(var(--hue), 80%, 50%);
 
@@ -27,7 +27,7 @@
    * Border Radius
    */
 
-  --box-shadow: 0 0.0625rem 0.375rem 0.0625rem hsla(var(--hue), 50%, 50%, 5%);
+  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--hue), 50%, 50%, 5%);
 
   /**
    * Font
