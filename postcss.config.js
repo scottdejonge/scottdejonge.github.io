@@ -3,6 +3,7 @@ module.exports = {
     require('postcss-import'),
     require('postcss-cssnext')({
       features: {
+        customProperties: false,
         rem: false
       }
     }),
