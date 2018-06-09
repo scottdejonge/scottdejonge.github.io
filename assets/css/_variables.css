@@ -7,7 +7,7 @@
   --hue: 240deg;
   --white: hsl(var(--hue), 100%, 100%);
   --light: hsl(var(--hue), 75%, 99.5%);
-  --mid: hsl(var(--hue), 20%, 25%);
+  --mid: hsl(var(--hue), 10%, 30%);
   --dark: hsl(var(--hue), 20%, 10%);
   --primary: hsl(var(--hue), 80%, 50%);
 
