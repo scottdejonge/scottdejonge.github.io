@@ -1,7 +1,9 @@
 <section class="post" aria-labelledby="{{ post.slug }}-title">
   <header>
     {% if post.icon %}
-      {% include svg/{{ post.icon }}.svg %}
+      <figure class="icon">
+        {% include svg/{{ post.icon }}.svg %}
+      </figure>
     {% endif %}
     <h3 id="{{ post.slug }}-title">
       <a href="{{ post.website }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>

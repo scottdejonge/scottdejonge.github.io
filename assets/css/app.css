@@ -27,6 +27,7 @@
 @import './typography/abbreviation';
 @import './typography/small';
 @import './typography/hr';
+@import './typography/icon';
 @import './typography/quote';
 @import './typography/blockquote';
 @import './typography/cite';
