@@ -24,7 +24,7 @@
    * Font
    */
   
-  --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --serif: Georgia, Times, Times New Roman, serif;
-  --monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+  --sans-serif: system-ui;
+  --serif: Georgia, serif;
+  --monospace: monospace;
 }
