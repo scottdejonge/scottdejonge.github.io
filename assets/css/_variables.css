@@ -4,18 +4,19 @@
    * Color
    */
 
-  --hue: 240deg;
-  --white: hsl(var(--hue), 100%, 100%);
-  --light: hsl(var(--hue), 75%, 99.5%);
-  --mid: hsl(var(--hue), 10%, 30%);
-  --dark: hsl(var(--hue), 20%, 10%);
-  --primary: hsl(var(--hue), 80%, 50%);
+  --primary-hue: 240deg;
+  --secondary-hue: calc(var(--primary-hue) + 60deg);
+  --white: hsl(var(--primary-hue), 100%, 100%);
+  --light: hsl(var(--secondary-hue), 50%, 99%);
+  --mid: hsl(var(--primary-hue), 10%, 30%);
+  --dark: hsl(var(--primary-hue), 20%, 10%);
+  --primary: hsl(var(--primary-hue), 80%, 50%);
 
   /**
    * Border
    */
 
-  --border: 1px solid hsl(var(--hue), 50%, 95%);
+  --border: 1px solid hsl(var(--secondary-hue), 80%, 95%);
 
   /**
    * Border Radius
@@ -27,7 +28,7 @@
    * Border Radius
    */
 
-  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--hue), 50%, 50%, 5%);
+  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--secondary-hue), 80%, 50%, 5%);
 
   /**
    * Font
