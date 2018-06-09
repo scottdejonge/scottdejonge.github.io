@@ -1,4 +1,4 @@
-<section class="box" aria-labelledby="{{ post.slug }}-title">
+<section class="post" aria-labelledby="{{ post.slug }}-title">
   <header class="flex-auto">
     <p class="meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
@@ -14,7 +14,7 @@
     <p>
       <a class="action" href="{{ site.baseurl }}{{ post.url }}">
         <span>Read More</span>
-        {% include svg/chevron-right.svg %}
+        {% include svg/arrow-right.svg %}
       </a>
     </p>
   </footer>

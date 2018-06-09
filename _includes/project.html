@@ -1,4 +1,4 @@
-<section class="box" aria-labelledby="{{ post.slug }}-title">
+<section class="post" aria-labelledby="{{ post.slug }}-title">
   <header>
     {% if post.icon %}
       {% include svg/{{ post.icon }}.svg %}
@@ -14,7 +14,7 @@
     <p>
       <a class="action" href="{{ post.website }}" target="_blank" rel="noopener noreferrer">
         <span>View Website</span>
-        {% include svg/chevron-right.svg %}
+        {% include svg/arrow-right.svg %}
       </a>
     </p>
   </footer>

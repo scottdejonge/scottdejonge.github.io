@@ -59,6 +59,7 @@
 @import './template/header';
 @import './template/nav';
 @import './template/section';
+@import './template/post';
 @import './template/footer';
 
 
@@ -66,7 +67,6 @@
  * Utility
  */
 
-@import './utility/box';
 @import './utility/flex';
 @import './utility/font';
 @import './utility/screen-reader';
