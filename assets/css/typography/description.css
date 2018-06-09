@@ -1,8 +1,8 @@
 .description {
   font-family: var(--sans-serif);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875em;
-  line-height: 1.5;
-  letter-spacing: 0.025em;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
   color: var(--mid);
 }
