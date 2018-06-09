@@ -4,20 +4,19 @@
    * Color
    */
 
-  --primary-hue: 240deg;
-  --secondary-hue: calc(var(--primary-hue) + 60deg);
+  --primary-hue: 225deg;
+  --secondary-hue: calc(var(--primary-hue) + 30deg);
   --white: hsl(var(--primary-hue), 100%, 100%);
-  --light: hsl(var(--secondary-hue), 50%, 99%);
+  --light: hsl(var(--secondary-hue), 35%, 98%);
   --mid: hsl(var(--primary-hue), 10%, 30%);
   --dark: hsl(var(--primary-hue), 20%, 10%);
-  --primary: hsl(var(--primary-hue), 80%, 50%);
-  --secondary: hsl(var(--secondary-hue), 80%, 50%);
+  --primary: hsl(var(--primary-hue), 100%, 50%);
+  --secondary: hsl(var(--secondary-hue), 100%, 50%);
 
   /**
    * Syntax
    */
   
-   
    /* body text / default code / primary content */
    --syntax-base: inherit;
    
@@ -43,7 +42,7 @@
    * Border
    */
 
-  --border: 1px solid hsl(var(--secondary-hue), 50%, 90%);
+  --border: 1px solid hsl(var(--secondary-hue), 35%, 90%);
 
   /**
    * Border Radius
