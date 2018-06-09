@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 
 <div class="grid">
-  {% assign works = site.works | sort: 'order' %}
+  {% assign works = site.works %}
   {% for post in works %}
     {% include project.html %}
   {% endfor %}
