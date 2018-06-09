@@ -4,7 +4,6 @@
 
 @import './_variables';
 
-
 /**
  * Base
  */
@@ -14,7 +13,6 @@
 @import './base/body';
 @import './base/print';
 @import './base/container';
-
 
 /**
  * Typography
@@ -44,13 +42,11 @@
 @import './typography/table';
 @import './typography/action';
 
-
 /**
  * Layout
  */
 
 @import './layout/grid';
-
 
 /**
  * Template
@@ -63,7 +59,6 @@
 @import './template/social';
 @import './template/footer';
 
-
 /**
  * Utility
  */
@@ -71,7 +66,6 @@
 @import './utility/flex';
 @import './utility/font';
 @import './utility/screen-reader';
-
 
 /**
  * Syntax
