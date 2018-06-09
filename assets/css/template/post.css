@@ -1,8 +1,9 @@
 .post {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: var(--white);
+  border: var(--border);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 

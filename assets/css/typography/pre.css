@@ -12,6 +12,7 @@ pre {
   tab-size: 2;
   hyphens: none;
   background: var(--white);
+  border: var(--border);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }

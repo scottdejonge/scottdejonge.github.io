@@ -4,4 +4,5 @@ kbd {
   font-size: 80%;
   line-height: 1;
   background: var(--white);
+  border: var(--border);
 }
