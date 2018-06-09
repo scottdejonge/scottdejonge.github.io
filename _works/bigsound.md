@@ -1,6 +1,6 @@
 ---
 order: 20
 title: BIGSOUND
-description: ""
+description: "A big website for a big music festival & conference. Automation used to minimise management & improve artist engagement."
 website: https://www.bigsound.org.au/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: work
-order: 30
+order: 20
 permalink: /work
 title: Work
 headline: Website Design & Development
