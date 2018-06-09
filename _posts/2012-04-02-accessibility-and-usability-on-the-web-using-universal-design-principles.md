@@ -24,8 +24,6 @@ The usability of web content for participants with disabilities is an important 
 
 By applying universal design principles to achieve an accessible web, the goal is to create a web in which there is inclusion -accessible information and technologies- without exclusion.
 
-***
-
 ## Accessibility
 
 Accessibility is a term defined in environmental and architecture planning for ‘the simplicity with which activities in the society can be reached’. The term accessibility acts as an umbrella for all parameters that influence human functioning within environments [^Stahl-2003]. This defines accessibility as an environmental measure [^Pirie-1979].
@@ -44,8 +42,6 @@ Accessibility is measurable through compliance with norms and standards [^Stahl-
 2. Environment component: a description of barriers in the environment in relation to the standards available, but based on user evaluation.
 3. Analysis juxtaposing the personal and environmental components.
 
-***
-
 ## Usability
 
 Usability is derived from the function of tool within an environment. The word usability -a derivative from usable- is an adjective synonymous with ‘fit to use’ [^Oxford-University-Press-2010] therefore a measurement of the implementation of function requirements. Usability is based on individual interpretations [^Stahl-2003]. It is evaluated by a satisfaction of goals required by an individual. These goals are determined within the environment’s restriction on individual user functions. The measure of usability is derived from a user’s perspective of enabling function, performance and well being [^Stahl-2003].
@@ -58,8 +54,6 @@ Usability is not based with compliance with official norms or standards it is ma
 2. Environment component: a description of barriers in the environment in relation to the standards available, but based on user evaluation.
 3. Activity component: a description of activities to be performed in the environment.
 4. Analysis integrating the personal, environmental, and activity components: a description of usability problems.
-
-***
 
 ## Universal Design
 
@@ -80,8 +74,6 @@ Gregg Vanderheiden of the Trace Research & Development Center at the University 
 Vanderheiden’s definition of universal design has two major components: The first is the design of products, so that they are flexible enough that they can be directly used (without requiring any assistive technologies or modifications) by people with the widest range of abilities and circumstances as is commercially practical given current materials, technologies, and knowledge. Vanderheiden’s second component of universal design is product design that is compatible with the assistive technologies that might be used by those who cannot efficiently access and use the products directly.
 
 Universal design is synonymous with ‘design for all’ [^Stahl-2003]. Universal design approaches accessibility through social change, accessibility is reached through a compliance with social norms relating to the design and appropriate use of product in the wider public.
-
-***
 
 ## Web Content Accessibility guidelines (WCAG)
 
@@ -147,8 +139,6 @@ The website should be legible with a screen magnifier. Text elements should be d
 
 Search within a website should be forgiving of spelling errors. The search box should be placed in a logical location on the website and clearly identified. Descriptive search results should be returned to the user, clearly presenting search result rankings. Users should be informed if the search query is empty or has no search results returned.
 
-***
-
 ## Web Accessibility Initiative (WAI)
 
 W3C’s Web Accessibility Initiative (WAI) develops strategies, guidelines, and resources to help make the Web accessible to people with disabilities [^W3C-2011]. Rather than a reliance on web authors implementing web content compliant with the WCAG 2.0 guidelines, the Web Accessibility Initiative (WAI) model aims to provide an inclusive web environment with compliance from user agents, and authoring tools.
@@ -156,8 +146,6 @@ W3C’s Web Accessibility Initiative (WAI) develops strategies, guidelines, and 
 The User Agent Accessibility Guidelines (UAAG) is part of a series of web accessibly guidelines, and targets web browsers, media players, and assistive technologies. The implication of the User Agent Accessibility Guidelines (UAAG) is that user control is provided for how the content and interfaces are rendered, access is given to all content with documentation provided for accessibly features [^W3C-2011].
 
 The Authoring Tool Accessibility Guidelines (ATAG) is primarily for developers of authoring tools such as: web content editing editors (WYSIWYG, HTML and XML editors), site management and publication tools including content managements systems (CMS), and websites that enable users to create web content including wikis, photo sharing sites, and social networking sites. The Authoring Tool Accessibility Guidelines (ATAG) ensures the authoring tools themselves are accessible to all users, as well as the content produced. Compliance with Web Content Accessibility Guidelines (WCAG) 2.0 is a criteria of the Web Accessibility Initiative (WAI), however the WAI aims to address accessibility in web resources for all users.
-
-***
 
 ## Conclusion
 
