@@ -62,7 +62,7 @@
     }
 
     &.active {
-      color: var(--light);
+      color: white;
       border-color: var(--primary);
       background-color: var(--primary);
     }

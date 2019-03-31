@@ -4,14 +4,33 @@
    * Color
    */
 
-  --primary-hue: 225;
-  --secondary-hue: calc(var(--primary-hue) + 30);
-  --white: hsl(var(--primary-hue), 100%, 100%);
-  --light: hsl(var(--secondary-hue), 35%, 98%);
-  --mid: hsl(var(--primary-hue), 10%, 30%);
-  --dark: hsl(var(--primary-hue), 20%, 10%);
-  --primary: hsl(var(--primary-hue), 100%, 50%);
-  --secondary: hsl(var(--secondary-hue), 100%, 50%);
+  --hue: 220;
+
+  /**
+   * Palette
+   */
+  
+  --primary: hsl(var(--hue), 100%, 50%);
+  --color: hsl(var(--hue), 20%, 10%);
+  --color-alt: hsl(var(--hue), 10%, 30%);
+  --background: hsl(var(--hue), 30%, 98%);
+  --background-alt: hsl(var(--hue), 100%, 100%);
+  --border-color: hsl(var(--hue), 30%, 90%);
+  --box-shadow-color: hsla(var(--hue), 50%, 75%, 5%);
+
+  /**
+   * Dark Palette
+   */
+
+  @media (prefers-color-scheme: dark) {
+    --primary: hsl(var(--hue), 100%, 65%);
+    --color: hsl(var(--hue), 30%, 98%);
+    --color-alt: hsl(var(--hue), 100%, 100%);
+    --background: hsl(var(--hue), 20%, 10%);
+    --background-alt: hsl(var(--hue), 20%, 15%);
+    --border-color: hsl(var(--hue), 30%, 30%);
+    --box-shadow-color: hsla(var(--hue), 50%, 2.5%, 5%);
+  }
 
   /**
    * Syntax
@@ -21,7 +40,7 @@
    --syntax-base: inherit;
    
    /* comments / secondary content */
-   --syntax-comment: hsl(var(--primary-hue), 10%, 50%);
+   --syntax-comment: hsl(var(--hue), 10%, 50%);
    
    /* constants */
    --syntax-constants: hsl(300, 80%, 50%);
@@ -30,7 +49,7 @@
    --syntax-special: hsl(0, 80%, 50%);
    
    /* reserved keywords */
-   --syntax-reserved: hsl(var(--primary-hue), 80%, 50%);
+   --syntax-reserved: hsl(var(--hue), 80%, 50%);
    
    /* strings, numbers */
    --syntax-strings: hsl(30, 80%, 50%);
@@ -42,7 +61,7 @@
    * Border
    */
 
-  --border: 1px solid hsl(var(--secondary-hue), 35%, 90%);
+  --border: 1px solid var(--border-color);
 
   /**
    * Border Radius
@@ -54,7 +73,7 @@
    * Border Radius
    */
 
-  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem hsla(var(--secondary-hue), 80%, 75%, 5%);
+  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem var(--box-shadow-color);
 
   /**
    * Font
@@ -64,24 +83,4 @@
   --sans-serif: 'Inter', var(--system-ui);
   --serif: Georgia, serif;
   --monospace: monaco, Consolas, Lucida Console, monospace;
-
-  /**
-   * Theme
-   */
-
-  --color: var(--dark);
-  --background: var(--light);
-  --background-alt: var(--white);
-}
-
-/**
- * Dark color scheme
- */
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color: var(--light);
-    --background: var(--dark);
-    --background-alt: var(--dark);
-  }
 }
