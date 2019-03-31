@@ -1,6 +1,5 @@
 .icon {
   margin-bottom: 1em;
-  color: var(--primary);
 
   & svg {
     width: 2.5rem;
