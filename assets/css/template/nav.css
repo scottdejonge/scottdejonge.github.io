@@ -50,7 +50,7 @@
     color: currentColor;
     text-align: center;
     text-decoration: none;
-    background: var(--white);
+    background: var(--background-alt);
     border: var(--border);
     transition: color 200ms ease-in-out,
                 background 200ms ease-in-out;

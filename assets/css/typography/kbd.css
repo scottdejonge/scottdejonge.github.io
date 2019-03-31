@@ -3,6 +3,6 @@ kbd {
   font-family: var(--monospace);
   font-size: 80%;
   line-height: 1;
-  background: var(--white);
+  background: var(--background-alt);
   border: var(--border);
 }

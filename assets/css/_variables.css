@@ -63,4 +63,27 @@
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --serif: Georgia, serif;
   --monospace: monospace;
+
+  /**
+   * Theme
+   */
+
+  --color: var(--dark);
+  --background: var(--light);
+  --background-alt: var(--white);
+}
+
+/**
+ * Dark color scheme
+ */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: red !important;
+  }
+  :root {
+    --color: var(--light);
+    --background: var(--dark);
+    --background-alt: var(--dark);
+  }
 }
