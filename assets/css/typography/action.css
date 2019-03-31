@@ -1,7 +1,6 @@
 .action {
   display: inline-flex;
   align-items: center;
-  font-family: var(--sans-serif);
   font-weight: 700;
   font-size: 0.875rem;
   color: var(--primary);
