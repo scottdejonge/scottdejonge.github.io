@@ -1,6 +1,5 @@
 .nav {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
 
   & ul {
     display: flex;
@@ -46,7 +45,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 3rem;
+    height: 2.5rem;
     padding: 1em;
     color: currentColor;
     text-align: center;
