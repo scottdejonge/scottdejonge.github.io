@@ -1,11 +1,14 @@
 blockquote {
   margin: 2rem 0;
-  padding-left: 1rem;
+  padding: 1rem;
   font-weight: 700;
   font-size: 1.25em;
   font-style: normal;
-  line-height: 1.5;
-  border-left: 0.25rem solid currentColor;
+  line-height: 1.375;
+  background: var(--background-alt);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
 
   & p {
     line-height: inherit;
