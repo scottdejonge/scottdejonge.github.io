@@ -6,7 +6,6 @@ blockquote {
   font-style: normal;
   line-height: 1.375;
   background: var(--background-alt);
-  border: var(--border);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 

@@ -15,7 +15,6 @@
   --color-alt: hsl(var(--hue), 10%, 30%);
   --background: hsl(var(--hue), 30%, 98%);
   --background-alt: hsl(var(--hue), 100%, 100%);
-  --border-color: hsl(var(--hue), 30%, 90%);
   --box-shadow-color: hsla(var(--hue), 50%, 75%, 5%);
 
   /**
@@ -28,7 +27,6 @@
     --color-alt: hsl(var(--hue), 100%, 100%);
     --background: hsl(var(--hue), 20%, 10%);
     --background-alt: hsl(var(--hue), 20%, 15%);
-    --border-color: hsl(var(--hue), 30%, 30%);
     --box-shadow-color: hsla(var(--hue), 50%, 2.5%, 5%);
   }
 
@@ -56,12 +54,6 @@
    
    /* operators, other keywords */
    --syntax-operators: hsl(120, 80%, 50%);
-
-  /**
-   * Border
-   */
-
-  --border: 1px solid var(--border-color);
 
   /**
    * Border Radius

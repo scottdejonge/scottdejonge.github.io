@@ -4,5 +4,4 @@ kbd {
   font-size: 0.75em;
   line-height: 1;
   background: var(--background-alt);
-  border: var(--border);
 }
