@@ -1,6 +1,6 @@
 {
   "name": "scottdejonge",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "",
   "license": "MIT",
   "author": "Scott de Jonge <dejonge.scott@gmail.com> (http://scottdejonge.com/)",
@@ -14,14 +14,15 @@
   },
   "scripts": {
     "start": "npm run watch",
-    "watch": "npm run build -- -w",
+    "watch": "npm run build -- --verbose --watch",
     "build": "postcss assets/css/app.css -o public/bundle.css",
     "format": "prettier --print-width 120 --single-quote --write 'assets/css/**/*.css';"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "postcss-cli": "^3.0.0-beta",
-    "postcss-cssnext": "^2.8.0",
-    "postcss-import": "^8.1.2"
-  }
+    "css-prefers-color-scheme": "^3.1.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1"
+  },
 }

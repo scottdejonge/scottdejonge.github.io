@@ -1,13 +1,10 @@
 module.exports = {
   plugins: [
     require('postcss-import'),
-    require('postcss-cssnext')({
-      features: {
-        rem: false
-      }
-    }),
+    require('postcss-nested'),
+    // require('css-prefers-color-scheme'),
     require('cssnano')({
-      autoprefixer: false
+      autoprefixer: true
     }),
   ]
 }
