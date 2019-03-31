@@ -5,12 +5,6 @@
 @import './_variables';
 
 /**
- * Font
- */
-
-@import './font.css';
-
-/**
  * Base
  */
 
@@ -71,7 +65,6 @@
  */
 
 @import './utility/flex';
-@import './utility/font';
 @import './utility/screen-reader';
 
 /**
