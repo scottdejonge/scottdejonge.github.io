@@ -5,6 +5,12 @@
 @import './_variables';
 
 /**
+ * Font
+ */
+
+@import './font.css';
+
+/**
  * Base
  */
 
