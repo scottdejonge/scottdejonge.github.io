@@ -78,9 +78,6 @@
  */
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background: red !important;
-  }
   :root {
     --color: var(--light);
     --background: var(--dark);
