@@ -1,6 +1,27 @@
 :root {
 
   /**
+   * Border Radius
+   */
+
+  --border-radius: 0.25rem;
+
+  /**
+   * Box Shadow
+   */
+
+  --box-shadow: 0 0.025rem 0.125rem 0.0325rem var(--box-shadow-color);
+
+  /**
+   * Font
+   */
+  
+  --system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --sans-serif: 'Inter', var(--system-ui);
+  --serif: Georgia, serif;
+  --monospace: monaco, Consolas, Lucida Console, monospace;
+
+  /**
    * Color
    */
 
@@ -15,7 +36,7 @@
   --color-alt: hsl(var(--hue), 10%, 30%);
   --background: hsl(var(--hue), 30%, 98%);
   --background-alt: hsl(var(--hue), 100%, 100%);
-  --box-shadow-color: hsla(var(--hue), 50%, 75%, 5%);
+  --box-shadow-color: hsla(var(--hue), 30%, 80%, 10%);
 
   /**
    * Dark Palette
@@ -26,8 +47,8 @@
     --color: hsl(var(--hue), 30%, 98%);
     --color-alt: hsl(var(--hue), 100%, 100%);
     --background: hsl(var(--hue), 20%, 10%);
-    --background-alt: hsl(var(--hue), 20%, 15%);
-    --box-shadow-color: hsla(var(--hue), 50%, 2.5%, 5%);
+    --background-alt: hsl(var(--hue), 30%, 20%);
+    --box-shadow-color: hsla(var(--hue), 30%, 2.5%, 5%);
   }
 
   /**
@@ -54,25 +75,4 @@
    
    /* operators, other keywords */
    --syntax-operators: hsl(120, 80%, 50%);
-
-  /**
-   * Border Radius
-   */
-
-  --border-radius: 0.25rem;
-
-  /**
-   * Border Radius
-   */
-
-  --box-shadow: 0 0.0625rem 0.25rem 0.0625rem var(--box-shadow-color);
-
-  /**
-   * Font
-   */
-  
-  --system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --sans-serif: 'Inter', var(--system-ui);
-  --serif: Georgia, serif;
-  --monospace: monaco, Consolas, Lucida Console, monospace;
 }
