@@ -4,8 +4,8 @@
    * Color
    */
 
-  --primary-hue: 225deg;
-  --secondary-hue: calc(var(--primary-hue) + 30deg);
+  --primary-hue: 225;
+  --secondary-hue: calc(var(--primary-hue) + 30);
   --white: hsl(var(--primary-hue), 100%, 100%);
   --light: hsl(var(--secondary-hue), 35%, 98%);
   --mid: hsl(var(--primary-hue), 10%, 30%);
@@ -24,19 +24,19 @@
    --syntax-comment: hsl(var(--primary-hue), 10%, 50%);
    
    /* constants */
-   --syntax-constants: hsl(300deg, 80%, 50%);
+   --syntax-constants: hsl(300, 80%, 50%);
    
    /* regex, special keywords */
-   --syntax-special: hsl(0deg, 80%, 50%);
+   --syntax-special: hsl(0, 80%, 50%);
    
    /* reserved keywords */
    --syntax-reserved: hsl(var(--primary-hue), 80%, 50%);
    
    /* strings, numbers */
-   --syntax-strings: hsl(30deg, 80%, 50%);
+   --syntax-strings: hsl(30, 80%, 50%);
    
    /* operators, other keywords */
-   --syntax-operators: hsl(120deg, 80%, 50%);
+   --syntax-operators: hsl(120, 80%, 50%);
 
   /**
    * Border
