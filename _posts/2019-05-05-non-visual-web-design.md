@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Requirements of Web Design"
+title: "Non-visual Web Design"
 date: "2019-05-05 14:18:00 +1000"
 ---
 
