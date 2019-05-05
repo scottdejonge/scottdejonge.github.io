@@ -60,13 +60,12 @@ I am passionate about performance, security, privacy, and accessibility. These p
 
 I have experience with a full-stack of technologies with a primary focus on creating performant website that are simple & intuitive to view & maintain.
 
-- Client: HTML/CSS/JavaScript
-- Application: PHP/MVC
-- Database: MySQL
-- Frameworks: React.js
-- Accessibility: WCAG 2.1
-- Integrations: OAuth/Rest/APIs
-- Server: AWS/Linux/Bash
+- Client: HTML / CSS / JavaScript
+- Application: PHP / MVC
+- Database: [MySQL](https://www.mysql.com/)
+- Frameworks: [CakePHP](https://cakephp.org/), [React](https://reactjs.org/)
+- Accessibility: [WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- Server: AWS / Linux / Bash
 
 #### Business
 
