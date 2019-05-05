@@ -4,9 +4,7 @@ layout: default
 
 {{ content }}
 
-<div class="grid">
-  {% assign projects = site.projects | sort: 'order' %}
-  {% for post in projects %}
-    {% include project.html %}
-  {% endfor %}
-</div>
+{% assign projects = site.projects | sort: 'order' %}
+{% for post in projects %}
+  {% include project.html %}
+{% endfor %}

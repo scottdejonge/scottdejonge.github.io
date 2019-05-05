@@ -4,11 +4,9 @@ layout: default
 
 {{ content }}
 
-<div class="grid">
-  {% assign pages = site.pages | sort: 'order' %}
-  {% for post in pages %}
-    {% if post.url != "/" %}
-      {% include post.html %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% assign pages = site.pages | sort: 'order' %}
+{% for post in pages %}
+  {% if post.url != "/" %}
+    {% include post.html %}
+  {% endif %}
+{% endfor %}

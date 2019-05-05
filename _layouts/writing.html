@@ -4,8 +4,6 @@ layout: default
 
 {{ content }}
 
-<div class="grid">
-  {% for post in site.posts %}
-    {% include post.html %}
-  {% endfor %}
-</div>
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}
