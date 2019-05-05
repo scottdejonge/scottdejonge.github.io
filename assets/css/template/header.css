@@ -1,12 +1,12 @@
 .header {
   z-index: 999;
   position: fixed;
-  bottom: 1rem;
+  bottom: 2rem;
   left: 0;
   right: 0;
 
   @media (min-width: 40rem) {
-    top: 1rem;
+    top: 2rem;
     bottom: auto;
   }
 }
