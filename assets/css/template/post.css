@@ -2,9 +2,19 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   background: var(--background-alt);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   & header {
     flex: auto;
