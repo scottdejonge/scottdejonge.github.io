@@ -7,7 +7,13 @@ headline: Brisbane based UI / UX Designer & Web Developer
 description: "My name is Scott, & I design & build universally accessible, performant, & responsive web interfaces."
 ---
 
-I am a User Interface (UI) & User Experience (UX) Designer & Web Developer in Brisbane Australia. I design & build universally accessible, performant, & responsive web interfaces
+I am a User Interface (UI) & User Experience (UX) Designer & Web Developer in Brisbane Australia. I design & build universally accessible, performant, & responsive web interfaces.
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/photo.jpg" alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen">
+  <figcaption>📷 Wearing an on-brand cap, and heavily focussed on code.</figcaption>
+</figure>
+
 
 ## About me
 
@@ -29,7 +35,7 @@ My understanding of the technical implementation details ensures I consider all 
 
 My unique skillset provides strategies that are efficient to communicate within teams, and ultimately to implement.
 
-I can help you ensure that your website is better suited for 
+I can help you ensure that your website is better suited for all audiences.
 
 - Internationalisation
 - Navigation

@@ -1,5 +1,9 @@
 .icon {
-  margin-bottom: 1em;
+  margin: 0 0 1em;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 
   & svg {
     width: 2.5rem;

@@ -24,6 +24,7 @@
 @import './typography/link';
 @import './typography/strong';
 @import './typography/emphasis';
+@import './typography/figure';
 @import './typography/abbreviation';
 @import './typography/small';
 @import './typography/hr';
