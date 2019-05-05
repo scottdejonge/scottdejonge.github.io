@@ -56,7 +56,7 @@ I am passionate about design and its impact across every aspect of the web.
 - SVG
 - Accessibility
 - Design Systems
-- Responsive web design
+- Responsive Web Design
 
 #### Technical
 
@@ -67,11 +67,11 @@ I am passionate about performance, security, privacy, and accessibility. These p
 I have experience with a full-stack of technologies with a primary focus on creating performant website that are simple & intuitive to view & maintain.
 
 - Client: HTML / CSS / JavaScript
-- Application: PHP / MVC
+- Application: [PHP](https://www.php.net/) / [CakePHP](https://cakephp.org/)
 - Database: [MySQL](https://www.mysql.com/)
-- Frameworks: [CakePHP](https://cakephp.org/), [React](https://reactjs.org/)
+- Client: [React](https://reactjs.org/)
 - Accessibility: [WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- Server: AWS / Linux / Bash
+- Server: [AWS](https://aws.amazon.com/) / [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 #### Business
 
