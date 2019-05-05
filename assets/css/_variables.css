@@ -1,18 +1,6 @@
 :root {
 
   /**
-   * Border Radius
-   */
-
-  --border-radius: 0.25rem;
-
-  /**
-   * Box Shadow
-   */
-
-  --box-shadow: 0 0.025rem 0.125rem 0.0325rem var(--box-shadow-color);
-
-  /**
    * Font Family
    */
   
@@ -49,6 +37,18 @@
     --background-alt: hsl(var(--hue), 30%, 20%);
     --box-shadow-color: hsla(var(--hue), 30%, 2.5%, 5%);
   }
+
+  /**
+   * Border Radius
+   */
+
+  --border-radius: 0.25rem;
+
+  /**
+   * Box Shadow
+   */
+
+  --box-shadow: 0 0.025rem 0.125rem 0.0325rem var(--box-shadow-color);
 
   /**
    * Syntax
