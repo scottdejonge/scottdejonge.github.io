@@ -33,7 +33,7 @@
   --primary: hsl(var(--hue), 100%, 50%);
   --color: hsl(var(--hue), 20%, 10%);
   --color-alt: hsl(var(--hue), 10%, 30%);
-  --background: hsl(var(--hue), 30%, 98%);
+  --background: hsl(var(--hue), 30%, 95%);
   --background-alt: hsl(var(--hue), 100%, 100%);
   --box-shadow-color: hsla(var(--hue), 30%, 80%, 10%);
 
