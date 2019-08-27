@@ -4,7 +4,7 @@ title: "Non-visual Web Design"
 date: "2019-05-05 14:18:00 +1000"
 ---
 
-There is are layers to web design before the selection of interface elements (such as colours, fonts, and icons) which benefit users, these are interfaces that you may not be considering.
+There are layers to web design before the selection of interface elements (such as colours, fonts, and icons) which benefit users, these are interfaces that you may not be considering.
 
 For the purposes of this article we are going to assume definitions of design as *human-centric problem solving encompassing function as well as aesthetic* and the web as *an interface of interconnected documents of rich content*.
 
