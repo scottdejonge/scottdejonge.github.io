@@ -12,7 +12,12 @@ description: "My name is Scott, & I design & build universally accessible, perfo
 I am a User Interface (UI) & User Experience (UX) Designer & Accessibility Engineer in Sydney Australia. I design & build universally accessible, performant, & responsive web interfaces.
 
 <figure>
-  <img src="/public/images/photo.jpg" alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen">
+  <img
+    alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen"
+    height="480"
+    src="/public/images/photo.jpg"
+    width="640"
+  >
   <figcaption>📷 Wearing an on-brand cap, and heavily focussed on code.</figcaption>
 </figure>
 
