@@ -14,9 +14,9 @@ I am a User Interface (UI) & User Experience (UX) Designer & Accessibility Engin
 <figure>
   <img
     alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen"
-    height="480"
+    height="840"
     src="/public/images/photo.jpg"
-    width="640"
+    width="400"
   >
   <figcaption>📷 Wearing an on-brand cap, and heavily focussed on code.</figcaption>
 </figure>
