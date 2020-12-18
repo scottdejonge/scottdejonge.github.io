@@ -54,13 +54,6 @@
 @import './template/social';
 
 /**
- * Utility
- */
-
-@import './utility/flex';
-@import './utility/screen-reader';
-
-/**
  * Syntax
  */
 
