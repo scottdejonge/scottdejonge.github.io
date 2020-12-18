@@ -1,0 +1,16 @@
+.action {
+  align-items: center;
+  color: var(--primary);
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  & span {
+    flex: none;
+  }
+
+  & svg {
+    flex: none;
+    margin-left: 1em;
+  }
+}

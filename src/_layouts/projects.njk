@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ content | safe }}
+
+{% for item in projects %}
+  {% include 'item.njk' %}
+{% endfor %}

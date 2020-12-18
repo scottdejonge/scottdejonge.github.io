@@ -1,0 +1,15 @@
+blockquote {
+  background-color: var(--background-alt);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.375;
+  margin: 2rem 0;
+  padding: 1rem;
+
+  & p {
+    line-height: inherit;
+  }
+}

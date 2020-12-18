@@ -1,0 +1,14 @@
+<nav class="nav">
+  <ul>
+  {%- for entry in collections.all | eleventyNavigation %}
+    <li>
+      <a
+        aria-current="{% if entry.url == page.url %}page{% else %}false{% endif %}"
+        href="{{ entry.url | url }}"
+      >
+        {{ entry.title }}
+      </a>
+    </li>
+  {%- endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,16 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid currentColor;
+  font-family: var(--monospace);
+  font-size: 0.75rem;
+  letter-spacing: -0.025em;
+  line-height: 1;
+  text-align: left;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid currentColor;
+  padding: 0.5em;
+}

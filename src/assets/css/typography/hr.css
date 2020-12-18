@@ -1,0 +1,8 @@
+hr {
+  background-color: var(--primary);
+  border: 0;
+  clear: both;
+  height: 0.125rem;
+  margin: 1rem 0;
+  max-width: 2rem;
+}

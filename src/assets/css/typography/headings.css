@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.125;
+
+  & > a {
+    color: currentColor;
+  }
+
+  & small {
+    color: var(--primary);
+    display: block;
+    font-size: 0.375em;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+  & + p {
+    margin-top: 1em;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.125;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  max-width: 20ch;
+
+  & + h2 {
+    margin-top: 0;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  max-width: 30ch;
+
+  & + h3 {
+    margin-top: 0;
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+
+  & + h4 {
+    margin-top: 0;
+  }
+}
+
+h4 {
+  font-size: 0.875rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-top: 2em;
+  text-transform: uppercase;
+
+  & + h5 {
+    margin-top: 0;
+  }
+}
+
+h5 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+
+  & + h6 {
+    margin-top: 0;
+  }
+}
+
+h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}

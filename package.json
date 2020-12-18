@@ -1,28 +1,33 @@
 {
   "name": "scottdejonge",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "",
   "license": "MIT",
   "author": "Scott de Jonge <dejonge.scott@gmail.com> (http://scottdejonge.com/)",
-  "homepage": "http://scottdejonge.com/",
+  "homepage": "https://scottdejonge.com/",
+  "main": ".eleventy.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottdejonge/scottdejonge.github.io"
+    "url": "https://github.com/scottdejonge/scottdejonge"
   },
   "bugs": {
-    "url": "https://github.com/scottdejonge/scottdejonge.github.io/issues"
-  },
-  "scripts": {
-    "start": "npm run watch",
-    "watch": "npm run build -- --verbose --watch",
-    "build": "postcss assets/css/app.css -o public/bundle.css",
-    "format": "prettier --print-width 120 --single-quote --write 'assets/css/**/*.css';"
+    "url": "https://github.com/scottdejonge/scottdejonge/issues"
   },
   "devDependencies": {
-    "cssnano": "^3.10.0",
-    "css-prefers-color-scheme": "^3.1.1",
-    "postcss-nested": "^4.1.2",
-    "postcss-cli": "^6.1.2",
-    "postcss-import": "^12.0.1"
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^5.0.3"
+  },
+  "scripts": {
+    "build": "npm run build:css && npm run build:site",
+    "build:css": "postcss src/assets/css/app.css -o src/public/bundle.css",
+    "build:site": "ELEVENTY_ENV=production npx eleventy",
+    "dev:css": "npm run build:css -- --verbose --watch",
+    "dev:site": "ELEVENTY_ENV=development npx eleventy --serve",
+    "start": "npm run dev:site"
   }
 }

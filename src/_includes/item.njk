@@ -1,0 +1,19 @@
+<a
+  class="item"
+  href="{{ item.url }}"
+>
+  <h3>
+    {% if item.data.title %}
+      {{ item.data.title }}
+    {% elif item.title %}
+      {{ item.title }}
+    {% endif %}
+  </h3>
+  <p class="description">
+    {% if item.data.description %}
+      {{ item.data.description }}
+    {% elif item.description %}
+      {{ item.description }}
+    {% endif %}
+  </p>
+</a>

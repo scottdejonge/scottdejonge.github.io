@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'meta.njk' %}
+    {% include 'favicon.njk' %}
+    <link rel="stylesheet" href="{{ '/public/bundle.css' | timestamp | url }}" />
+  </head>
+  <body>
+    {% include 'header.njk' %}
+    <main>
+      <article class="container">
+        <h1>
+          {% if headline %}
+            {{ headline }}
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </h1>
+        <hr aria-hidden="true" />
+        <p class="lead">
+          {{ description }}
+        </p>
+        {{ content | safe }}
+      </article>
+    </main>
+    {% include 'footer.njk' %}
+  </body>
+</html>

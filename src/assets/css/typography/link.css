@@ -1,0 +1,14 @@
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+  
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:active {
+    
+  }
+}

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>the-web-for-humans</title>
-  <g>
-    <circle cx="16" cy="16" r="8"/>
-    <path d="M0,0V64H64V0ZM36,32H28V60H4V4H36ZM48,56a8,8,0,1,1,8-8A8,8,0,0,1,48,56Z"/>
-  </g>
-</svg>

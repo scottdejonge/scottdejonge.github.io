@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{{ content | safe }}
+
+{% for item in collections.writing %}
+  {% set item = item.data %}
+  {% include 'item.njk' %}
+{% endfor %}

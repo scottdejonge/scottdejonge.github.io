@@ -1,0 +1,20 @@
+figure {
+  background-color: var(--background-alt);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin: 2rem 0;
+  padding: 1rem;
+  
+  & img {
+    border-radius: var(--border-radius);
+    height: auto;
+    width: 100%;
+  }
+}
+
+figcaption {
+  font-size: 0.75em;
+  font-style: normal;
+  line-height: 1.375;
+  margin-top: 0.5rem;
+}

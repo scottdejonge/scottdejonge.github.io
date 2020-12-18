@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{{ content | safe }}
+
+{% for item in work %}
+  {% include 'item.njk' %}
+{% endfor %}

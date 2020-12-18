@@ -1,8 +1,0 @@
-hr {
-  clear: both;
-  margin: 1rem 0;
-  max-width: 2rem;
-  height: 0.125rem;
-  border: 0;
-  background: var(--primary);
-}

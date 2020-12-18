@@ -1,0 +1,17 @@
+pre {
+  background-color: var(--background-alt);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  direction: ltr;
+  font-family: var(--monospace);
+  hyphens: none;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  overflow: auto;
+  padding: 1em;
+  tab-size: 2;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-spacing: normal;
+}

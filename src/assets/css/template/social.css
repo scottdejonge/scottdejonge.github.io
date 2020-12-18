@@ -1,0 +1,23 @@
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  & a {
+    color: currentColor;
+    display: block;
+    flex: none;
+    padding: 0.5em;
+
+    &:hover,
+    &:focus {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  }
+
+  & svg {
+    display: block;
+    fill: currentColor;
+  }
+}

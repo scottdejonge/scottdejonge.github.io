@@ -1,0 +1,15 @@
+dl {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+dt {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 1em;
+}

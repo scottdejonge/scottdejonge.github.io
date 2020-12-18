@@ -1,0 +1,7 @@
+kbd {
+  background-color: var(--background-alt);
+  font-family: var(--monospace);
+  font-size: 0.75em;
+  line-height: 1;
+  padding: 0.2em 0.4em;
+}

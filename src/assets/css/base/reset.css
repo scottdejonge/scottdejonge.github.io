@@ -1,0 +1,44 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+blockquote,
+cite,
+dd,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol > li,
+ol,
+p,
+ul > li,
+ul {
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
