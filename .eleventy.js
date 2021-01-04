@@ -1,8 +1,6 @@
-const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
 module.exports = function(config) {
   config.setUseGitIgnore(false);
-  config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksFilter('timestamp', path => `${path}?v=${Date.now()}`);
   config.addWatchTarget('./src/assets/css');
   config.addPassthroughCopy({ 'src/assets/favicon': 'public/favicon' });

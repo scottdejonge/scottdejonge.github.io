@@ -1,14 +1,22 @@
 <nav class="nav">
   <ul>
-  {%- for entry in collections.all | eleventyNavigation %}
-    <li>
-      <a
-        aria-current="{% if entry.url == page.url %}page{% else %}false{% endif %}"
-        href="{{ entry.url | url }}"
-      >
-        {{ entry.title }}
-      </a>
-    </li>
-  {%- endfor %}
+    {%- for item in nav %}
+      {% set current = item.url == page.url %}
+      <li>
+        <a
+          aria-current="{% if current %}page{% else %}false{% endif %}"
+          href="{{ item.url | url }}"
+        >
+          {% if current %}
+            {% include item.icon.current %}
+          {% else %}
+            {% include item.icon.default %}
+          {% endif %}
+          <span>
+            {{ item.title }}
+          </span>
+        </a>
+      </li>
+    {%- endfor %}
   </ul>
 </nav>

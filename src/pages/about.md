@@ -1,9 +1,6 @@
 ---
 layout: default
 permalink: /
-eleventyNavigation:
-  key: About
-  order: 1
 title: About
 headline: Sydney based UI/UX Designer and Accessibility Engineer
 description: "My name is Scott, & I design & build universally accessible, performant, & responsive web interfaces."

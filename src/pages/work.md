@@ -1,9 +1,6 @@
 ---
 layout: work
 permalink: /work/index.html
-eleventyNavigation:
-  key: Work
-  order: 2
 title: Work
 headline: Design & Development
 description: "Improving user experiences through effective design and development."

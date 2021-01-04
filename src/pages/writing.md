@@ -1,9 +1,6 @@
 ---
 layout: writing
 permalink: /writing/index.html
-eleventyNavigation:
-  key: Writing
-  order: 4
 title: Writing
 headline: Reflections & thoughts
 description: "Articles written to express my personal experiences with design & development."
