@@ -5,7 +5,7 @@ layout: default
 {{ content | safe }}
 
 <ul class="items">
-  {% for item in collections.writing %}
+  {% for item in collections.writing | reverse %}
     {% set item = item.data %}
     <li>
       {% include 'item.njk' %}
