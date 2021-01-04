@@ -18,6 +18,7 @@
     flex-grow: 1;
     margin: 0;
     padding: 0;
+    text-decoration: none;
   }
 
   & a {
@@ -75,7 +76,6 @@
       border-bottom-style: solid;
       border-bottom-width: 0.25em;
       font-size: 0.875em;
-      flex-basis: 0px;
       flex-direction: column;
       justify-content: center;
       padding-bottom: 0.75em;
