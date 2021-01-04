@@ -19,6 +19,7 @@
    */
   
   --primary: hsl(var(--hue), 100%, 50%);
+  --hocus: hsl(var(--hue), 100%, 95%);
 
   --color: hsl(var(--hue), 20%, 30%);
   --color-alt: hsl(var(--hue), 10%, 10%);
@@ -46,7 +47,7 @@
    * Border Radius
    */
 
-  --border-radius: 0.25rem;
+  --border-radius: 0.5rem;
 
   /**
    * Box Shadow
