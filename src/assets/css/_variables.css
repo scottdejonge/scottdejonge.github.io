@@ -19,8 +19,8 @@
    */
   
   --primary: hsl(var(--hue), 100%, 50%);
-  --color: hsl(var(--hue), 20%, 10%);
-  --color-alt: hsl(var(--hue), 10%, 30%);
+  --color: hsl(var(--hue), 20%, 30%);
+  --color-alt: hsl(var(--hue), 10%, 10%);
   --background: hsl(var(--hue), 30%, 95%);
   --background-alt: hsl(var(--hue), 100%, 100%);
   --box-shadow-color: hsla(var(--hue), 30%, 80%, 10%);
@@ -31,8 +31,8 @@
 
   @media (prefers-color-scheme: dark) {
     --primary: hsl(var(--hue), 100%, 65%);
-    --color: hsl(var(--hue), 30%, 98%);
-    --color-alt: hsl(var(--hue), 100%, 100%);
+    --color: hsl(var(--hue), 30%, 85%);
+    --color-alt: hsl(var(--hue), 100%, 95%);
     --background: hsl(var(--hue), 20%, 10%);
     --background-alt: hsl(var(--hue), 30%, 20%);
     --box-shadow-color: hsla(var(--hue), 30%, 2.5%, 5%);
