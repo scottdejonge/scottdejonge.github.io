@@ -3,6 +3,4 @@ body {
   color: var(--color);
   font-family: var(--font-family);
   margin: 0;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
 }

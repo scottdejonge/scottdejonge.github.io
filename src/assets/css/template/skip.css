@@ -1,0 +1,24 @@
+.skip {
+  background-color: var(--primary);
+  border-radius: var(--border-radius);
+  color: var(--hocus);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.skip:not(:active):not(:focus) {
+  border: none;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

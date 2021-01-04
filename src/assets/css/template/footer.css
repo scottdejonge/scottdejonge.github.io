@@ -1,8 +1,9 @@
 .footer {
   font-size: 0.75rem;
   line-height: 1.5;
-  margin-top: 2rem;
   text-align: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .footer-copyright {
