@@ -2,11 +2,9 @@
 layout: default
 permalink: /
 title: About
-headline: Sydney based UI/UX Designer and Accessibility Engineer
-description: "My name is Scott, & I design & build universally accessible, performant, & responsive web interfaces."
+headline: UI/UX Designer and Software Engineer
+description: "I design and build universally accessible, performant, and responsive web interfaces."
 ---
-
-I am a User Interface (UI) & User Experience (UX) Designer & Accessibility Engineer in Sydney Australia. I design & build universally accessible, performant, & responsive web interfaces.
 
 <figure>
   <img
@@ -24,7 +22,7 @@ Bachelor of Multimedia Design - University of Queensland (2012)
 
 ## Skills
 
-I am constantly learning & bettering my skills; always excited to further develop my understanding of inclusive web design & development. I help people communicate effectively on the web with simple and intuitive websites that users love.
+I am constantly learning and bettering my skills; always excited to further develop my understanding of inclusive web design and development. I help people communicate effectively on the web with simple and intuitive websites that users love.
 
 ### Strategy
 
@@ -63,7 +61,7 @@ The best design outcomes on the web are ultimately delivered through their techn
 
 I am passionate about performance, security, privacy, and accessibility. These provide the best outcomes for users, and are foundation for everything I create on the web. 
 
-I have experience with a full-stack of technologies with a primary focus on creating performant website that are simple & intuitive to view & maintain.
+I have experience with a full-stack of technologies with a primary focus on creating performant website that are simple and intuitive to view and maintain.
 
 - Client: HTML / CSS / JavaScript
 - Application: [PHP](https://www.php.net/) / [CakePHP](https://cakephp.org/)
