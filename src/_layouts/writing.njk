@@ -4,7 +4,11 @@ layout: default
 
 {{ content | safe }}
 
-{% for item in collections.writing %}
-  {% set item = item.data %}
-  {% include 'item.njk' %}
-{% endfor %}
+<ul class="items">
+  {% for item in collections.writing %}
+    {% set item = item.data %}
+    <li>
+      {% include 'item.njk' %}
+    </li>
+  {% endfor %}
+</ul>

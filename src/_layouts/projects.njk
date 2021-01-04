@@ -4,6 +4,10 @@ layout: default
 
 {{ content | safe }}
 
-{% for item in projects %}
-  {% include 'item.njk' %}
-{% endfor %}
+<ul class="items">
+  {% for item in projects %}
+    <li>
+      {% include 'item.njk' %}
+    </li>
+  {% endfor %}
+</ul>

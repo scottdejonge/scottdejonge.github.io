@@ -4,6 +4,10 @@ layout: default
 
 {{ content | safe }}
 
-{% for item in work %}
-  {% include 'item.njk' %}
-{% endfor %}
+<ul class="items">
+  {% for item in work %}
+    <li>
+      {% include 'item.njk' %}
+    </li>
+  {% endfor %}
+</ul>

@@ -3,29 +3,5 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   display: block;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
   padding: 1rem;
-
-  &:first-child {
-    margin-top: 0;
-  }
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  & header {
-    flex: auto;
-
-    & h3 {
-      margin-bottom: 0;
-      margin-top: 0;
-    }
-  }
-
-  & footer {
-    flex: none;
-    margin-top: 1em;
-  }
 }

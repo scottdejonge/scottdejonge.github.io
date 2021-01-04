@@ -49,6 +49,7 @@
 
 @import './template/footer';
 @import './template/header';
+@import './template/items';
 @import './template/item';
 @import './template/nav';
 @import './template/social';
