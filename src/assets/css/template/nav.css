@@ -40,6 +40,10 @@
       background-color: var(--primary);
       color: var(--hocus);
       text-decoration: none;
+
+      & svg {
+        transform: rotate(10deg) translate(10%, -10%);
+      }
     }
 
     &[aria-current="page"] {
@@ -53,6 +57,9 @@
     height: 1.5em;
     margin-right: 0.75em;
     width: 1.5em;
+    transform: none;
+    transform-origin: center;
+    transition: transform 200ms ease-in-out;
   }
 
   & span {
