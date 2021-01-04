@@ -1,7 +1,6 @@
 .description {
   color: var(--color-alt);
   font-size: 0.875em;
-  font-weight: 400;
-  letter-spacing: 0.01em;
   line-height: 1.375;
+  margin-top: 0;
 }
