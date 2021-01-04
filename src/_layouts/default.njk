@@ -18,6 +18,19 @@
             {{ title }}
           {% endif %}
         </h1>
+        {% if date %}
+          <p class="meta">
+            <time datetime="{{ date.toISOString() }}">
+              {{
+                date.toLocaleDateString('en-AU', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                }) 
+              }}
+            </time>
+          </p>
+        {% endif %}
         <hr aria-hidden="true" />
         <p class="lead">
           {{ description }}

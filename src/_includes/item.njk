@@ -9,6 +9,19 @@
       {{ item.title }}
     {% endif %}
   </h3>
+  {% if item.date %}
+    <p class="meta">
+      <time datetime="{{ item.date.toISOString() }}">
+        {{
+          item.date.toLocaleDateString('en-AU', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          }) 
+        }}
+      </time>
+    </p>
+  {% endif %}
   <p class="description">
     {% if item.data.description %}
       {{ item.data.description }}
