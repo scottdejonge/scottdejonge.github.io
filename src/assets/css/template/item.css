@@ -18,4 +18,8 @@
   & p {
     color: currentColor;
   }
+
+  & h3 {
+    margin-bottom: 0;
+  }
 }

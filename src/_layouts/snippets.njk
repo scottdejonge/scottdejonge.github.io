@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content | safe }}
+
+<ul class="items">
+  {% for item in collections.snippets %}
+    {% set item = item.data %}
+    <li>
+      {% include 'item.njk' %}
+    </li>
+  {% endfor %}
+</ul>

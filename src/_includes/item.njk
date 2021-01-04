@@ -2,13 +2,11 @@
   class="item"
   href="{% if item.page.url %}{{ item.page.url }}{% elif item.url %}{{ item.url }}{% endif %}"
 >
-  <h3>
-    {% if item.data.title %}
-      {{ item.data.title }}
-    {% elif item.title %}
-      {{ item.title }}
-    {% endif %}
-  </h3>
+  {% if item.data.title %}
+    <h3>{{ item.data.title }}</h3>
+  {% elif item.title %}
+    <h3>{{ item.title }}</h3>
+  {% endif %} 
   {% if item.date %}
     <p class="meta">
       <time datetime="{{ item.date.toISOString() }}">
@@ -22,11 +20,9 @@
       </time>
     </p>
   {% endif %}
-  <p class="description">
-    {% if item.data.description %}
-      {{ item.data.description }}
-    {% elif item.description %}
-      {{ item.description }}
-    {% endif %}
-  </p>
+  {% if item.data.description %}
+    <p class="description">{{ item.data.description }}</p>
+  {% elif item.description %}
+    <p class="description">{{ item.description }}</p>
+  {% endif %}
 </a>

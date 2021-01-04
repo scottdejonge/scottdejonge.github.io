@@ -24,6 +24,14 @@ module.exports = [
     url: '/projects/',
   },
   {
+    title: 'Snippets',
+    icon: {
+      default: 'svg/lightning-outline.svg',
+      current: 'svg/lightning.svg',
+    },
+    url: '/snippets/',
+  },
+  {
     title: 'Writing',
     icon: {
       default: 'svg/pencil-outline.svg',

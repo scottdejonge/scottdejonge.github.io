@@ -2,6 +2,7 @@ pre {
   background-color: var(--background-alt);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  color: var(--color-alt);
   direction: ltr;
   font-family: var(--monospace);
   hyphens: none;
@@ -14,4 +15,12 @@ pre {
   white-space: pre;
   word-break: normal;
   word-spacing: normal;
+
+  & > code {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    color: currentColor;
+    padding: 0;
+  }
 }
