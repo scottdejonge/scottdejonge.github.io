@@ -1,13 +1,9 @@
 a {
-  color: var(--primary);
-  text-decoration: none;
-  
+  color: currentColor;
+  text-decoration: underline;
+
   &:hover,
   &:focus {
-    text-decoration: underline;
-  }
-
-  &:active {
-    
+    text-decoration: none;
   }
 }

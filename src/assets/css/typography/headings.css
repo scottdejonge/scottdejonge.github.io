@@ -8,10 +8,6 @@ h6 {
   line-height: 1.125;
   margin-bottom: 0.5em;
 
-  & > a {
-    color: currentColor;
-  }
-
   & + p {
     margin-top: 1em;
   }
