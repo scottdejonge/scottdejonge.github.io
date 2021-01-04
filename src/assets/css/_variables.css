@@ -31,7 +31,7 @@
 
   @media (prefers-color-scheme: dark) {
     --primary: hsl(var(--hue), 100%, 65%);
-    --color: hsl(var(--hue), 30%, 85%);
+    --color: hsl(var(--hue), 30%, 80%);
     --color-alt: hsl(var(--hue), 100%, 95%);
     --background: hsl(var(--hue), 20%, 10%);
     --background-alt: hsl(var(--hue), 30%, 20%);
