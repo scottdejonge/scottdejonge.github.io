@@ -17,6 +17,7 @@ h1 {
   font-size: 2rem;
   font-weight: 800;
   margin-top: 1em;
+  max-width: 20ch;
 
   & + h2 {
     margin-top: 0;
