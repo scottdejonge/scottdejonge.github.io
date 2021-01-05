@@ -32,6 +32,7 @@ hr,
 ol > li,
 ol,
 p,
+pre,
 ul > li,
 ul {
   &:first-child {
