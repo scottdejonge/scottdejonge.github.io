@@ -39,6 +39,7 @@ Adjacent headings of decending levels remove the `margin-top` from the younger s
 
 ```markdown
 ## Adjacent Heading Level 2
+
 ### To a Sibling Heading Level 3
 ```
 
@@ -46,26 +47,26 @@ Adjacent headings of decending levels remove the `margin-top` from the younger s
 
 ### Ordered List
 
-* Ordered Lists look like this.
-* Multi-leveled Ordered Lists look like this:
-  * This is an example of a second-level bullet
+1. This is a ordered list.
+2. Ordered lists can also have multiple levels:
+  1. This is a second-level ordered list item
 
 ```markdown
-* Ordered Lists look like this.
-* Multi-leveled Ordered Lists look like this:
-  * This is an example of a second-level bullet
+1. This is a ordered list.
+2. Ordered lists can also have multiple levels:
+  1. This is a second-level ordered list item
 ```
 
 ### Unordered List
 
-1. This is a Unordered List.
-2. Unordered Lists can also have multiple levels:
-  1. This is a second-level Unordered List item
+1. This is a unordered list.
+2. Unordered lists can also have multiple levels:
+  1. This is a second-level unordered list item
 
 ```markdown
-1. This is a Unordered List.
-2. Unordered Lists can also have multiple levels:
-  1. This is a second-level Unordered List item
+1. This is a unordered list.
+2. Unordered lists can also have multiple levels:
+  1. This is a second-level unordered list item
 ```
 
 ### Blockquote
@@ -86,32 +87,31 @@ Inline `code` examples are styled with a monospace typeface and are coloured.
 `code`
 ```
 
-Codeblocks have syntax highlighting using [Rouge](https://github.com/jneen/rouge)
+Codeblocks have syntax highlighting
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/turret.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-
+    
   </body>
 </html>
 ```
 
 ### References
 
-References are applied with the [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes) `[^footnote]`.
+References are applied with the footnote syntax `[^footnote]`.
 
-e.g. A line of text that references Kramdown Footnotes Syntax [^footnote].
+e.g. A line of text that references footnote syntax [^footnote].
 
-[^footnote]: Kramdown [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes)
+[^footnote]: [Reference link text](https://scottdejonge.com)
 
 ```markdown
-[^footnote]: Kramdown [Kramdown Footnotes Syntax](http://kramdown.gettalong.org/syntax.html#footnotes)
+[^footnote]: [Reference link text](https://scottdejonge.com)
 ```

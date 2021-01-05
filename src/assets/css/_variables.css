@@ -5,43 +5,7 @@
    */
   
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --serif: Georgia, serif;
   --monospace: monaco, Consolas, Lucida Console, monospace;
-
-  /**
-   * Color
-   */
-
-  --hue: 220;
-
-  /**
-   * Palette
-   */
-  
-  --primary: hsl(var(--hue), 100%, 50%);
-  --hocus: hsl(var(--hue), 100%, 95%);
-
-  --color: hsl(var(--hue), 20%, 30%);
-  --color-alt: hsl(var(--hue), 10%, 10%);
-
-  --background: hsl(var(--hue), 30%, 95%);
-  --background-alt: hsl(var(--hue), 100%, 100%);
-
-  --box-shadow-color: hsla(var(--hue), 30%, 80%, 10%);
-
-  /**
-   * Dark Palette
-   */
-
-  @media (prefers-color-scheme: dark) {
-    --color: hsl(var(--hue), 30%, 80%);
-    --color-alt: hsl(var(--hue), 100%, 95%);
-
-    --background: hsl(var(--hue), 20%, 10%);
-    --background-alt: hsl(var(--hue), 30%, 20%);
-
-    --box-shadow-color: hsla(var(--hue), 30%, 2.5%, 5%);
-  }
 
   /**
    * Border Radius
@@ -54,29 +18,4 @@
    */
 
   --box-shadow: 0 0.025rem 0.125rem 0.0325rem var(--box-shadow-color);
-
-  /**
-   * Syntax
-   */
-  
-   /* body text / default code / primary content */
-   --syntax-base: inherit;
-   
-   /* comments / secondary content */
-   --syntax-comment: hsl(var(--hue), 10%, 50%);
-   
-   /* constants */
-   --syntax-constants: hsl(300, 80%, 50%);
-   
-   /* regex, special keywords */
-   --syntax-special: hsl(0, 80%, 50%);
-   
-   /* reserved keywords */
-   --syntax-reserved: hsl(var(--hue), 80%, 50%);
-   
-   /* strings, numbers */
-   --syntax-strings: hsl(30, 80%, 50%);
-   
-   /* operators, other keywords */
-   --syntax-operators: hsl(120, 80%, 50%);
 }

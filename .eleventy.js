@@ -1,5 +1,6 @@
 const markdownIt = require('markdown-it');
 const markdownItFootnote = require('markdown-it-footnote');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 let markdownLibrary = markdownIt({
   html: true,
@@ -11,6 +12,7 @@ let markdownLibrary = markdownIt({
 
 module.exports = function(config) {
   config.addNunjucksFilter('timestamp', path => `${path}?v=${Date.now()}`);
+  config.addPlugin(syntaxHighlight);
   config.addPassthroughCopy({ 'src/assets/favicon': 'public/favicon' });
   config.addPassthroughCopy({ 'src/assets/images': 'public/images' });
   config.addPassthroughCopy({ 'src/public': 'public' });

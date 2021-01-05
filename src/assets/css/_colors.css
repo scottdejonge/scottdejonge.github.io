@@ -1,0 +1,74 @@
+:root {
+
+  /**
+   * Hue
+   */
+
+  --hue: 220;
+
+  /**
+   * Colors
+   */
+
+  /* Primary */
+  --primary: hsl(var(--hue), 100%, 50%);
+
+  /* Hover/Focus */
+  --hocus: hsl(var(--hue), 100%, 95%);
+
+  /* Background */
+  --background: hsl(var(--hue), 30%, 95%);
+  --background-alt: hsl(var(--hue), 100%, 100%);
+  --background-code: hsl(var(--hue), 25%, 90%);
+
+  /* Border */
+  --border-color: hsl(var(--hue), 30%, 85%);
+
+  /* Box Shadow */
+  --box-shadow-color: hsla(var(--hue), 30%, 80%, 10%);
+
+  /* Color */
+  --color: hsl(var(--hue), 20%, 30%);
+  --color-alt: hsl(var(--hue), 10%, 10%);
+
+  /* Syntax */
+  --syntax-base: var(--color-alt);
+  --syntax-comment: hsl(var(--hue), 20%, 50%);
+  --syntax-constant: hsl(calc(var(--hue) + 60), 90%, 45%);
+  --syntax-function: hsl(calc(var(--hue) + 90), 90%, 45%);
+  --syntax-important: hsl(calc(var(--hue) + 120), 90%, 45%);
+  --syntax-operator: hsl(calc(var(--hue) - 30), 90%, 45%);
+  --syntax-reserved: hsl(var(--hue), 50%, 50%);
+  --syntax-string: hsl(calc(var(--hue) - 180), 90%, 45%);
+
+  /**
+   * Dark Palette
+   */
+
+  @media (prefers-color-scheme: dark) {
+
+    /* Background */
+    --background: hsl(var(--hue), 20%, 10%);
+    --background-alt: hsl(var(--hue), 30%, 20%);
+    --background-code: hsl(var(--hue), 50%, 5%);
+
+    /* Border */
+    --border-color: hsl(var(--hue), 30%, 30%);
+
+    /* Box Shadow */
+    --box-shadow-color: hsla(var(--hue), 30%, 2.5%, 5%);
+
+    /* Color */
+    --color: hsl(var(--hue), 30%, 80%);
+    --color-alt: hsl(var(--hue), 100%, 95%);
+
+    /* Syntax */
+    --syntax-comment: hsl(var(--hue), 20%, 50%);
+    --syntax-constant: hsl(calc(var(--hue) + 60), 90%, 60%);
+    --syntax-function: hsl(calc(var(--hue) + 90), 90%, 60%);
+    --syntax-important: hsl(calc(var(--hue) + 120), 90%, 60%);
+    --syntax-operator: hsl(calc(var(--hue) - 30), 90%, 60%);
+    --syntax-reserved: hsl(var(--hue), 50%, 50%);
+    --syntax-string: hsl(calc(var(--hue) - 180), 90%, 60%);
+  }
+}

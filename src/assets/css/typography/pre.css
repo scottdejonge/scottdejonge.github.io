@@ -1,7 +1,6 @@
 pre {
-  background-color: var(--background-alt);
+  background-color: var(--background-code);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
   color: var(--color-alt);
   direction: ltr;
   font-family: var(--monospace);
