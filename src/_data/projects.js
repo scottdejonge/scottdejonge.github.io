@@ -5,6 +5,11 @@ module.exports = [
     url: 'http://bonafidebangers.com/',
   },
   {
+    title: 'Hireoglyphs',
+    description: 'Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience as part of a wider design system.',
+    url: 'https://hireupau.github.io/hireoglyphs/',
+  },
+  {
     title: 'Map Icons',
     description: 'An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels.',
     url: 'http://map-icons.com/',
