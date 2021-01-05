@@ -13,6 +13,7 @@ let markdownLibrary = markdownIt({
 module.exports = function(config) {
   config.addNunjucksFilter('timestamp', path => `${path}?v=${Date.now()}`);
   config.addPlugin(syntaxHighlight);
+  config.addPassthroughCopy({ 'CNAME': 'CNAME' });
   config.addPassthroughCopy({ 'src/assets/favicon': 'public/favicon' });
   config.addPassthroughCopy({ 'src/assets/images': 'public/images' });
   config.addPassthroughCopy({ 'src/public': 'public' });
