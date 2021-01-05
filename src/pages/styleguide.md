@@ -2,7 +2,7 @@
 layout: default
 permalink: /styleguide/index.html
 title: Style Guide
-description: "A demonstration of the visual styles of the various elements that comprise the design of this site including headings & typographic styles."
+description: "A demonstration of the visual styles of the various elements that comprise the design of this site including headings and typographic styles."
 ---
 
 This page exists to demonstrate the visual styles of the various elements that comprise the design of this site.

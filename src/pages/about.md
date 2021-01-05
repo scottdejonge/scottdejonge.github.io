@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 title: About
-headline: UI/UX Designer and Software Engineer
+headline: UI/UX Designer & Accessibility Engineer
 description: "I design and build universally accessible, performant, and responsive web interfaces."
 ---
 
@@ -23,6 +23,7 @@ Bachelor of Multimedia Design - University of Queensland (2012)
 ## Skills
 
 I am constantly learning and bettering my skills; always excited to further develop my understanding of inclusive web design and development. I help people communicate effectively on the web with simple and intuitive websites that users love.
+
 
 ### Strategy
 

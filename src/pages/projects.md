@@ -2,6 +2,6 @@
 layout: projects
 permalink: /projects/index.html
 title: Projects
-headline: Projects & experiments
-description: "A collection of projects & experiments for efficiency, exploration, & fun."
+headline: Projects & Experiments
+description: "A collection of projects and experiments for efficiency, exploration, and fun."
 ---
