@@ -42,7 +42,7 @@
       text-decoration: none;
 
       & svg {
-        transform: rotate(10deg) translate(10%, -10%);
+        transform: translate(0, -10%);
       }
     }
 

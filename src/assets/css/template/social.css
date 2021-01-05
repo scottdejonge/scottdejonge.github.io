@@ -3,6 +3,14 @@
   display: flex;
   justify-content: center;
 
+  & svg {
+    display: block;
+    fill: currentColor;
+    transform: none;
+    transform-origin: center;
+    transition: transform 200ms ease-in-out;
+  }
+
   & a {
     color: currentColor;
     display: block;
@@ -11,13 +19,12 @@
 
     &:hover,
     &:focus {
-      color: var(--primary);
+      color: var(--color-alt);
       text-decoration: none;
-    }
-  }
 
-  & svg {
-    display: block;
-    fill: currentColor;
+      & svg {
+        transform: translate(0, -10%);
+      }
+    }
   }
 }
