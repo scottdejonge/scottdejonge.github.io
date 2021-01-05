@@ -1,8 +1,10 @@
 ---
 layout: default
 tags: snippets
-title: HTML Boilerplate
+title: HTML
 ---
+
+## Boilerplate
 
 ```html
 <!DOCTYPE html>

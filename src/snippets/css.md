@@ -1,8 +1,10 @@
 ---
 layout: default
 tags: snippets
-title: Visually Hidden
+title: CSS
 ---
+
+## Visually Hidden
 
 ```css
 .visually-hidden {

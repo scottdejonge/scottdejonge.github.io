@@ -1,8 +1,10 @@
 ---
 layout: default
 tags: snippets
-title: GitHub Pages Orphan Branch
+title: Git
 ---
+
+## GitHub Pages Orphan Branch
 
 ```bash
 git checkout --orphan gh-pages
