@@ -36,6 +36,8 @@ For example, implementing the form control without providing the necessary conte
 </select>
 ```
 
+{% codepen "https://codepen.io/kevingimbel/pen/WNRLEwM" %}
+
 Extending the above with a [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) ensures that people can understand the context in which the form control is situated.
 
 ```html
@@ -45,6 +47,8 @@ Extending the above with a [`<label>`](https://developer.mozilla.org/en-US/docs/
   <option value="female">Female</option>
 </select>
 ```
+
+{% codepen "https://codepen.io/kevingimbel/pen/VwPqzje" %}
 
 This is sufficient enough to satify the criteria of the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/):
 
@@ -104,6 +108,8 @@ Using the appropriate element which coincides with the field information being c
 </fieldset>
 ```
 
+{% codepen "https://codepen.io/kevingimbel/pen/qBRLXaB" %}
+
 Use of `<input type="radio">` allows the options the be brought to the surface and means that a single press interaction is required to select an option.
 
 A person viewing the form can immediately view the field and options available to them.
@@ -154,6 +160,8 @@ An alternative to an optional field is to allow people to decline from inputting
 </fieldset>
 ```
 
+{% codepen "https://codepen.io/kevingimbel/pen/yLgGoax" %}
+
 ### Allow flexibility
 
 Provide people with the flexibility to enter the relevant information they require.
@@ -172,9 +180,11 @@ Provide people with the flexibility to enter the relevant information they requi
   <input id="other" name="gender" type="radio" value="other">
   <label for="other">Other</label>
 </fieldset>
-<label for="gender-custom">Specify gender</label>
+<label for="gender-custom">Your gender</label>
 <input id="gender-custom" name="gender-custom" type="text">
 ```
+
+{% codepen "https://codepen.io/kevingimbel/pen/MWJZvjP" %}
 
 An inclusive interface reflects the diversity of the people who use it.
 
@@ -197,7 +207,6 @@ In other instances it may be more obvious to include alongside other personal in
 Placing information on the surface in a logical order ensures t
 
 The discoverability of content can be influenced by learned behavior, previous patterns, or by interface cues which provide the necessary content.
-
 
 ## Universal
 

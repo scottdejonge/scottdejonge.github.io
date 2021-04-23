@@ -1,3 +1,4 @@
+const codepenEmbed = require('@kevingimbel/eleventy-plugin-codepen');
 const markdownIt = require('markdown-it');
 const markdownItFootnote = require('markdown-it-footnote');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
@@ -12,6 +13,7 @@ let markdownLibrary = markdownIt({
 
 module.exports = function(config) {
   config.addNunjucksFilter('timestamp', path => `${path}?v=${Date.now()}`);
+  config.addPlugin(codepenEmbed);
   config.addPlugin(syntaxHighlight);
   config.addPassthroughCopy({ 'CNAME': 'CNAME' });
   config.addPassthroughCopy({ 'src/assets/favicon': 'public/favicon' });
