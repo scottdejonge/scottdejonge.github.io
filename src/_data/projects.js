@@ -1,17 +1,27 @@
 module.exports = [
   {
     title: 'Turret CSS',
-    description: 'A styles and behaviour normalisation framework for development of responsive and accessible urls.',
+    description: 'Atomic class framework that normalises HTML elements to be responsive and accessible.',
     url: 'https://turretcss.com',
   },
   {
+    title: 'Rainbow',
+    description: 'HSL color system with millennial scales (50-900) and palettes for primary/secondary hues.',
+    url: 'https://scottdejonge.com/rainbow/',
+  },
+  {
     title: 'Hireoglyphs',
-    description: 'Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience as part of a wider design system.',
+    description: 'Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience.',
     url: 'https://hireupau.github.io/hireoglyphs/',
   },
   {
+    title: 'HSLA',
+    description: 'HSL color calculator, converter, and visualisation tool.',
+    url: 'https://scottdejonge.com/hsla/',
+  },
+  {
     title: 'Map Icons',
-    description: 'An icon font for use with Google Maps API and Google Places API using SVG markers and icon labels.',
+    description: 'Icons to use with Google Maps API and Google Places API with SVG markers and icon labels.',
     url: 'http://map-icons.com/',
   },
   {
