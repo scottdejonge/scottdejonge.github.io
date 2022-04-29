@@ -1,5 +1,10 @@
 module.exports = [
   {
+    title: 'Turret CSS',
+    description: 'A styles and behaviour normalisation framework for development of responsive and accessible urls.',
+    url: 'https://turretcss.com',
+  },
+  {
     title: 'Hireoglyphs',
     description: 'Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience as part of a wider design system.',
     url: 'https://hireupau.github.io/hireoglyphs/',
@@ -13,15 +18,5 @@ module.exports = [
     title: 'Recipes',
     description: 'Recipes is a simple interface for Jeykll to easily write and record personal recipes.',
     url: 'https://scottdejonge.com/recipes/',
-  },
-  {
-    title: 'Turret CSS',
-    description: 'A styles and behaviour normalisation framework for development of responsive and accessible urls.',
-    url: 'https://turretcss.com',
-  },
-  {
-    title: 'The Web for Humans',
-    description: 'A human-centric guide to the web to help understand the changing landscape for web content publishers.',
-    url: 'http://thewebforhumans.com/',
   },
 ];
