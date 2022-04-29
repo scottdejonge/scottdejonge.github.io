@@ -1,10 +1,5 @@
 module.exports = [
   {
-    title: 'Bonafide Bangers',
-    description: 'Bonafide Bangers is the latest and greatest in not having a shithouse playlist of tunes when hanging out.',
-    url: 'http://bonafidebangers.com/',
-  },
-  {
     title: 'Hireoglyphs',
     description: 'Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience as part of a wider design system.',
     url: 'https://hireupau.github.io/hireoglyphs/',
@@ -18,11 +13,6 @@ module.exports = [
     title: 'Recipes',
     description: 'Recipes is a simple interface for Jeykll to easily write and record personal recipes.',
     url: 'https://scottdejonge.com/recipes/',
-  },
-  {
-    title: 'Sible',
-    description: 'Sible empowers people to share and access detailed accessibility information.',
-    url: 'https://sible.org',
   },
   {
     title: 'Turret CSS',
