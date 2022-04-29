@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 title: About
-headline: UI/UX Designer & Accessibility Engineer
+headline: Software Engineer, Interface Designer, and Accessibility Specialist
 description: "I design and build universally accessible, performant, and responsive web interfaces."
 ---
 
@@ -34,7 +34,7 @@ My love of good design is central to delivering great outcomes. I create and imp
 
 ### Technical
 
-The best design outcomes on the web are ultimately delivered through their technical implantation. I have experience with a full-stack of technologies (HTML, CSS, JavaScript, React, Vue, Node, PHP, AWS) with a primary focus on creating performant website that are simple and intuitive to view and maintain.
+The best design outcomes on the web are ultimately delivered through their technical implantation. I have extensive experience with a full-stack of web technologies, and a primary focus: creating accessible web experiences that are simple and intuitive to view and maintain.
 
 ### Business
 
