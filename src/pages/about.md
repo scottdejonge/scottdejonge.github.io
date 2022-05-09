@@ -7,12 +7,17 @@ description: "I design and build universally accessible, performant, and respons
 ---
 
 <figure>
-  <img
-    alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen"
-    height="840"
-    src="/public/images/photo.jpg"
-    width="400"
-  >
+  <picture>
+    <source srcset="/public/images/photo.webp" type="image/webp">
+    <source srcset="/public/images/photo.jpg" type="image/jpeg">
+    <img
+      alt="Man staring at screen wearing a blue cap, lower half of face is covered by out-of-focus screen"
+      height="362"
+      loading="lazy"
+      src="/public/images/photo.jpg"
+      width="760"
+    >
+  </picture>
   <figcaption>📷 Wearing an on-brand cap, and heavily focussed on code.</figcaption>
 </figure>
 
