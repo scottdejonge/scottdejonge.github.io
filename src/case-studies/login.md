@@ -152,7 +152,7 @@ After browser and device compatibility testing, the focus moved to the overall l
 
 Iterations of the login page design were presented to the design team for critique and feedback. Each iteration aiming to solve feedback and refine the user interface.
 
-## Ship it!
+## Release
 
 Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff.
 
@@ -160,7 +160,7 @@ With (nearly) all known combinations of devices, operating systems, browsers, pa
 
 The updated login page resulted in a significant decrease in customer support tickets directed to the product team, addressing most common customer support requests.
 
-## One more thing
+### One more thing
 
 To provide a consistent and accessible experience the forgot password user flow was implemented using efficiencies found in the login page components.
 
