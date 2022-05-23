@@ -2,10 +2,10 @@
 layout: default
 tags: case-studies
 title: Login
-description: Designing a modern, performant, efficient, and accessible login page.
+description: Designing and building a modern, performant, efficient, and accessible login page.
 ---
 
-![Login large](/public/case-studies/login/login-large.png)
+![Login mobile](/public/case-studies/login/mobile.png)
 
 ## Overview
 
@@ -21,26 +21,37 @@ Improve login user experience by reducing page impressions and time spent on pag
   - user experience: reduce user input *(focus of design approach)*
   - accessibility: resolve WCAG compliance issues *(focus of design approach)*
 
-## User experience
+## Research
 
-### Purpose
+What do users expect from a login page? What are common patterns or behaviours? What technologies are being used?
+
+A competitor analysis of login pages for Google, Twitter, Facebook, LinkedIn etc. provides great insight to these questions.
+
+<video controls poster="/public/case-studies/login/competitors.png" src="/public/case-studies/login/competitors.mp4"></video>
+
+What they largely have in common is:
+
+- Minimal visual presentation
+- Simple login form (email/password)
+- Forgot password link
+- Register an account call-to-action
+
+## Purpose
 
 In order to successfully execute a new login page it's critical to define it's fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.
 
-#### What job does the login page have?
+What job does the login page have?
 
-"The login page authenticates users on the platform with minimal effort."
+> Authenticate users on the platform with minimal effort.
 
 Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:
-
-### Goals
 
 1. **Provide structure and labels:** all content is labelled and understandable by all devices/browsers/technologies.
 2. **Remove complexity:** only contain required and meaningful content.
 3. **Minimise input:** autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)
 4. **Disclose errors:** present meaningful error messages both visually and audibly.
 
-### User stories
+## User stories
 
 - As a *password manager user* I want to *automatically fill out email and password* so I can *login automatically*
 - As a *screen-reader user* I want to *focus the email input field* so I can *navigate to login successfully*
@@ -53,7 +64,7 @@ Ideally the login page should be rarely encountered, only when signing in on a n
 
 To improve the accessibility of the login page it's important to identify the existing accessibility issues using the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
 
-![Login old large](/public/case-studies/login/login-old-large.png)
+![Login old large](/public/case-studies/login/old.png)
 
 An audit of the previous login page identified the following compliance issues:
 
@@ -87,19 +98,15 @@ Error messages are not announced to screen-reader users. When an error occurs th
 
 To understand accessibility beyond guidelines it's important to test interfaces with people with disability. How accessible technologies like screen-readers (VoiceOver, JAWS, NVDA etc.) interpret an interface can differ greatly depending on device, browser, version, and individual configuration settings.
 
-Below is a snippet from an accessibility testing session, where a non-sighted user navigates through the previous login page with the JAWS screen-reader, Chrome browser, on a Windows laptop.
+Below is a snippet from an accessibility testing session, where a non-sighted user navigates through the previous iteration of the login page using JAWS screen-reader with a Chrome browser on a Windows laptop.
 
-<video controls src="/public/case-studies/login/login-focus.mp4" style="width:100%; height:auto;"></video>
+<video controls src="/public/case-studies/login/accessibility.mp4"></video>
 
 > "so normally it should just open up to the box"
 
-## User interface
+## Minimal viable product
 
-Now that approach to user experience (purpose, goals, and user stories) and accessibility (audit, proposed solutions, and user testing).
-
-### Minimal viable product
-
-To understand how different browsers, devices, and screen-readers interact with login form fields a MVP that only included the raw HTML was created to evaluate success against user experience and accessibility requirements.
+To understand how different browsers, devices, and screen-readers interact with login form fields a minimal viable product that only included the raw HTML was created to evaluate success against user experience and accessibility requirements.
 
 ```html
 <main aria-labelledby="page-title">
@@ -124,13 +131,17 @@ To understand how different browsers, devices, and screen-readers interact with 
 6. `<a href="/reset">`: link to reset password form before submit button for logical content order in screen-readers.
 7. `<a href="/registration">`: promote link to register.
 
-### Composing (existing) components
+### Composed with existing components
 
-Taking a minimal "using what you have to achieve what you want to achieve" approach to compose a primitive login view within Storybook. This allowed rapid prototyping in the browser in a local and hosted environments to experiment with different browser and device combinations.
+Taking a minimal "using what you have to achieve what you want to achieve" approach to compose a primitive login view within Storybook.
 
 ![Storybook](/public/case-studies/login/storybook.png)
 
-### Iterate, feedback, polish
+This allowed rapid prototyping in the browser in a local and hosted environments to experiment with different browser and device combinations.
+
+## Iterations
+
+<video controls poster="/public/case-studies/login/large.png" src="/public/case-studies/login/iterations.mp4"></video>
 
 After browser and device compatibility testing, the focus moved to the overall login page interface and experience. Having high confidence in the technical approach, there is a need to ensure that each function of the page is visually distinct including:
 
@@ -140,10 +151,20 @@ After browser and device compatibility testing, the focus moved to the overall l
 
 Iterations of the login page design were presented to the design team for critique and feedback. Each iteration aiming to solve feedback and refine the user interface.
 
-<video controls src="/public/case-studies/login/login-iterations.mp4" style="width:100%; height:auto;"></video>
+##  Ship it!
 
-## Ship it!
+Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff.
 
-Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff. With (nearly) all known combinations of devices, operating systems, browsers, password managers, and screen-readers covered the login page was rolled out to 100% of all users on the platform!
+With (nearly) all known combinations of devices, operating systems, browsers, password managers, and screen-readers covered the login page was sucessfully rolled out to 100% of all users on the platform!
 
-![Login large](/public/case-studies/login/login-large.png)
+The updated login page resulted in a significant decrease in customer support tickets directed to the product team, addressing most common customer support requests.
+
+## One more thing
+
+To provide a consistent and accessible experience the forgot password user flow was implemented using efficiencies found in the login page components.
+
+<video controls poster="/public/case-studies/login/reset.png" src="/public/case-studies/login/reset.mp4"></video>
+
+## Future
+
+With the login page redesigned and re-platformed into the latest codebase it can now be easily iterated on to implement future possible outcomes such as OAuth and single sign on, and multiple account switching interfaces.
