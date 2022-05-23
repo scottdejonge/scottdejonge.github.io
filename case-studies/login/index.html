@@ -34,7 +34,7 @@
 <meta name="theme-color" content="#4d88ff" />
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="/public/bundle.css?v=1653288895360" rel="stylesheet" />
+    <link href="/public/bundle.css?v=1653289214722" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -145,8 +145,8 @@
         </p>
         <p><img src="/public/case-studies/login/mobile.png" alt="Login mobile"></p>
 <h2>Overview</h2>
-<p>Accessibility is crucial for an NDIS registered online platform. The login page is the front-door to a web application, and sets expectations for the rest of the user experience. Delivering accessible, and efficient login page requires reducing friction and complexity. The primary method to minimise effort is to reduce user input.</p>
-<h2>Objective</h2>
+<p>Accessibility is crucial for an NDIS registered online platform. The login page is the front-door to a web application, and sets expectations for the rest of the user experience. Delivering an accessible, and efficient login page requires reducing friction and complexity. The primary method to minimise effort is to reduce user input.</p>
+<h3>Objective</h3>
 <p>Improve login user experience by reducing page impressions and time spent on page.</p>
 <ul>
 <li><strong>Impressions:</strong> reduce session expiries, resolve session time and authentication storage.</li>
@@ -159,6 +159,7 @@
 </li>
 </ul>
 <h2>Research</h2>
+<h3>Competitor analysis</h3>
 <p>What do users expect from a login page? What are common patterns or behaviours? What technologies are being used?</p>
 <p>A competitor analysis of login pages for Google, Twitter, Facebook, LinkedIn etc. provides great insight to these questions.</p>
 <p><video controls poster="/public/case-studies/login/competitors.png" src="/public/case-studies/login/competitors.mp4"></video></p>
@@ -169,29 +170,7 @@
 <li>Forgot password link</li>
 <li>Register an account call-to-action</li>
 </ul>
-<h2>Purpose</h2>
-<p>In order to successfully execute a new login page it’s critical to define it’s fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.</p>
-<p>What job does the login page have?</p>
-<blockquote>
-<p>Authenticate users on the platform with minimal effort.</p>
-</blockquote>
-<p>Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:</p>
-<ol>
-<li><strong>Provide structure and labels:</strong> all content is labelled and understandable by all devices/browsers/technologies.</li>
-<li><strong>Remove complexity:</strong> only contain required and meaningful content.</li>
-<li><strong>Minimise input:</strong> autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)</li>
-<li><strong>Disclose errors:</strong> present meaningful error messages both visually and audibly.</li>
-</ol>
-<h2>User stories</h2>
-<ul>
-<li>As a <em>password manager user</em> I want to <em>automatically fill out email and password</em> so I can <em>login automatically</em></li>
-<li>As a <em>screen-reader user</em> I want to <em>focus the email input field</em> so I can <em>navigate to login successfully</em></li>
-<li>As a <em>mobile user</em> I want to <em>use the email keyboard</em> so I can <em>enter my email address</em></li>
-<li>As a <em>logged out user</em> I want to be able to <em>view the entered password</em> so I can <em>confirm it’s the correct password</em></li>
-<li>As a <em>returning user</em> I want to be able to <em>reset my password</em> so I can <em>login to the platform</em></li>
-<li>As a <em>new user</em> I want to be able to <em>register an account</em> so I can <em>login to the platform</em></li>
-</ul>
-<h2>Accessibility</h2>
+<h3>Accessibility</h3>
 <p>To improve the accessibility of the login page it’s important to identify the existing accessibility issues using the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a>.</p>
 <p><img src="/public/case-studies/login/old.png" alt="Login old large"></p>
 <p>An audit of the previous login page identified the following compliance issues:</p>
@@ -215,6 +194,28 @@
 <blockquote>
 <p>“so normally it should just open up to the box”</p>
 </blockquote>
+<h2>Purpose</h2>
+<p>In order to successfully execute a new login page it’s critical to define it’s fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.</p>
+<p>What job does the login page have?</p>
+<blockquote>
+<p>Authenticate users on the platform with minimal effort.</p>
+</blockquote>
+<p>Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:</p>
+<ol>
+<li><strong>Provide structure and labels:</strong> all content is labelled and understandable by all devices/browsers/technologies.</li>
+<li><strong>Remove complexity:</strong> only contain required and meaningful content.</li>
+<li><strong>Minimise input:</strong> autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)</li>
+<li><strong>Disclose errors:</strong> present meaningful error messages both visually and audibly.</li>
+</ol>
+<h3>User stories</h3>
+<ul>
+<li>As a <em>password manager user</em> I want to <em>automatically fill out email and password</em> so I can <em>login automatically</em></li>
+<li>As a <em>screen-reader user</em> I want to <em>focus the email input field</em> so I can <em>navigate to login successfully</em></li>
+<li>As a <em>mobile user</em> I want to <em>use the email keyboard</em> so I can <em>enter my email address</em></li>
+<li>As a <em>logged out user</em> I want to be able to <em>view the entered password</em> so I can <em>confirm it’s the correct password</em></li>
+<li>As a <em>returning user</em> I want to be able to <em>reset my password</em> so I can <em>login to the platform</em></li>
+<li>As a <em>new user</em> I want to be able to <em>register an account</em> so I can <em>login to the platform</em></li>
+</ul>
 <h2>Minimal viable product</h2>
 <p>To understand how different browsers, devices, and screen-readers interact with login form fields a minimal viable product that only included the raw HTML was created to evaluate success against user experience and accessibility requirements.</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Login<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">autofocus</span> <span class="token attr-name">autocapitalize</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>off<span class="token punctuation">"</span></span> <span class="token attr-name">required</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Password<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">required</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/reset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Forgot password<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Login<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>New to Hireup? <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/registration<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Sign up for an account<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
