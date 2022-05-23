@@ -9,9 +9,9 @@ description: Designing and building a modern, performant, efficient, and accessi
 
 ## Overview
 
-Accessibility is crucial for an NDIS registered online platform. The login page is the front-door to a web application, and sets expectations for the rest of the user experience. Delivering accessible, and efficient login page requires reducing friction and complexity. The primary method to minimise effort is to reduce user input.
+Accessibility is crucial for an NDIS registered online platform. The login page is the front-door to a web application, and sets expectations for the rest of the user experience. Delivering an accessible, and efficient login page requires reducing friction and complexity. The primary method to minimise effort is to reduce user input.
 
-## Objective
+### Objective
 
 Improve login user experience by reducing page impressions and time spent on page.
 
@@ -22,6 +22,8 @@ Improve login user experience by reducing page impressions and time spent on pag
   - accessibility: resolve WCAG compliance issues *(focus of design approach)*
 
 ## Research
+
+### Competitor analysis
 
 What do users expect from a login page? What are common patterns or behaviours? What technologies are being used?
 
@@ -36,31 +38,7 @@ What they largely have in common is:
 - Forgot password link
 - Register an account call-to-action
 
-## Purpose
-
-In order to successfully execute a new login page it's critical to define it's fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.
-
-What job does the login page have?
-
-> Authenticate users on the platform with minimal effort.
-
-Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:
-
-1. **Provide structure and labels:** all content is labelled and understandable by all devices/browsers/technologies.
-2. **Remove complexity:** only contain required and meaningful content.
-3. **Minimise input:** autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)
-4. **Disclose errors:** present meaningful error messages both visually and audibly.
-
-## User stories
-
-- As a *password manager user* I want to *automatically fill out email and password* so I can *login automatically*
-- As a *screen-reader user* I want to *focus the email input field* so I can *navigate to login successfully*
-- As a *mobile user* I want to *use the email keyboard* so I can *enter my email address*
-- As a *logged out user* I want to be able to *view the entered password* so I can *confirm it's the correct password*
-- As a *returning user* I want to be able to *reset my password* so I can *login to the platform*
-- As a *new user* I want to be able to *register an account* so I can *login to the platform*
-
-## Accessibility
+### Accessibility
 
 To improve the accessibility of the login page it's important to identify the existing accessibility issues using the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
 
@@ -103,6 +81,29 @@ Below is a snippet from an accessibility testing session, where a non-sighted us
 <video controls src="/public/case-studies/login/accessibility.mp4"></video>
 
 > "so normally it should just open up to the box"
+## Purpose
+
+In order to successfully execute a new login page it's critical to define it's fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.
+
+What job does the login page have?
+
+> Authenticate users on the platform with minimal effort.
+
+Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:
+
+1. **Provide structure and labels:** all content is labelled and understandable by all devices/browsers/technologies.
+2. **Remove complexity:** only contain required and meaningful content.
+3. **Minimise input:** autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)
+4. **Disclose errors:** present meaningful error messages both visually and audibly.
+
+### User stories
+
+- As a *password manager user* I want to *automatically fill out email and password* so I can *login automatically*
+- As a *screen-reader user* I want to *focus the email input field* so I can *navigate to login successfully*
+- As a *mobile user* I want to *use the email keyboard* so I can *enter my email address*
+- As a *logged out user* I want to be able to *view the entered password* so I can *confirm it's the correct password*
+- As a *returning user* I want to be able to *reset my password* so I can *login to the platform*
+- As a *new user* I want to be able to *register an account* so I can *login to the platform*
 
 ## Minimal viable product
 
@@ -151,7 +152,7 @@ After browser and device compatibility testing, the focus moved to the overall l
 
 Iterations of the login page design were presented to the design team for critique and feedback. Each iteration aiming to solve feedback and refine the user interface.
 
-##  Ship it!
+## Ship it!
 
 Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff.
 
