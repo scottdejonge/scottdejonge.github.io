@@ -9,7 +9,7 @@
 
 <meta name="revisit-after" content="2 days">
 <meta name="robots" content="all">
-<meta name="description" content="Designing a modern, performant, efficient, and accessible login page.">
+<meta name="description" content="Designing and building a modern, performant, efficient, and accessible login page.">
 
 
 
@@ -17,13 +17,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Login" />
 <meta property="og:url" content="https://scottdejonge.com" />
-<meta property="og:description" content="Designing a modern, performant, efficient, and accessible login page." />
+<meta property="og:description" content="Designing and building a modern, performant, efficient, and accessible login page." />
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@scottdejonge">
 <meta name="twitter:creator" content="@scottdejonge">
 <meta name="twitter:title" content="Login">
-<meta name="twitter:description" content="Designing a modern, performant, efficient, and accessible login page." />
+<meta name="twitter:description" content="Designing and building a modern, performant, efficient, and accessible login page." />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png" />
@@ -34,7 +34,7 @@
 <meta name="theme-color" content="#4d88ff" />
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="/public/bundle.css?v=1653204684535" rel="stylesheet" />
+    <link href="/public/bundle.css?v=1653288895360" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -141,9 +141,9 @@
         
         <hr aria-hidden="true" />
         <p class="lead">
-          Designing a modern, performant, efficient, and accessible login page.
+          Designing and building a modern, performant, efficient, and accessible login page.
         </p>
-        <p><img src="/public/case-studies/login/login-large.png" alt="Login large"></p>
+        <p><img src="/public/case-studies/login/mobile.png" alt="Login mobile"></p>
 <h2>Overview</h2>
 <p>Accessibility is crucial for an NDIS registered online platform. The login page is the front-door to a web application, and sets expectations for the rest of the user experience. Delivering accessible, and efficient login page requires reducing friction and complexity. The primary method to minimise effort is to reduce user input.</p>
 <h2>Objective</h2>
@@ -158,20 +158,31 @@
 </ul>
 </li>
 </ul>
-<h2>User experience</h2>
-<h3>Purpose</h3>
+<h2>Research</h2>
+<p>What do users expect from a login page? What are common patterns or behaviours? What technologies are being used?</p>
+<p>A competitor analysis of login pages for Google, Twitter, Facebook, LinkedIn etc. provides great insight to these questions.</p>
+<p><video controls poster="/public/case-studies/login/competitors.png" src="/public/case-studies/login/competitors.mp4"></video></p>
+<p>What they largely have in common is:</p>
+<ul>
+<li>Minimal visual presentation</li>
+<li>Simple login form (email/password)</li>
+<li>Forgot password link</li>
+<li>Register an account call-to-action</li>
+</ul>
+<h2>Purpose</h2>
 <p>In order to successfully execute a new login page it’s critical to define it’s fundamental purpose. The purpose identifies the job the login page has to do and can be used as a benchmark for creating user stories.</p>
-<h4>What job does the login page have?</h4>
-<p>“The login page authenticates users on the platform with minimal effort.”</p>
+<p>What job does the login page have?</p>
+<blockquote>
+<p>Authenticate users on the platform with minimal effort.</p>
+</blockquote>
 <p>Ideally the login page should be rarely encountered, only when signing in on a new device. When the login page is required we want to minimise user input and error. This can be achieved leveraging existing patterns and attributes to:</p>
-<h3>Goals</h3>
 <ol>
 <li><strong>Provide structure and labels:</strong> all content is labelled and understandable by all devices/browsers/technologies.</li>
 <li><strong>Remove complexity:</strong> only contain required and meaningful content.</li>
 <li><strong>Minimise input:</strong> autofill form fields, present correct form controls/keyboards, leverage alternative input modes (FaceID etc.)</li>
 <li><strong>Disclose errors:</strong> present meaningful error messages both visually and audibly.</li>
 </ol>
-<h3>User stories</h3>
+<h2>User stories</h2>
 <ul>
 <li>As a <em>password manager user</em> I want to <em>automatically fill out email and password</em> so I can <em>login automatically</em></li>
 <li>As a <em>screen-reader user</em> I want to <em>focus the email input field</em> so I can <em>navigate to login successfully</em></li>
@@ -182,7 +193,7 @@
 </ul>
 <h2>Accessibility</h2>
 <p>To improve the accessibility of the login page it’s important to identify the existing accessibility issues using the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a>.</p>
-<p><img src="/public/case-studies/login/login-old-large.png" alt="Login old large"></p>
+<p><img src="/public/case-studies/login/old.png" alt="Login old large"></p>
 <p>An audit of the previous login page identified the following compliance issues:</p>
 <h3>Audit</h3>
 <h4><a href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">1.4.1: Use of Color</a></h4>
@@ -199,15 +210,13 @@
 <p><strong>Proposed solution:</strong> announce error messages to screen-reader users.</p>
 <h3>User testing</h3>
 <p>To understand accessibility beyond guidelines it’s important to test interfaces with people with disability. How accessible technologies like screen-readers (VoiceOver, JAWS, NVDA etc.) interpret an interface can differ greatly depending on device, browser, version, and individual configuration settings.</p>
-<p>Below is a snippet from an accessibility testing session, where a non-sighted user navigates through the previous login page with the JAWS screen-reader, Chrome browser, on a Windows laptop.</p>
-<p><video controls src="/public/case-studies/login/login-focus.mp4" style="width:100%; height:auto;"></video></p>
+<p>Below is a snippet from an accessibility testing session, where a non-sighted user navigates through the previous iteration of the login page using JAWS screen-reader with a Chrome browser on a Windows laptop.</p>
+<p><video controls src="/public/case-studies/login/accessibility.mp4"></video></p>
 <blockquote>
 <p>“so normally it should just open up to the box”</p>
 </blockquote>
-<h2>User interface</h2>
-<p>Now that approach to user experience (purpose, goals, and user stories) and accessibility (audit, proposed solutions, and user testing).</p>
-<h3>Minimal viable product</h3>
-<p>To understand how different browsers, devices, and screen-readers interact with login form fields a MVP that only included the raw HTML was created to evaluate success against user experience and accessibility requirements.</p>
+<h2>Minimal viable product</h2>
+<p>To understand how different browsers, devices, and screen-readers interact with login form fields a minimal viable product that only included the raw HTML was created to evaluate success against user experience and accessibility requirements.</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Login<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">autofocus</span> <span class="token attr-name">autocapitalize</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>off<span class="token punctuation">"</span></span> <span class="token attr-name">required</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Password<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">required</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/reset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Forgot password<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Login<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>New to Hireup? <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/registration<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Sign up for an account<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
 <ol>
 <li><code>aria-labelledby=&quot;page-title&quot;</code>: label main content with heading level 1.</li>
@@ -218,10 +227,12 @@
 <li><code>&lt;a href=&quot;/reset&quot;&gt;</code>: link to reset password form before submit button for logical content order in screen-readers.</li>
 <li><code>&lt;a href=&quot;/registration&quot;&gt;</code>: promote link to register.</li>
 </ol>
-<h3>Composing (existing) components</h3>
-<p>Taking a minimal “using what you have to achieve what you want to achieve” approach to compose a primitive login view within Storybook. This allowed rapid prototyping in the browser in a local and hosted environments to experiment with different browser and device combinations.</p>
+<h3>Composed with existing components</h3>
+<p>Taking a minimal “using what you have to achieve what you want to achieve” approach to compose a primitive login view within Storybook.</p>
 <p><img src="/public/case-studies/login/storybook.png" alt="Storybook"></p>
-<h3>Iterate, feedback, polish</h3>
+<p>This allowed rapid prototyping in the browser in a local and hosted environments to experiment with different browser and device combinations.</p>
+<h2>Iterations</h2>
+<p><video controls poster="/public/case-studies/login/large.png" src="/public/case-studies/login/iterations.mp4"></video></p>
 <p>After browser and device compatibility testing, the focus moved to the overall login page interface and experience. Having high confidence in the technical approach, there is a need to ensure that each function of the page is visually distinct including:</p>
 <ol>
 <li>Login form</li>
@@ -229,10 +240,15 @@
 <li>Footer help and legal navigation</li>
 </ol>
 <p>Iterations of the login page design were presented to the design team for critique and feedback. Each iteration aiming to solve feedback and refine the user interface.</p>
-<p><video controls src="/public/case-studies/login/login-iterations.mp4" style="width:100%; height:auto;"></video></p>
 <h2>Ship it!</h2>
-<p>Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff. With (nearly) all known combinations of devices, operating systems, browsers, password managers, and screen-readers covered the login page was rolled out to 100% of all users on the platform!</p>
-<p><img src="/public/case-studies/login/login-large.png" alt="Login large"></p>
+<p>Once content with both technical approach and visual design the login page was implemented to provide user authorization and deployed on all environments. Before resolving the login route to the new page assets for all users, the page was initially soft-launched for all internal staff.</p>
+<p>With (nearly) all known combinations of devices, operating systems, browsers, password managers, and screen-readers covered the login page was sucessfully rolled out to 100% of all users on the platform!</p>
+<p>The updated login page resulted in a significant decrease in customer support tickets directed to the product team, addressing most common customer support requests.</p>
+<h2>One more thing</h2>
+<p>To provide a consistent and accessible experience the forgot password user flow was implemented using efficiencies found in the login page components.</p>
+<p><video controls poster="/public/case-studies/login/reset.png" src="/public/case-studies/login/reset.mp4"></video></p>
+<h2>Future</h2>
+<p>With the login page redesigned and re-platformed into the latest codebase it can now be easily iterated on to implement future possible outcomes such as OAuth and single sign on, and multiple account switching interfaces.</p>
 
       </article>
     </main>
