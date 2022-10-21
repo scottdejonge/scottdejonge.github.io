@@ -8,18 +8,10 @@ module.exports = [
     url: '/',
   },
   {
-    title: 'Work',
+    title: 'Projects',
     icon: {
       default: 'svg/briefcase-outline.svg',
       current: 'svg/briefcase.svg',
-    },
-    url: '/work/',
-  },
-  {
-    title: 'Projects',
-    icon: {
-      default: 'svg/light-outline.svg',
-      current: 'svg/light.svg',
     },
     url: '/projects/',
   },
