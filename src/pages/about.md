@@ -21,6 +21,6 @@ description: "I design and build universally accessible, performant, and respons
   <figcaption>📷 Wearing an on-brand cap, and heavily focussed on code.</figcaption>
 </figure>
 
-I'm currently a Senior Software Engineer at [GitLab](https://about.gitlab.com/) working on the [Pajamas Design System](https://design.gitlab.com/). Previously I worked at [Hireup](https://hireup.com.au), as a Staff Software Engineer, to deliver an accessible and performant experience for participates of the [NDIS](https://www.ndis.gov.au/) find support workers.
+I'm currently a Senior Software Engineer at [GitLab](https://about.gitlab.com/) working on the [Pajamas Design System](https://design.gitlab.com/). Previously I worked at [Hireup](https://hireup.com.au), as a Staff Software Engineer, to deliver an accessible and performant experience for [NDIS](https://www.ndis.gov.au/) participants seeking support workers.
 
 I've also worked with a wide-range of clients, from the arts, non-profit & community organisations, financial institutions, and business ranging in all shapes and sizes to connect with users on the web with accessible, responsive, meaningful, and engaging experiences.
