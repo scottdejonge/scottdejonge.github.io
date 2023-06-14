@@ -2,10 +2,13 @@ table {
   border-spacing: 0;
   border: none;
   font-size: 0.825rem;
-  letter-spacing: -0.025em;
   line-height: 1;
   text-align: left;
   width: 100%;
+}
+
+table code {
+  font-size: 0.75rem;
 }
 
 tr:first-of-type th:first-child {
@@ -26,8 +29,9 @@ tr:last-child td:last-child {
 
 td,
 th {
-  border: 1px solid var(--border-color);
-  padding: 0.75em;
+  border-color: var(--border-color);
+  border-width: 1px;
+  padding: 0.75rem;
 }
 
 td {
@@ -36,9 +40,8 @@ td {
 
 th {
   border-style: solid solid none none;
-  background-color: var(--background-code);
   color: var(--color-alt);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 tr:first-child td {

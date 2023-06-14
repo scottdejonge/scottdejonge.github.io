@@ -1,6 +1,6 @@
 hr {
   background-color: var(--primary);
-  border: 0;
+  border: none;
   clear: both;
   height: 0.125rem;
   margin: 1rem 0;

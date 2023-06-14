@@ -5,5 +5,5 @@ code {
   display: inline-block;
   font-family: var(--monospace);
   font-size: 0.75em;
-  padding: 0.325em 0.5em;
+  padding: 0.25rem 0.5rem;
 }
