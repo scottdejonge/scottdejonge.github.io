@@ -22,7 +22,7 @@ The one constant with any implementation is that it will change. Values within a
 
 In [turretcss](https://turretcss.com/) I opted for a t-shirt (or Maccas/McDonald's) scale blended with millennial scale for color. The benefit of the t-shirt scale is that there is a restricted scale above and below the default "medium". The downside of the t-shirt scale is that there is a _restricted_ scale above and below the default "medium". What began as small/medium/large quickly grew into xxs to xxl with little room to move beyond adding more and more x's. Not necessarily a bad restriction, but notable as exceptions were difficult to implement.
 
-Previously I've worked with a 10 to 90 scale. Like the millennial scale this provides opportunity to create intermediate scales between steps, unlike the millennial scale these are more likely to be confused with actual values. For example `font-size: 20`, is this `20px`? or 20 in a step of 10 to 90? On multiple occasions consumers of the scale used values that didn't exist as they assumed they mapped to a pixel value or would automatically be computed. 
+Previously I've worked with a 10 to 90 scale. Like the millennial scale this provides opportunity to create intermediate scales between steps, unlike the millennial scale these are more likely to be confused with actual values. For example `font-size: 20`, is this `20px`? or 20 in a step of 10 to 90? On multiple occasions consumers of the scale used values that didn't exist as they assumed they mapped to a pixel value or would automatically be computed.
 
 My personal bias is towards less restrictive scales, that follow consistent and obvious steps. I tend to be the "more is more" camp where flexibility (within reason) and intuitive values make it easier to work with, primarily for dimensions (like spacing or widths) which tend to have greater variability in application.
 
@@ -30,63 +30,63 @@ Often when working with smaller spaces, or lighter shades of colors (especially 
 
 | Token | Value (rem) | Value (px) |
 | ----- | ----------- | ---------- |
-| 1     | 0.0625      | 1          |
-| 2     | 0.125       | 2          |
-| 3     | 0.25        | 4          |
-| 4     | 0.375       | 6          |
-| 5     | 0.5         | 8          |
-| 6     | 0.625       | 10         |
-| 7     | 0.75        | 12         |
-| 8     | 0.875       | 14         |
-| 9     | 0.9375      | 15         |
-| 10    | 1           | 16         |
-| 15    | 1.5         | 24         |
-| 20    | 2           | 32         |
-| 25    | 2.5         | 40         |
-| 30    | 3           | 48         |
-| 35    | 3.5         | 56         |
-| 40    | 4           | 64         |
-| 45    | 4.5         | 72         |
-| 50    | 5           | 80         |
-| 55    | 5.5         | 88         |
-| 60    | 6           | 96         |
-| 65    | 6.5         | 104        |
-| 70    | 7           | 112        |
-| 75    | 7.5         | 120        |
-| 80    | 8           | 128        |
-| 85    | 8.5         | 136        |
-| 90    | 9           | 144        |
-| 95    | 9.5         | 152        |
-| 100   | 10          | 160        |
-| 150   | 15          | 240        |
-| 200   | 20          | 320        |
-| 250   | 25          | 400        |
-| 300   | 30          | 480        |
-| 350   | 35          | 560        |
-| 400   | 40          | 640        |
-| 450   | 45          | 720        |
-| 500   | 50          | 800        |
-| 550   | 55          | 880        |
-| 600   | 60          | 960        |
-| 650   | 65          | 1040       |
-| 700   | 70          | 1120       |
-| 750   | 75          | 1200       |
-| 800   | 80          | 1280       |
-| 850   | 85          | 1360       |
-| 900   | 90          | 1440       |
+| 1     | `0.0625rem` | `1px`      |
+| 2     | `0.125rem`  | `2px`      |
+| 3     | `0.25rem`   | `4px`      |
+| 4     | `0.375rem`  | `6px`      |
+| 5     | `0.5rem`    | `8px`      |
+| 6     | `0.625rem`  | `10px`     |
+| 7     | `0.75rem`   | `12px`     |
+| 8     | `0.875rem`  | `14px`     |
+| 9     | `0.9375rem` | `15px`     |
+| 10    | `1rem`      | `16px`     |
+| 15    | `1.5rem`    | `24px`     |
+| 20    | `2rem`      | `32px`     |
+| 25    | `2.5rem`    | `40px`     |
+| 30    | `3rem`      | `48px`     |
+| 35    | `3.5rem`    | `56px`     |
+| 40    | `4rem`      | `64px`     |
+| 45    | `4.5rem`    | `72px`     |
+| 50    | `5rem`      | `80px`     |
+| 55    | `5.5rem`    | `88px`     |
+| 60    | `6rem`      | `96px`     |
+| 65    | `6.5rem`    | `104px`    |
+| 70    | `7rem`      | `112px`    |
+| 75    | `7.5rem`    | `120px`    |
+| 80    | `8rem`      | `128px`    |
+| 85    | `8.5rem`    | `136px`    |
+| 90    | `9rem`      | `144px`    |
+| 95    | `9.5rem`    | `152px`    |
+| 100   | `10rem`     | `160px`    |
+| 150   | `15rem`     | `240px`    |
+| 200   | `20rem`     | `320px`    |
+| 250   | `25rem`     | `400px`    |
+| 300   | `30rem`     | `480px`    |
+| 350   | `35rem`     | `560px`    |
+| 400   | `40rem`     | `640px`    |
+| 450   | `45rem`     | `720px`    |
+| 500   | `50rem`     | `800px`    |
+| 550   | `55rem`     | `880px`    |
+| 600   | `60rem`     | `960px`    |
+| 650   | `65rem`     | `1040px`   |
+| 700   | `70rem`     | `1120px`   |
+| 750   | `75rem`     | `1200px`   |
+| 800   | `80rem`     | `1280px`   |
+| 850   | `85rem`     | `1360px`   |
+| 900   | `90rem`     | `1440px`   |
 
 This incremental scale aligns the `rem` value to the scale, it contains general border-width, spacing, and width values you would expect. It could also be extended for greater variables such as 
 
 | Token | Value (rem) | Value (px) |
 | ----- | ----------- | ---------- |
 | ...   | ...         | ...        |
-| 10    | 1           | 16         |
-| 12-5  | 1.25        | 20         |
-| 15    | 1.5         | 24         |
-| 17-5  | 1.75        | 28         |
-| 20    | 2           | 32         |
-| 22-5  | 2.25        | 36         |
-| 25    | 2.5         | 40         |
-| 27-5  | 2.75        | 44         |
-| 30    | 3           | 48         |
+| 10    | `1rem`      | `16px`     |
+| 12-5  | `1.25rem`   | `20px`     |
+| 15    | `1.5rem`    | `24px`     |
+| 17-5  | `1.75rem`   | `28px`     |
+| 20    | `2rem`      | `32px`     |
+| 22-5  | `2.25rem`   | `36px`     |
+| 25    | `2.5rem`    | `40px`     |
+| 27-5  | `2.75rem`   | `44px`     |
+| 30    | `3rem`      | `48px`     |
 | ...   | ...         | ...        |
