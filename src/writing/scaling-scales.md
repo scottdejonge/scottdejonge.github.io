@@ -3,7 +3,7 @@ layout: default
 date: 2023-06-07
 tags: writing
 title: Scaling scales
-description: 
+description: How many scales can a design system scale if a design system can scale scales?
 ---
 
 I was listening to the [Complementary podcast](https://podcasts.apple.com/us/podcast/complementary/id1671376839) episode on [Design Systems](https://podcasts.apple.com/us/podcast/06-design-systems/id1671376839?i=1000608091066) where Anthony and Katie discussed scales in design systems, why some design systems use 100 to 900. Beyond "other systems use it" and "I dunno I like it" I haven't thought in great depth how scales are used, in design systems or otherwise.
