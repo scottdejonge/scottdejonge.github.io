@@ -6,6 +6,8 @@
   & svg {
     display: block;
     fill: currentColor;
+    height: 1.5em;
+    width: 1.5em;
     transform: none;
     transform-origin: center;
     transition: transform 200ms ease-in-out;
