@@ -9,9 +9,9 @@
   </head>
   <body>
     {% include 'header.njk' %}
-    <main id="main">
+    <main id="main" aria-labelledby="main-heading">
       <article class="container">
-        <h1>
+        <h1 id="main-heading">
           {% if headline %}
             {{ headline }}
           {% else %}
