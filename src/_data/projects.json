@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Turret CSS",
+    "description":
+      "Atomic class framework that normalises HTML elements to be responsive and accessible.",
+    "url": "https://turretcss.com"
+  },
+  {
+    "title": "Rainbow",
+    "description":
+      "HSL color system with millennial scales (50-900) and palettes for primary/secondary hues.",
+    "url": "https://scottdejonge.com/rainbow/"
+  },
+  {
+    "title": "Hireoglyphs",
+    "description":
+      "Over 1100 bespoke SVG icons hand-crafted to provide a familiar and friendly user experience.",
+    "url": "https://hireupau.github.io/hireoglyphs/"
+  },
+  {
+    "title": "HSLA",
+    "description": "HSL color calculator, converter, and visualisation tool.",
+    "url": "https://scottdejonge.com/hsla/"
+  },
+  {
+    "title": "Map Icons",
+    "description":
+      "Icons to use with Google Maps API and Google Places API with SVG markers and icon labels.",
+    "url": "http://map-icons.com/"
+  },
+  {
+    "title": "Recipes",
+    "description":
+      "Recipes is a simple interface for Jeykll to easily write and record personal recipes.",
+    "url": "https://scottdejonge.com/recipes/"
+  }
+]
