@@ -1,6 +1,5 @@
 a {
-  color: var(--primary);
-  font-weight: 500;
+  color: currentColor;
   text-decoration: underline;
 
   &:hover,
